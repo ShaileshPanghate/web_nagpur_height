@@ -10,7 +10,7 @@ const Home = () => {
     {
       id: 1,
       title: 'Meher Ganga',
-      location: 'New Narendra Nagar',
+      location: 'New Narendra Nagar, Nagpur',
       area: '1500 ',
       price: '80 Lac',
       type: 'Apartment',
@@ -18,30 +18,30 @@ const Home = () => {
     },
     {
       id: 2,
-      title: 'Modern Villa in Dharampeth',
-      location: 'Dharampeth, Nagpur',
-      area: '2500',
-      price: '2.5 Cr',
+      title: 'Modern 4BHK Villa in Hingna',
+      location: '4BHK For sale in Vyankateshwara kalash, Hingna Nagpur',
+      area: '1900',
+      price: '55.5 Lac',
       type: 'Villa',
-      image: '/images/.jpg'
+      image: '/images/Vyankateshwara.jpeg'
     },
     {
       id: 3,
-      title: 'Commercial Space in Wardha Road',
-      location: 'Wardha Road, Nagpur',
-      area: '3500',
-      price: '3.8 Cr',
+      title: 'Commercial Space in Manewada, Nagpur',
+      location: 'Manewada, Gandhi Square, Nagpur',
+      area: '4115',
+      price: '4.52 Cr',
       type: 'Commercial',
-      image: '/images/property3.jpg'
+      image: '/images/Manewada.jpeg'
     },
     {
       id: 4,
-      title: 'Residential Plot in Manish Nagar',
-      location: 'Manish Nagar, Nagpur',
-      area: '2400',
-      price: '85 L',
+      title: 'Residential Plot in Privara Vihar 8',
+      location: 'Godhani, Nagpur',
+      area: '1000.00 - 3000.00 sq.ftconvert unit',
+      price: '₹2.2 K/sq.ft',
       type: 'Plot',
-      image: '/images/property4.jpg'
+      image: '/images/privara.avif'
     }
   ];
 

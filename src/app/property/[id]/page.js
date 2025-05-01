@@ -13,7 +13,7 @@ export default function PropertyDetails({ params }) {
     {
       id: 1,
       title: 'Meher Ganga',
-      location: 'New Narendra Nagar',
+      location: 'New Narendra Nagar, Nagpur',
       area: '1500 sq.ft (3BHK)',
       price: '80 Lac',
       type: 'Apartment',
@@ -28,16 +28,51 @@ export default function PropertyDetails({ params }) {
     },
     {
       id: 2,
-      title: 'Modern Villa in Dharampeth',
-      location: 'Dharampeth, Nagpur',
-      area: '2500 sq.ft',
-      price: '2.5 Cr',
+      title: 'Modern 4BHK Villa in Hingna',
+      location: '4BHK For sale in Vyankateshwara kalash, Hingna Nagpur',
+      area: '1900 sq.ft (4BHK)',
+      price: '55.5 Lac',
       type: 'Villa',
       images: [
-        '/images/villa.jpg',
-        '/images/villa-1.jpg',
-        '/images/villa-2.jpg'
-      ]
+        '/images/Vyankateshwara.jpeg',
+        '/images/Vyankateshwara2.jpeg',
+        '/images/Vyankateshwara3.jpeg',
+        '/images/Vyankateshwara4.jpeg'
+      ],
+      amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+      info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+    },
+    {
+      id: 3,
+      title: 'Commercial Space in Manewada, Nagpur',
+      location: 'Manewada, Gandhi Square, Nagpur',
+      area: '4115 sqft',
+      price: '4.52 Cr',
+      type: 'Commercial',
+      images: [
+        '/images/Manewada.jpeg',
+        '/images/Manewada2.jpeg',
+        '/images/Manewada3.jpeg',
+        '/images/Manewada4.jpeg'
+      ],
+      amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+      info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+    },
+    {
+        id: 4,
+        title: 'Residential Plot in Privara Vihar 8',
+        location: 'Godhani, Nagpur',
+        area: '1000.00 - 3000.00 sq.ftconvert unit',
+        price: '₹2.2 K/sq.ft',
+        type: 'Plot',      
+      images: [
+        '/images/privara.avif',
+        '/images/privara2.avif',
+        '/images/privara3.avif',
+        '/images/privara4.avif'
+      ],
+      amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+      info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
     },
     // ... other properties
   ];

@@ -19,23 +19,23 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
-      <div className="container mx-auto px-4 py-3">
-        <div className="flex justify-between items-center">
+      <div className="container mx-auto px-4 ">
+        <div className="flex justify-between items-center mr-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <img src="/logos/NAGPUR_HEIGHTS_LOGO.png" alt="Nagpur Heights Logo" className="h-18 w-auto" />
-            <span className="text-2xl font-bold text-blue-600">NAGPUR HEIGHTS</span>
+            <span className="text-2xl font-bold text-blue-600"></span>
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-30 mr-8">
             <Link 
               href="/" 
               className={`${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-800`}
             >
               Buy
             </Link>
-            <Link 
+            {/* <Link 
               href="/rent" 
               className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
             >
@@ -46,19 +46,19 @@ const Header = () => {
               className={`${isActive('/commercial') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
             >
               Commercial
-            </Link>
+            </Link> */}
             <Link 
               href="/property" 
               className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
             >
               Properties
             </Link>
-            <Link 
+            {/* <Link 
               href="/agents" 
               className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
             >
               Agents
-            </Link>
+            </Link> */}
             <Link 
               href="/about" 
               className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
@@ -74,14 +74,14 @@ const Header = () => {
           </nav>
 
           {/* Auth Buttons */}
-          <div className="hidden md:flex space-x-4">
+          {/* <div className="hidden md:flex space-x-4">
             <button className="px-4 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50">
               Login
             </button>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
               Register
             </button>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <button
@@ -105,7 +105,7 @@ const Header = () => {
               >
                 Buy
               </Link>
-              <Link 
+              {/* <Link 
                 href="/rent" 
                 className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
                 onClick={() => setIsMenuOpen(false)}
@@ -118,7 +118,7 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Commercial
-              </Link>
+              </Link> */}
               <Link 
                 href="/property" 
                 className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
@@ -126,13 +126,13 @@ const Header = () => {
               >
                 Properties
               </Link>
-              <Link 
+              {/* <Link 
                 href="/agents" 
                 className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Agents
-              </Link>
+              </Link> */}
               <Link 
                 href="/about" 
                 className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
@@ -148,14 +148,14 @@ const Header = () => {
                 Contact
               </Link>
             </div>
-            <div className="mt-4 pt-4 border-t border-gray-200 flex space-x-4">
+            {/* <div className="mt-4 pt-4 border-t border-gray-200 flex space-x-4">
               <button className="px-4 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50">
                 Login
               </button>
               <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                 Register
               </button>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
