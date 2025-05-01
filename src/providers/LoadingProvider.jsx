@@ -1,9 +1,10 @@
 'use client'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 import RouteLoader from '@/components/RouteLoader';
 
-export function LoadingProvider({ children }) {
+// Wrap the component that uses useSearchParams
+function LoadingContent({ children }) {
   const [isLoading, setIsLoading] = useState(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -22,5 +23,14 @@ export function LoadingProvider({ children }) {
       {isLoading && <RouteLoader />}
       {children}
     </>
+  );
+}
+
+// Main provider component with Suspense
+export function LoadingProvider({ children }) {
+  return (
+    <Suspense fallback={<RouteLoader />}>
+      <LoadingContent>{children}</LoadingContent>
+    </Suspense>
   );
 }
