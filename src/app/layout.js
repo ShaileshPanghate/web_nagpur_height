@@ -1,3 +1,4 @@
+import { LoadingProvider } from "@/providers/LoadingProvider";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -15,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "NAGPUR HEIGHTS | Real Estate in Nagpur",
   description: "",
+  icons: {
+    icon: "/favicon.ico", // ✅ relative to /public
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +27,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <LoadingProvider>
+          {children}
+        </LoadingProvider>
       </body>
     </html>
   );
