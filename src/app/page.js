@@ -61,11 +61,11 @@ const Home = () => {
         }}
       >
         {/* Dark overlay to ensure text readability */}
-        <div className="absolute inset-0 bg-black/10"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="container mx-auto px-4 relative z-10"> {/* z-10 brings content above overlay */}
-          <h1 className="text-4xl font-bold mb-4 text-black">Find Your Dream Property in Nagpur</h1>
-          <p className="text-3xl mb-8 text-black">Discover the best residential and commercial properties in Nagpur</p>
+          <h1 className="text-5xl  mb-4 text-white">Find Your Dream Property in Nagpur</h1>
+          <p className="text-2xl mb-8 text-white">Discover the best residential and commercial properties in Nagpur</p>
           <SearchFilters />
         </div>
       </div>

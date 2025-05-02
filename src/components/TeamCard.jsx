@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const TeamCard = ({ member }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
+    <div className="bg-white md:w-100 w-86 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
       <div className="relative h-64">
-        <Image 
+        <Image lazy
           src={member.image} 
           alt={member.name}
           fill

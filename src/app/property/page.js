@@ -112,7 +112,7 @@ const Property = () => {
           {Properties.map((property) => (
             <div key={property.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-48 w-full">
-                <Image
+                <Image lazy
                   src={property.image}
                   alt={property.title}
                   layout="fill"

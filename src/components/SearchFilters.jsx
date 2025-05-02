@@ -16,7 +16,7 @@ const SearchFilters = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 max-w-8xl mx-auto">
+    <div className="bg-white rounded-lg shadow-md p-4 max-w-8xl -mb-8 mt-14">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
 
         {/* Location Dropdown */}

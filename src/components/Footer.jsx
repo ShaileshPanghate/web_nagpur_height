@@ -24,10 +24,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Property Types</h4>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-400 hover:text-white">Apartments</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white">Villas</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white">Plots</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white">Commercial</Link></li>
+              <li><Link href="/property" className="text-gray-400 hover:text-white">Apartments</Link></li>
+              <li><Link href="/property" className="text-gray-400 hover:text-white">Villas</Link></li>
+              <li><Link href="/property" className="text-gray-400 hover:text-white">Plots</Link></li>
+              <li><Link href="/property" className="text-gray-400 hover:text-white">Commercial</Link></li>
             </ul>
           </div>
           
@@ -39,7 +39,7 @@ const Footer = () => {
                Near Bellari Restaurant,<br /> Nagpur - 440016<br />
               <br />
               Phone: +91 9096076177<br />
-              Email: info@nagpurheights.com
+              Email: sarangthakre.crm@gmail.com
             </address>
           </div>
         </div>

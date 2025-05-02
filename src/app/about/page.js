@@ -12,13 +12,13 @@ const About = () => {
       name: "Sarang Thakre",
       role: "Founder & CEO",
       bio: "2+ years in Nagpur real estate, transformed 5+ properties",
-      image: "/team/Sarang.jpg"
+      image: "/images/founder1.jpeg"
     },
     {
       name: "Aditi Shukla",
       role: "Head of Sales",
       bio: "Top performer 5 years running, specializes in luxury properties",
-      image: "/team/priya.jpg"
+      image: "/images/founder2.jpeg"
     },
     
   ];
@@ -44,10 +44,10 @@ const About = () => {
             className="object-cover opacity-40"
             priority
           />
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-white/10"></div>
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Our Story</h1>
-            <p className="text-xl max-w-2xl text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">Our Story</h1>
+            <p className="text-xl max-w-2xl text-black">
               Transforming Nagpur's real estate landscape 
             </p>
           </div>
@@ -106,7 +106,7 @@ const About = () => {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Meet Our Team</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
               {teamMembers.map((member, index) => (
                 <TeamCard key={index} member={member} />
               ))}
@@ -124,7 +124,7 @@ const About = () => {
                   "Nagpur Heights helped me find my dream home in Dharampeth. Their attention to detail and market knowledge is unmatched."
                 </p>
                 <p className="font-bold">- Anjali Mehta</p>
-                <p className="text-sm text-gray-500">Homeowner since 2020</p>
+                <p className="text-sm text-gray-500">Homeowner since 2024</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl">
                 <p className="text-gray-600 italic mb-4">

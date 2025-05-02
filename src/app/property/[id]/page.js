@@ -170,7 +170,7 @@ export default function PropertyDetails({ params }) {
           <div className="lg:col-span-2">
             {/* Main Image */}
             <div className="rounded-xl overflow-hidden shadow-lg mb-4">
-              <img 
+              <img  lazy
                 src={property.images[mainImage]} 
                 alt={property.title} 
                 className="w-full h-96 object-cover"
