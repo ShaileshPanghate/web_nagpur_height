@@ -43,6 +43,42 @@ const Property = () => {
       price: '₹2.2 K/sq.ft',
       type: 'Plot',
       image: '/images/privara.avif'
+    },
+    {
+      id: 5,
+      title: "Aarambh",
+      area: "1500 sqft",
+      price: "₹59.0 Lac",
+      location: "Jamtha, Nagpur",
+      type: "3 BHK Apartment",
+      image: "/images/Jamtha3BHK.jpeg"
+    },
+    {
+      id: 6,
+      title: "Golden Vista",
+      area: "1650 sqft",
+      price: "₹67.3 Lac",
+      location: "Chinch Bhawan, Nagpur, Maharashtra",
+      type: "3 BHK Apartment",
+      image: "/images/ChinchBhawan.jpeg"
+    },
+    {
+      id: 7,
+      title: "Jaitala, Nagpur",
+      area: "1381 sqft",
+      price: "₹51.1 Lac",
+      location: "Jaitala, Nagpur",
+      type: "3 BHK Apartments",
+      image: "/images/Jaitala.jpeg"
+    },
+    {
+      id: 8,
+      title: "Royal Gardens",
+      area: "1633 sqft",
+      price: "₹73.5 Lac",
+      location: "Bell Tarodi, Nagpur",
+      type: "3 BHK Luxury Apartments",
+      image: "/images/BellTarodi.jpeg"
     }
   ];
 

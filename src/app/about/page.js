@@ -31,7 +31,7 @@ const About = () => {
   const stats = [
     { value: "5+", label: "Properties Sold" },
     { value: "₹3Cr+", label: "Transaction Value" },
-    { value: "99%", label: "Client Satisfaction" },
+    { value: "100%", label: "Client Satisfaction" },
     { value: "1+", label: "Years Experience" }
   ];
 
@@ -41,17 +41,18 @@ const About = () => {
 
       <main className="pt-24 pb-12">
         {/* Hero Section */}
-        <section className="relative h-96 bg-blue-900 text-white">
+        <section className="relative h-96  text-white">
           <Image 
-            src="/about-hero.jpg" 
+            src="/images/back22.jpg" 
             alt="Nagpur skyline" 
             fill
             className="object-cover opacity-40"
             priority
           />
+            <div className="absolute inset-0 bg-black/40"></div>
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Story</h1>
-            <p className="text-xl max-w-2xl">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">Our Story</h1>
+            <p className="text-xl max-w-2xl text-black">
               Transforming Nagpur's real estate landscape 
             </p>
           </div>

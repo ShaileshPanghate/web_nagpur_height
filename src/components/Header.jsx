@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 ">
-        <div className="flex justify-between items-center mr-20">
+        <div className="flex justify-between items-center ">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <img src="/logos/NAGPUR_HEIGHTS_LOGO.png" alt="Nagpur Heights Logo" className="h-18 w-auto" />
@@ -28,46 +28,46 @@ const Header = () => {
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex space-x-30 mr-8">
+          <nav className="hidden md:flex space-x-10 mr-40">
             <Link 
               href="/" 
-              className={`${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-800`}
+              className={`${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-800 mr-20`}
             >
               Buy
             </Link>
             {/* <Link 
               href="/rent" 
-              className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Rent
             </Link>
             <Link 
               href="/commercial" 
-              className={`${isActive('/commercial') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/commercial') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Commercial
             </Link> */}
             <Link 
               href="/property" 
-              className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Properties
             </Link>
             {/* <Link 
               href="/agents" 
-              className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Agents
             </Link> */}
             <Link 
               href="/about" 
-              className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               About
             </Link>
             <Link 
               href="/contact" 
-              className={`${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600`}
+              className={`${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Contact
             </Link>

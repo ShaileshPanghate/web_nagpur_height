@@ -4,6 +4,7 @@ import PropertyCard from '../components/PropertyCard';
 import SearchFilters from '../components/SearchFilters';
 import AdviceToolsSection from '../components/AdviceToolsSection';
 import ProminentProjects from '@/components/ProminentProjects';
+import PropertyCTA from '@/components/PropertyCTA';
 
 const Home = () => {
   const featuredProperties = [
@@ -124,6 +125,9 @@ const Home = () => {
       {/* Tools section */}
       <div>
         <AdviceToolsSection />
+      </div>
+      <div>
+        {/* <PropertyCTA /> */}
       </div>
       <Footer />
     </div>

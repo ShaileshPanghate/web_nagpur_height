@@ -74,6 +74,69 @@ export default function PropertyDetails({ params }) {
       amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
       info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
     },
+    {
+      id: 5,
+      title: "Aarambh",
+      area: "1500 sqft",
+      price: "₹59.0 Lac",
+      location: "Jamtha, Nagpur",
+      type: "3 BHK Apartment",      
+    images: [
+      '/images/Jamtha3BHK.jpeg',
+      '/images/Jamtha3-3BHK.jpeg',
+      '/images/Jamtha4-3BHK.jpeg'
+    ],
+    amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+    info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+  },
+    {
+      id: 6,
+      title: "Golden Vista",
+      area: "1650 sqft",
+      price: "₹67.3 Lac",
+      location: "Chinch Bhawan, Nagpur, Maharashtra",
+      type: "3 BHK Apartment",
+    images: [
+      '/images/ChinchBhawan.jpeg',
+      '/images/ChinchBhawan2.jpeg',
+      '/images/ChinchBhawan3.jpeg',
+      '/images/ChinchBhawan4.jpeg'
+    ],
+    amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+    info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+  },
+    {
+      id: 7,
+      title: "Jaitala, Nagpur",
+      area: "1381 sqft",
+      price: "₹51.1 Lac",
+      location: "Jaitala, Nagpur",
+      type: "3 BHK Apartments",    
+    images: [
+      '/images/Jaitala.jpeg',
+      '/images/Jaitala2.jpeg',
+      '/images/Jaitala3.jpeg',
+      '/images/Jaitala4.jpeg'
+    ],
+    amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+    info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+  },
+    {
+      id: 8,
+      title: "Royal Gardens",
+      area: "1633 sqft",
+      price: "₹73.5 Lac",
+      location: "Bell Tarodi, Nagpur",
+      type: "3 BHK Luxury Apartments",  
+    images: [
+      '/images/BellTarodi.jpeg',
+      '/images/BellTarodi2.jpeg',
+      '/images/BellTarodi3.jpeg',
+      '/images/BellTarodi4.jpeg'
+    ],
+    amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
+    info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
+  },
     // ... other properties
   ];
   

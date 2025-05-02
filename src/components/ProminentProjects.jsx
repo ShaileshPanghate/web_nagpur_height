@@ -7,38 +7,38 @@ const ProminentProjects = () => {
     {
       id: 1,
       name: "Aarambh",
-      builder: "Shree Laxmi Venture Pvt. Ltd.",
-      price: "₹24.68 L - ₹71.7 L",
-      location: "Beltarodi, Wardha Road, Nagpur",
-      bhk: "2 & 3 BHK Apartments",
-      image: "/images/aarambh.jpg"
+      area: "1500 sqft",
+      price: "₹59.0 Lac",
+      location: "Jamtha, Nagpur",
+      bhk: "3 BHK Apartment",
+      image: "/images/Jamtha3BHK.jpeg"
     },
     {
       id: 2,
       name: "Golden Vista",
-      builder: "Golden Homes Infrastructures",
-      price: "₹15.51 L - ₹61.3 L",
-      location: "Besa, Wardha Road, Nagpur",
-      bhk: "2 & 3 BHK Apartments",
-      image: "/images/golden-vista.jpg"
+      area: "1650 sqft",
+      price: "₹67.3 Lac",
+      location: "Chinch Bhawan, Nagpur, Maharashtra",
+      bhk: "3 BHK Apartment",
+      image: "/images/ChinchBhawan.jpeg"
     },
     {
       id: 3,
-      name: "Blue Horizon",
-      builder: "Skyline Developers",
-      price: "₹32.50 L - ₹85.0 L",
-      location: "Manish Nagar, Nagpur",
-      bhk: "3 & 4 BHK Apartments",
-      image: "/images/blue-horizon.jpg"
+      name: "Jaitala, Nagpur",
+      area: "1381 sqft",
+      price: "₹51.1 Lac",
+      location: "Jaitala, Nagpur",
+      bhk: "3 BHK Apartments",
+      image: "/images/Jaitala.jpeg"
     },
     {
       id: 4,
       name: "Royal Gardens",
-      builder: "Elite Constructions",
-      price: "₹45.25 L - ₹1.2 Cr",
-      location: "Civil Lines, Nagpur",
-      bhk: "3 & 4 BHK Luxury Apartments",
-      image: "/images/royal-gardens.jpg"
+      area: "1633 sqft",
+      price: "₹73.5 Lac",
+      location: "Bell Tarodi, Nagpur",
+      bhk: "3 BHK Luxury Apartments",
+      image: "/images/BellTarodi.jpeg"
     }
   ];
 
@@ -88,7 +88,7 @@ const ProminentProjects = () => {
                         <div className="flex justify-between items-start">
                           <div>
                             <h3 className="text-2xl font-bold text-blue-800">{project.name}</h3>
-                            <p className="text-blue-600 mb-2">by {project.builder}</p>
+                            <p className="text-blue-600 mb-2"> {project.area}</p>
                           </div>
                           <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
                             {project.bhk}
