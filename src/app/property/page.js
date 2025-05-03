@@ -107,12 +107,13 @@ const Property = () => {
 
 
       <div className="container mx-auto my-8 px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8 font-black">Featured Properties</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-black">Featured Properties</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {Properties.map((property) => (
             <div key={property.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-48 w-full">
-                <Image lazy
+                <Image
+                  loading="lazy"
                   src={property.image}
                   alt={property.title}
                   layout="fill"
@@ -124,7 +125,7 @@ const Property = () => {
                 <span className="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full mb-2">
                   {property.type}
                 </span>
-                <h2 className="text-xl font-bold mb-2 font-black">{property.title}</h2>
+                <h2 className="text-xl font-bold mb-2 text-black">{property.title}</h2>
                 <p className="text-gray-600 mb-1">{property.location}</p>
                 <p className="text-gray-600 mb-1">{property.area}</p>
                 <p className="text-lg font-semibold text-blue-700 mb-4">{property.price}</p>

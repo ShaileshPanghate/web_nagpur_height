@@ -44,10 +44,10 @@ const About = () => {
             className="object-cover opacity-40"
             priority
           />
-            <div className="absolute inset-0 bg-white/10"></div>
+            <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">Our Story</h1>
-            <p className="text-xl max-w-2xl text-black">
+            <h1 className="text-5xl  mb-4 text-white">Our Story</h1>
+            <p className="text-2xl mb-8 text-white">
               Transforming Nagpur's real estate landscape 
             </p>
           </div>

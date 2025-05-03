@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import React from 'react';
+import Image from 'next/image';
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from '@/components/ContactForm';
 
@@ -31,13 +32,23 @@ const Contact = () => {
 
       <main className="pt-24 pb-12">
         {/* Hero Section */}
-        <section className="relative h-64 bg-blue-900 text-white">
-          <div className="absolute inset-0 bg-black opacity-40"></div>
+        <section className="relative h-96  text-white">
+          <Image
+            src="/images/back22.jpg"
+            alt="Nagpur skyline"
+            fill
+            className="object-cover opacity-40"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-            <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-            <p className="text-xl">We're here to help with all your real estate needs</p>
+            <h1 className="text-5xl  mb-4 text-white">Contact Us</h1>
+            <p className="text-2xl mb-8 text-white">
+              We're here to help with all your real estate needs
+            </p>
           </div>
         </section>
+
 
         {/* Contact Grid */}
         <section className="py-16">

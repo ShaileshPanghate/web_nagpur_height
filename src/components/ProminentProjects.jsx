@@ -45,13 +45,13 @@ const ProminentProjects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === projects.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? projects.length - 1 : prevIndex - 1
     );
   };
@@ -78,8 +78,9 @@ const ProminentProjects = () => {
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-blue-100">
                     <div className="md:flex">
                       <div className="md:w-1/2 h-64 md:h-auto">
-                        <img 
-                          src={project.image} 
+                        <img
+                          loading="lazy"
+                          src={project.image}
                           alt={project.name}
                           className="w-full h-full object-cover"
                         />
@@ -94,7 +95,7 @@ const ProminentProjects = () => {
                             {project.bhk}
                           </span>
                         </div>
-                        
+
                         <div className="my-4">
                           <div className="flex items-center mb-2">
                             <svg className="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,13 +104,13 @@ const ProminentProjects = () => {
                             </svg>
                             <p className="text-gray-600">{project.location}</p>
                           </div>
-                          
+
                           <div className="bg-blue-50 p-3 rounded-lg">
                             <p className="text-sm text-blue-600 font-medium mb-1">Price</p>
                             <p className="text-xl font-bold text-blue-800">{project.price}</p>
                           </div>
                         </div>
-                        
+
                         <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
                           View Project Details
                         </button>
@@ -122,7 +123,7 @@ const ProminentProjects = () => {
           </div>
 
           {/* Navigation Arrows */}
-          <button 
+          <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 bg-white p-2 rounded-full shadow-md text-blue-600 hover:bg-blue-50 z-10"
           >
@@ -130,8 +131,8 @@ const ProminentProjects = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          
-          <button 
+
+          <button
             onClick={nextSlide}
             className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 bg-white p-2 rounded-full shadow-md text-blue-600 hover:bg-blue-50 z-10"
           >
