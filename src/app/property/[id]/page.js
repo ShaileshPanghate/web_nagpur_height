@@ -19,9 +19,8 @@ export default function PropertyDetails({ params }) {
       type: 'Apartment',
       images: [
         '/images/meher.jpg',
-        '/images/property1-1.jpg',
-        '/images/property1-2.jpg',
-        '/images/meher.jpg'
+        '/images/Meher2.jpg',
+        '/images/Meher3.jpg',
       ],
       amenities: '10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.',
       info: 'Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings'
