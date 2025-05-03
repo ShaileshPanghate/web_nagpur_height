@@ -1,6 +1,7 @@
 "use client"
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import WhatsApp from "@/components/WhatsApp";
 import { useState } from "react";
 import { use } from "react";
 
@@ -156,6 +157,7 @@ export default function PropertyDetails({ params }) {
   return (
     <>
       <Header />
+      <WhatsApp />
       <main className="max-w-6xl mx-auto  pt-34 px-4 pb-12 bg-white">
         {/* Property Header */}
         <div className="mb-8">

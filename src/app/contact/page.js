@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from '@/components/ContactForm';
+import WhatsApp from '@/components/WhatsApp';
 
 const Contact = () => {
 
@@ -29,7 +30,7 @@ const Contact = () => {
   return (
     <div>
       <Header />
-
+      <WhatsApp />
       <main className="pt-14 pb-12 bg-white">
         {/* Hero Section */}
         <section className="relative h-96  text-white">

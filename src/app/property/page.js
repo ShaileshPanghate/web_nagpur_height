@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SearchFilters from '@/components/SearchFilters';
 import AdviceToolsSection from '@/components/AdviceToolsSection';
+import WhatsApp from '@/components/WhatsApp';
 
 const Property = () => {
   const Properties = [
@@ -85,7 +86,7 @@ const Property = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
-
+      <WhatsApp />
       <div
         className="relative py-16 mt-16 " // 90% opacity blue overlay
         style={{
