@@ -123,7 +123,7 @@ const About = () => {
                 <p className="text-gray-600 italic mb-4">
                   "Nagpur Heights helped me find my dream home in Dharampeth. Their attention to detail and market knowledge is unmatched."
                 </p>
-                <p className="font-bold">- Anjali Mehta</p>
+                <p className="font-bold text-black">- Anjali Mehta</p>
                 <p className="text-sm text-gray-500">Homeowner since 2024</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl">

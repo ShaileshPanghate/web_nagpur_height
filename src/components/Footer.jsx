@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Nagpur Heights</h3>
+            {/* <h3 className="text-xl font-bold mb-4">Nagpur Heights</h3> */}
+            <img src="/logos/NAGPUR_HEIGHTS_LOGO.png" alt="Nagpur Heights" width={80} />
             <p className="text-gray-400">Your trusted partner for real estate solutions in Nagpur.</p>
           </div>
           
@@ -15,7 +16,6 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
               <li><Link href="/property" className="text-gray-400 hover:text-white">Properties</Link></li>
-              <li><Link href="/agents" className="text-gray-400 hover:text-white">Agents</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
             </ul>
