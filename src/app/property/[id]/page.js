@@ -157,7 +157,7 @@ export default function PropertyDetails({ params }) {
   return (
     <>
       <Header />
-      <main className="max-w-6xl mx-auto mt-32 px-4 pb-12 bg-white">
+      <main className="max-w-6xl mx-auto  pt-34 px-4 pb-12 bg-white">
         {/* Property Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800">{property.title}</h1>
