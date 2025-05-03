@@ -24,7 +24,12 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+    const whatsappMessage = `Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0ASubject: ${formData.subject}%0AMessage: ${formData.message}`;
+
+    const whatsappNumber = '919096076177';
+
+    window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 1500));
