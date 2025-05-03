@@ -34,7 +34,7 @@ const About = () => {
     <div>
       <Header />
 
-      <main className="pt-24 pb-12">
+      <main className="pt-14 pb-12 bg-white">
         {/* Hero Section */}
         <section className="relative h-96  text-white">
           <Image 
