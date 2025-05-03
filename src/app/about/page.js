@@ -2,7 +2,6 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import React from 'react';
 import Image from 'next/image';
-import TeamCard from '@/components/TeamCard';
 import WhatsApp from '@/components/WhatsApp';
 
 
