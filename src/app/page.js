@@ -129,7 +129,7 @@ const Home = () => {
         <ProminentProjects />
       </div>
       <div>
-        <PostPropertyBanner />
+        {/* <PostPropertyBanner /> */}
       </div>
 
       {/* Tools section */}
