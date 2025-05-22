@@ -37,32 +37,111 @@ const RatesTrendsNagpur = () => {
     // Simulate API fetch
     const fetchData = async () => {
       setLoading(true);
-      // In a real app, you would fetch this from your API
+      
+      // Mock data for different time periods
       const mockData = {
         residential: {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [4500.00,4544.41,4589.24,4634.48,4680.14,4726.22,4772.72,4819.64,4866.97,4914.72,4962.89,5011.47],
-          trend: 'up',
-          percentageChange: '12.5%',
-          avgPrice: '₹5,050/sq.ft',
-          hotspots: ['Wardha Road', 'Hingna', 'Manish Nagar', 'Dharampeth'],
+          '3m': {
+            labels: ['Oct', 'Nov', 'Dec'],
+            prices: [5400, 5500, 5600],
+            trend: 'up',
+            percentageChange: '3.7%',
+            avgPrice: '₹5,500/sq.ft',
+            hotspots: ['Wardha Road', 'Hingna', 'Manish Nagar', 'Dharampeth'],
+          },
+          '6m': {
+            labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [5100, 5200, 5300, 5400, 5500, 5600],
+            trend: 'up',
+            percentageChange: '7.8%',
+            avgPrice: '₹5,350/sq.ft',
+            hotspots: ['Wardha Road', 'Hingna', 'Manish Nagar', 'Dharampeth'],
+          },
+          '1y': {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [4500, 4544, 4589, 4634, 4680, 4726, 4773, 4820, 4867, 4915, 4963, 5011],
+            trend: 'up',
+            percentageChange: '12.5%',
+            avgPrice: '₹5,050/sq.ft',
+            hotspots: ['Wardha Road', 'Hingna', 'Manish Nagar', 'Dharampeth'],
+          },
+          '3y': {
+            labels: ['2021', '2022', '2023'],
+            prices: [3800, 4200, 5011],
+            trend: 'up',
+            percentageChange: '31.9%',
+            avgPrice: '₹4,337/sq.ft',
+            hotspots: ['Wardha Road', 'Hingna', 'Manish Nagar', 'Dharampeth'],
+          }
         },
         commercial: {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [6500.00,6543.50,6587.28,6631.33,6675.67,6720.28,6765.18,6810.36,6855.82,6901.56,6947.58,6993.89],
-          trend: 'up',
-          percentageChange: '8.3%',
-          avgPrice: '₹7,050/sq.ft',
-          hotspots: ['Sitabuldi', 'Sadar', 'Ramdaspeth', 'Civil Lines'],
+          '3m': {
+            labels: ['Oct', 'Nov', 'Dec'],
+            prices: [7400, 7500, 7600],
+            trend: 'up',
+            percentageChange: '2.7%',
+            avgPrice: '₹7,500/sq.ft',
+            hotspots: ['Sitabuldi', 'Sadar', 'Ramdaspeth', 'Civil Lines'],
+          },
+          '6m': {
+            labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [7100, 7200, 7300, 7400, 7500, 7600],
+            trend: 'up',
+            percentageChange: '7.0%',
+            avgPrice: '₹7,350/sq.ft',
+            hotspots: ['Sitabuldi', 'Sadar', 'Ramdaspeth', 'Civil Lines'],
+          },
+          '1y': {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [6500, 6544, 6587, 6631, 6676, 6720, 6765, 6810, 6856, 6902, 6948, 6994],
+            trend: 'up',
+            percentageChange: '8.3%',
+            avgPrice: '₹7,050/sq.ft',
+            hotspots: ['Sitabuldi', 'Sadar', 'Ramdaspeth', 'Civil Lines'],
+          },
+          '3y': {
+            labels: ['2021', '2022', '2023'],
+            prices: [5800, 6300, 6994],
+            trend: 'up',
+            percentageChange: '20.6%',
+            avgPrice: '₹6,365/sq.ft',
+            hotspots: ['Sitabuldi', 'Sadar', 'Ramdaspeth', 'Civil Lines'],
+          }
         },
         rental: {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [18.00,18.21,18.42,18.64,18.86,19.08,19.30,19.53,19.76,20.00,20.23,20.47],
-          trend: 'up',
-          percentageChange: '15.2%',
-          avgPrice: '₹20.5/sq.ft/month',
-          hotspots: ['Pratap Nagar', 'Ajni', 'Koradi Road', 'Besa'],
-        },
+          '3m': {
+            labels: ['Oct', 'Nov', 'Dec'],
+            prices: [22.5, 23.0, 23.5],
+            trend: 'up',
+            percentageChange: '4.4%',
+            avgPrice: '₹23.0/sq.ft/month',
+            hotspots: ['Pratap Nagar', 'Ajni', 'Koradi Road', 'Besa'],
+          },
+          '6m': {
+            labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [21.0, 21.5, 22.0, 22.5, 23.0, 23.5],
+            trend: 'up',
+            percentageChange: '11.9%',
+            avgPrice: '₹22.1/sq.ft/month',
+            hotspots: ['Pratap Nagar', 'Ajni', 'Koradi Road', 'Besa'],
+          },
+          '1y': {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            prices: [18.0, 18.2, 18.4, 18.6, 18.9, 19.1, 19.3, 19.5, 19.8, 20.0, 20.2, 20.5],
+            trend: 'up',
+            percentageChange: '15.2%',
+            avgPrice: '₹20.5/sq.ft/month',
+            hotspots: ['Pratap Nagar', 'Ajni', 'Koradi Road', 'Besa'],
+          },
+          '3y': {
+            labels: ['2021', '2022', '2023'],
+            prices: [15.5, 17.0, 20.5],
+            trend: 'up',
+            percentageChange: '32.3%',
+            avgPrice: '₹17.7/sq.ft/month',
+            hotspots: ['Pratap Nagar', 'Ajni', 'Koradi Road', 'Besa'],
+          }
+        }
       };
       
       setTimeout(() => {
@@ -79,7 +158,7 @@ const RatesTrendsNagpur = () => {
       return <div className="flex justify-center items-center h-64">Loading...</div>;
     }
 
-    const data = marketData[activeTab];
+    const data = marketData[activeTab][timePeriod];
     const isRental = activeTab === 'rental';
 
     const chartData = {
@@ -104,7 +183,7 @@ const RatesTrendsNagpur = () => {
         },
         title: {
           display: true,
-          text: `Nagpur ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)} Market Trends`,
+          text: `Nagpur ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)} Market Trends (${getTimePeriodLabel(timePeriod)})`,
         },
       },
       scales: {
@@ -121,14 +200,26 @@ const RatesTrendsNagpur = () => {
     return <Line data={chartData} options={options} />;
   };
 
+  const getTimePeriodLabel = (period) => {
+    switch (period) {
+      case '3m': return 'Last 3 Months';
+      case '6m': return 'Last 6 Months';
+      case '1y': return 'Last 1 Year';
+      case '3y': return 'Last 3 Years';
+      default: return period;
+    }
+  };
+
   const renderHotspots = () => {
     if (loading || !marketData) return null;
+
+    const data = marketData[activeTab][timePeriod];
 
     return (
       <div className="pt-24 pb-12 mt-20">
         <h3 className="text-lg font-semibold mb-2">Emerging Hotspots in Nagpur</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {marketData[activeTab].hotspots.map((area, index) => (
+          {data.hotspots.map((area, index) => (
             <div key={index} className="bg-white p-3 rounded-lg shadow-sm border border-gray-100">
               <div className="flex items-center">
                 <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
@@ -145,7 +236,7 @@ const RatesTrendsNagpur = () => {
   const renderStats = () => {
     if (loading || !marketData) return null;
 
-    const data = marketData[activeTab];
+    const data = marketData[activeTab][timePeriod];
 
     return (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -154,7 +245,7 @@ const RatesTrendsNagpur = () => {
           <div className="text-2xl font-bold mt-1">{data.avgPrice}</div>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
-          <div className="text-sm text-gray-500">Annual Change</div>
+          <div className="text-sm text-gray-500">{getTimePeriodLabel(timePeriod)} Change</div>
           <div className={`text-2xl font-bold mt-1 ${data.trend === 'up' ? 'text-green-600' : 'text-red-600'}`}>
             {data.trend === 'up' ? '↑' : '↓'} {data.percentageChange}
           </div>
@@ -200,7 +291,7 @@ const RatesTrendsNagpur = () => {
             </div>
             
             <div className="flex space-x-2">
-              {/* <button
+              <button
                 onClick={() => setTimePeriod('3m')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '3m' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
@@ -211,19 +302,19 @@ const RatesTrendsNagpur = () => {
                 className={`px-3 py-1 rounded-lg ${timePeriod === '6m' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 6M
-              </button> */}
+              </button>
               <button
                 onClick={() => setTimePeriod('1y')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '1y' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 1Y
               </button>
-              {/* <button
+              <button
                 onClick={() => setTimePeriod('3y')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '3y' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 3Y
-              </button> */}
+              </button>
             </div>
           </div>
           
@@ -234,8 +325,6 @@ const RatesTrendsNagpur = () => {
           </div>
           
           {renderHotspots()}
-          
-         
         </div>
       </main>
       

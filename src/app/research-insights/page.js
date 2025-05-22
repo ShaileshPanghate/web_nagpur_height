@@ -2,6 +2,30 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Bar, Line } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+
+// Register ChartJS components
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 const ResearchInsights = () => {
   const [activeTab, setActiveTab] = useState('market-trends');
@@ -46,7 +70,7 @@ const ResearchInsights = () => {
   return (
     <>
       <Header />
-      
+
       <main className="pt-24 pb-12 mt-20 bg-gray-50 min-h-screen">
         <div className="container mx-auto px-4">
           {/* Page Header */}
@@ -84,28 +108,50 @@ const ResearchInsights = () => {
             {activeTab === 'market-trends' && (
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Nagpur Property Market Trends</h2>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                   {/* Price Trend Chart */}
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-lg font-semibold mb-4">Average Price Per Sq.Ft (₹)</h3>
                     <div className="h-64">
-                      {/* Chart would be implemented with a library like Chart.js */}
-                      <div className="flex items-end h-48 space-x-2">
-                        {marketTrends.map((item, index) => (
-                          <div key={index} className="flex-1 flex flex-col items-center">
-                            <div 
-                              className="w-full bg-blue-600 rounded-t-sm"
-                              style={{ height: `${(item.price / 10000) * 100}%` }}
-                            ></div>
-                            <span className="text-xs mt-2">{item.year}</span>
-                          </div>
-                        ))}
-                      </div>
-                      <div className="mt-4 flex justify-between text-sm text-gray-600">
-                        <span>2020</span>
-                        <span>2024</span>
-                      </div>
+                      <Bar
+                        data={{
+                          labels: marketTrends.map(item => item.year),
+                          datasets: [{
+                            label: 'Price (₹/sq.ft)',
+                            data: marketTrends.map(item => item.price),
+                            backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                            borderColor: 'rgba(59, 130, 246, 1)',
+                            borderWidth: 1,
+                          }]
+                        }}
+                        options={{
+                          responsive: true,
+                          maintainAspectRatio: false,
+                          plugins: {
+                            legend: {
+                              display: false
+                            },
+                            tooltip: {
+                              callbacks: {
+                                label: function (context) {
+                                  return `₹${context.raw.toLocaleString('en-IN')}/sq.ft`;
+                                }
+                              }
+                            }
+                          },
+                          scales: {
+                            y: {
+                              beginAtZero: false,
+                              ticks: {
+                                callback: function (value) {
+                                  return `₹${value.toLocaleString('en-IN')}`;
+                                }
+                              }
+                            }
+                          }
+                        }}
+                      />
                     </div>
                   </div>
 
@@ -113,24 +159,40 @@ const ResearchInsights = () => {
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-lg font-semibold mb-4">Market Demand Index</h3>
                     <div className="h-64">
-                      {/* Chart would be implemented with a library like Chart.js */}
-                      <div className="relative h-48">
-                        <div className="absolute bottom-0 left-0 right-0 h-px bg-gray-300"></div>
-                        {marketTrends.map((item, index) => (
-                          <div 
-                            key={index}
-                            className="absolute bottom-0 w-4 bg-green-500 rounded-t-sm"
-                            style={{
-                              left: `${(index / (marketTrends.length - 1)) * 90 + 5}%`,
-                              height: `${item.demand}%`
-                            }}
-                          ></div>
-                        ))}
-                      </div>
-                      <div className="mt-4 flex justify-between text-sm text-gray-600">
-                        <span>2020</span>
-                        <span>2024</span>
-                      </div>
+                      <Line
+                        data={{
+                          labels: marketTrends.map(item => item.year),
+                          datasets: [{
+                            label: 'Demand Index',
+                            data: marketTrends.map(item => item.demand),
+                            borderColor: 'rgba(16, 185, 129, 1)',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            borderWidth: 2,
+                            tension: 0.3,
+                            fill: true
+                          }]
+                        }}
+                        options={{
+                          responsive: true,
+                          maintainAspectRatio: false,
+                          plugins: {
+                            legend: {
+                              display: false
+                            }
+                          },
+                          scales: {
+                            y: {
+                              beginAtZero: true,
+                              max: 100,
+                              ticks: {
+                                callback: function (value) {
+                                  return `${value}%`;
+                                }
+                              }
+                            }
+                          }
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -150,14 +212,14 @@ const ResearchInsights = () => {
             {activeTab === 'reports' && (
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Market Research Reports</h2>
-                
+
                 <div className="space-y-6">
                   {reports.map((report, index) => (
                     <div key={index} className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                       <h3 className="text-xl font-semibold mb-2">{report.title}</h3>
                       <p className="text-gray-600 mb-4">{report.description}</p>
-                      <a 
-                        href={report.downloadLink} 
+                      <a
+                        href={report.downloadLink}
                         className="inline-flex items-center text-blue-600 hover:text-blue-800"
                         download
                       >
@@ -175,7 +237,7 @@ const ResearchInsights = () => {
             {activeTab === 'articles' && (
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Expert Analysis & Articles</h2>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {articles.map((article, index) => (
                     <div key={index} className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
@@ -198,9 +260,9 @@ const ResearchInsights = () => {
               <h2 className="text-2xl font-bold mb-2">Stay Updated with Our Research</h2>
               <p className="mb-6">Subscribe to receive monthly market insights and reports</p>
               <div className="flex flex-col sm:flex-row gap-2">
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
+                <input
+                  type="email"
+                  placeholder="Your email address"
                   className="flex-grow px-4 py-3 rounded-md text-gray-800 focus:outline-none"
                 />
                 <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100">
