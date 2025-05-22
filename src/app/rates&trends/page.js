@@ -41,7 +41,7 @@ const RatesTrendsNagpur = () => {
       const mockData = {
         residential: {
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600],
+          prices: [4500.00,4544.41,4589.24,4634.48,4680.14,4726.22,4772.72,4819.64,4866.97,4914.72,4962.89,5011.47],
           trend: 'up',
           percentageChange: '12.5%',
           avgPrice: '₹5,050/sq.ft',
@@ -49,7 +49,7 @@ const RatesTrendsNagpur = () => {
         },
         commercial: {
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600],
+          prices: [6500.00,6543.50,6587.28,6631.33,6675.67,6720.28,6765.18,6810.36,6855.82,6901.56,6947.58,6993.89],
           trend: 'up',
           percentageChange: '8.3%',
           avgPrice: '₹7,050/sq.ft',
@@ -57,7 +57,7 @@ const RatesTrendsNagpur = () => {
         },
         rental: {
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-          prices: [18, 18.5, 19, 19.5, 20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5],
+          prices: [18.00,18.21,18.42,18.64,18.86,19.08,19.30,19.53,19.76,20.00,20.23,20.47],
           trend: 'up',
           percentageChange: '15.2%',
           avgPrice: '₹20.5/sq.ft/month',
@@ -200,7 +200,7 @@ const RatesTrendsNagpur = () => {
             </div>
             
             <div className="flex space-x-2">
-              <button
+              {/* <button
                 onClick={() => setTimePeriod('3m')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '3m' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
@@ -211,19 +211,19 @@ const RatesTrendsNagpur = () => {
                 className={`px-3 py-1 rounded-lg ${timePeriod === '6m' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 6M
-              </button>
+              </button> */}
               <button
                 onClick={() => setTimePeriod('1y')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '1y' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 1Y
               </button>
-              <button
+              {/* <button
                 onClick={() => setTimePeriod('3y')}
                 className={`px-3 py-1 rounded-lg ${timePeriod === '3y' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'}`}
               >
                 3Y
-              </button>
+              </button> */}
             </div>
           </div>
           
@@ -235,9 +235,7 @@ const RatesTrendsNagpur = () => {
           
           {renderHotspots()}
           
-          <div className="mt-6 text-sm text-gray-500">
-            <p>Data updated: {new Date().toLocaleDateString('en-IN')} | Source: Nagpur Municipal Corporation, RERA Maharashtra</p>
-          </div>
+         
         </div>
       </main>
       
