@@ -13,13 +13,49 @@ const Property = () => {
       id: 1,
       title: 'Meher Ganga',
       location: 'New Narendra Nagar, Nagpur',
-      area: '1500 ',
+      area: '1500 sqft',
       price: '80 Lac',
       type: 'Apartment',
       image: '/images/meher.jpg'
-    },
+    },    
     {
       id: 2,
+      title: 'Arha Enclave',
+      location: 'Plot no. 31, Shilpa Society, Narendra Nagar, Near Shani Dham Mandir, Nagpur, 440015',
+      area: '1080 sqft',
+      price: '55.5 Lac',
+      type: 'Flat 3BHK',
+      image: '/images/arhaEnclave.jpg'
+    },
+    {
+      id: 3,
+      title: 'Sai Residency',
+      location: 'Plot no. 3, Power House Road, New Beedipeth Nagar, Near Ashirwad Nagar Road, Nagpur, 440015',
+      area: '1208 sqft',
+      // price: '55.5 Lac',
+      type: 'Flat',
+      image: '/images/saiResidency.PNG'
+    },
+    {
+      id: 4,
+      title: 'Ved Vidhi',
+      location: 'Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015',
+      area: '1316 sqft',
+      // price: '55.5 Lac',
+      type: '2BHK Flat',
+      image: '/images/ved_vidhi.PNG'
+    },
+    {
+      id: 5,
+      title: 'Ved Vidhi',
+      location: 'Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015',
+      area: '1811 sqft',
+      // price: '55.5 Lac',
+      type: '3BHK Flat',
+      image: '/images/ved_vidhi.PNG'
+    },
+    {
+      id: 6,
       title: 'Modern 4BHK Villa in Hingna',
       location: '4BHK For sale in Vyankateshwara kalash, Hingna Nagpur',
       area: '1900',
@@ -28,7 +64,7 @@ const Property = () => {
       image: '/images/Vyankateshwara.jpeg'
     },
     {
-      id: 3,
+      id: 7,
       title: 'Commercial Space in Manewada, Nagpur',
       location: 'Manewada, Gandhi Square, Nagpur',
       area: '4115',
@@ -37,7 +73,7 @@ const Property = () => {
       image: '/images/Manewada.jpeg'
     },
     {
-      id: 4,
+      id: 8,
       title: 'Residential Plot in Privara Vihar 8',
       location: 'Godhani, Nagpur',
       area: '1000.00 - 3000.00 sq.ftconvert unit',
@@ -46,7 +82,7 @@ const Property = () => {
       image: '/images/privara.avif'
     },
     {
-      id: 5,
+      id: 9,
       title: "Aarambh",
       area: "1500 sqft",
       price: "₹59.0 Lac",
@@ -55,7 +91,7 @@ const Property = () => {
       image: "/images/Jamtha3BHK.jpeg"
     },
     {
-      id: 6,
+      id: 10,
       title: "Golden Vista",
       area: "1650 sqft",
       price: "₹67.3 Lac",
@@ -64,7 +100,7 @@ const Property = () => {
       image: "/images/ChinchBhawan.jpeg"
     },
     {
-      id: 7,
+      id: 11,
       title: "Jaitala, Nagpur",
       area: "1381 sqft",
       price: "₹51.1 Lac",
@@ -73,7 +109,7 @@ const Property = () => {
       image: "/images/Jaitala.jpeg"
     },
     {
-      id: 8,
+      id: 12,
       title: "Royal Gardens",
       area: "1633 sqft",
       price: "₹73.5 Lac",
