@@ -42,7 +42,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Featured Properties</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {Properties.slice(0, 4).map(property => (
+          {Properties.slice(0, 8).map(property => (
             <PropertyCard key={property.id} property={property} />
           ))}
         </div>
