@@ -5,7 +5,7 @@
       "title": "Ved Vidhi 2BHK",
       "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
-      "price": "60L",
+      "price": "₹ 60L",
       "type": "2BHK Flat",
       "images": [
         "/images/ved_vidhi.PNG",
@@ -24,7 +24,7 @@
       "location": "Plot no. 31, Shilpa Society, Narendra Nagar, Near Shani Dham Mandir, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flat 1,2,3,4 Floors Available",
-      "price": "90L (Negotiable upto 85L)",
+      "price": "₹ 90L (Negotiable upto 85L)",
       "images": [
         "/images/arhaEnclave.png",
         "/images/arhaEnclave_3BHK(1).PNG",
@@ -41,7 +41,7 @@
       "title": "Ved Vidhi 3BHK",
       "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
-      "price": "80L",
+      "price": "₹ 80L",
       "type": "3BHK Flat",
       "images": [
         "/images/ved_vidhi.PNG",
@@ -59,7 +59,7 @@
       "title": "Sai Residency",
       "location": "Plot no. 3, Power House Road, New Beedipeth Nagar, Near Ashirwad Nagar Road, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
-      "price": "",
+      "price": "₹",
       "type": "3BHK Flat",
       "images": [
         "/images/saiResidency.PNG",
@@ -77,7 +77,7 @@
       "title": "Meher Ganga",
       "location": "New Narendra Nagar, Nagpur",
       "area": "1500 sq.ft (3BHK)",
-      "price": "80 L",
+      "price": "₹ 80L",
       "type": "Apartment",
       "images": [
         "/images/meher.jpg",
@@ -94,7 +94,7 @@
       "title": "Modern 4BHK Villa in Hingna",
       "location": "4BHK For sale in Vyankateshwara kalash, Hingna Nagpur",
       "area": "1900 sq.ft (4BHK)",
-      "price": "55.5L",
+      "price": "₹ 55.5L",
       "type": "Villa",
       "images": [
         "/images/Vyankateshwara.jpeg",
@@ -111,7 +111,7 @@
       "title": "Commercial Space in Manewada, Nagpur",
       "location": "Manewada, Gandhi Square, Nagpur",
       "area": "4115 sqft",
-      "price": "4.52Cr",
+      "price": "₹ 4.52Cr",
       "type": "Commercial",
       "images": [
         "/images/Manewada.jpeg",
@@ -128,7 +128,7 @@
       "title": "Residential Plot in Privara Vihar 8",
       "location": "Godhani, Nagpur",
       "area": "1000.00 - 3000.00 sq.ft",
-      "price": "₹2.2 K/sq.ft",
+      "price": "₹ 2.2 K/sq.ft",
       "type": "Plot",
       "images": [
         "/images/privara.avif",
@@ -144,7 +144,7 @@
       "id": 9,
       "title": "Aarambh",
       "area": "1500 sqft",
-      "price": "₹59.0L",
+      "price": "₹ 59.0L",
       "location": "Jamtha, Nagpur",
       "type": "3 BHK Apartment",
       "images": [
@@ -160,7 +160,7 @@
       "id": 10,
       "title": "Golden Vista",
       "area": "1650 sqft",
-      "price": "₹67.3L",
+      "price": "₹ 67.3L",
       "location": "Chinch Bhawan, Nagpur, Maharashtra",
       "type": "3 BHK Apartment",
       "images": [
@@ -177,7 +177,7 @@
       "id": 11,
       "title": "Jaitala, Nagpur",
       "area": "1381 sqft",
-      "price": "₹51.1L",
+      "price": "₹ 51.1L",
       "location": "Jaitala, Nagpur",
       "type": "3 BHK Apartments",
       "images": [
@@ -194,7 +194,7 @@
       "id": 12,
       "title": "Royal Gardens",
       "area": "1633 sqft",
-      "price": "₹73.5L",
+      "price": "₹ 73.5L",
       "location": "Bell Tarodi, Nagpur",
       "type": "3 BHK Luxury Apartments",
       "images": [
