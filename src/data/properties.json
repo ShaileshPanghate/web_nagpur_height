@@ -5,8 +5,8 @@
       "title": "Ved Vidhi 2BHK",
       "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
-      "price": "",
-      "type": "Flat",
+      "price": "60L",
+      "type": "2BHK Flat",
       "images": [
         "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
@@ -14,7 +14,7 @@
         "/images/ved_vidhi_2BHK(3).PNG",
         "/images/ved_vidhi_2BHK(4).PNG"
       ],
-      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
+      "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
       "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "whatsapp": "9096076177"
     },
@@ -41,8 +41,8 @@
       "title": "Ved Vidhi 3BHK",
       "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
-      "price": "",
-      "type": "Flat",
+      "price": "80L",
+      "type": "3BHK Flat",
       "images": [
         "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
@@ -50,7 +50,7 @@
         "/images/ved_vidhi_3BHK(3).PNG",
         "/images/ved_vidhi_3BHK(4).PNG"
       ],
-      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
+      "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
       "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "whatsapp": "9096076177"
     },
@@ -60,7 +60,7 @@
       "location": "Plot no. 3, Power House Road, New Beedipeth Nagar, Near Ashirwad Nagar Road, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
       "price": "",
-      "type": "3BHK",
+      "type": "3BHK Flat",
       "images": [
         "/images/saiResidency.PNG",
         "/images/sai_residency3BHK(1).PNG",
