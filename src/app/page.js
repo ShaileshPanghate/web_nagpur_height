@@ -6,90 +6,15 @@ import AdviceToolsSection from '../components/AdviceToolsSection';
 import ProminentProjects from '@/components/ProminentProjects';
 import PostPropertyBanner from '@/components/PostPropertyBanner';
 import WhatsApp from '@/components/WhatsApp';
+import { Properties } from '../data/properties.json';
 
 const Home = () => {
 
 
-
-  const featuredProperties = [
-    {
-      id: 1,
-      title: 'Meher Ganga',
-      location: 'New Narendra Nagar, Nagpur',
-      area: '1500 ',
-      price: '80 Lac',
-      type: 'Apartment',
-      image: '/images/meher.jpg'
-    },
-    {
-      id: 2,
-      title: 'Arha Enclave',
-      location: 'Plot no. 31, Shilpa Society, Narendra Nagar, Near Shani Dham Mandir, Nagpur, 440015',
-      area: '1080 sqft',
-      price: '55.5 Lac',
-      type: '3BHK Flat ',
-      image: '/images/arhaEnclave.jpg'
-    },
-    {
-      id: 3,
-      title: 'Sai Residency',
-      location: 'Plot no. 3, Power House Road, New Beedipeth Nagar, Near Ashirwad Nagar Road, Nagpur, 440015',
-      area: '1208 sqft',
-      // price: '55.5 Lac',
-      type: 'Flat',
-      image: '/images/saiResidency.PNG'
-    },
-    {
-      id: 4,
-      title: 'Ved Vidhi',
-      location: 'Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015',
-      area: '1316 sqft',
-      // price: '55.5 Lac',
-      type: '2BHK Flat',
-      image: '/images/ved_vidhi.PNG'
-    },
-    {
-      id: 5,
-      title: 'Ved Vidhi',
-      location: 'Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015',
-      area: '1811 sqft',
-      // price: '55.5 Lac',
-      type: '3BHK Flat',
-      image: '/images/ved_vidhi.PNG'
-    },
-    {
-      id: 6,
-      title: 'Modern 4BHK Villa in Hingna',
-      location: '4BHK For sale in Vyankateshwara kalash, Hingna Nagpur',
-      area: '1900',
-      price: '55.5 Lac',
-      type: 'Villa',
-      image: '/images/Vyankateshwara.jpeg'
-    },
-    {
-      id: 7,
-      title: 'Commercial Space in Manewada, Nagpur',
-      location: 'Manewada, Gandhi Square, Nagpur',
-      area: '4115',
-      price: '4.52 Cr',
-      type: 'Commercial',
-      image: '/images/Manewada.jpeg'
-    },
-    {
-      id: 8,
-      title: 'Residential Plot in Privara Vihar 8',
-      location: 'Godhani, Nagpur',
-      area: '1000.00 - 3000.00 sq.ftconvert unit',
-      price: '₹2.2 K/sq.ft',
-      type: 'Plot',
-      image: '/images/privara.avif'
-    }
-  ];
-
   return (
     <div className="min-h-screen bg-gray-50 ">
       <Header />
-     <WhatsApp />
+      <WhatsApp />
 
       {/* Hero Section */}
       {/* Hero Section with Background Image */}
@@ -117,7 +42,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Featured Properties</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {featuredProperties.map(property => (
+          {Properties.slice(0, 4).map(property => (
             <PropertyCard key={property.id} property={property} />
           ))}
         </div>

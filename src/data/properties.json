@@ -23,6 +23,7 @@
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flat",
       "images": [
+        "/images/arhaEnclave.jpg",
         "/images/arhaEnclave_3BHK(1).PNG",
         "/images/arhaEnclave_3BHK(2).PNG",
         "/images/arhaEnclave_3BHK(3).PNG",
@@ -39,6 +40,7 @@
       "area": "1208 sq.ft (3BHK)",
       "type": "3BHK",
       "images": [
+        "/images/saiResidency.PNG",
         "/images/sai_residency3BHK(1).PNG",
         "/images/sai_residency3BHK(2).PNG",
         "/images/sai_residency3BHK(3).PNG",
@@ -55,6 +57,7 @@
       "area": "1316 sq.ft (2BHK)",
       "type": "Flat",
       "images": [
+        "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
         "/images/ved_vidhi_2BHK(2).PNG",
         "/images/ved_vidhi_2BHK(3).PNG",
@@ -71,6 +74,7 @@
       "area": "1811 sq.ft (3BHK)",
       "type": "Flat",
       "images": [
+        "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
         "/images/ved_vidhi_2BHK(2).PNG",
         "/images/ved_vidhi_3BHK(3).PNG",
