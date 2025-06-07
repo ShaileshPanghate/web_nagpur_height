@@ -1,3 +1,4 @@
+"use client"
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PropertyCard from '../components/PropertyCard';
@@ -10,6 +11,17 @@ import { Properties } from '../data/properties.json';
 
 const Home = () => {
 
+  const handleClick = async () => {
+    let data = {
+      name: "Shailesh",
+      address: "Warora"
+    }
+    let a = await fetch("/api/add", {method:"POST",  headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data),
+  })
+    let res = await a.json();
+    console.log(res);
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 ">
@@ -37,6 +49,7 @@ const Home = () => {
           <SearchFilters />
         </div>
       </div>
+      {/* <button onClick={handleClick}>click</button>    for testing only */}
 
       {/* Featured Properties */}
       <div className="container mx-auto px-4 py-12">

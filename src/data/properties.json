@@ -24,7 +24,7 @@
       "location": "Plot no. 31, Shilpa Society, Narendra Nagar, Near Shani Dham Mandir, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flat 1,2,3,4 Floors Available",
-      "price": "₹ 90L (Negotiable upto 85L)",
+      "price": "₹ 90L (Negotiable)",
       "images": [
         "/images/arhaEnclave.png",
         "/images/arhaEnclave_3BHK(1).PNG",
@@ -74,12 +74,13 @@
     },
     {
       "id": 5,
-      "title": "Invest Nagpur",
+      "title": "Suraburdi Backyard",
       "location": "Suraburdi Backyard, Drugdhamna, Nagpur, 440023",
       "area": "1100-5500 sq.ft",
       "price": "₹",
-      "type": "Plot",
+      "type": "Plots",
       "images": [
+        "/images/InvestNagpur.PNG",
         "/images/InvestNagpur1.PNG",
         "/images/InvestNagpur2.PNG",
         "/images/InvestNagpur3.PNG",
