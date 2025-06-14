@@ -14,7 +14,7 @@ const Contact = () => {
       name: 'Main Office',
       address: 'Hingna naka, Near Bellari Restaurant, Nagpur - 440016',
       phone: '+91 9096076177',
-      email: 'sarangthakre.crm@gmail.com',
+      email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
     // {

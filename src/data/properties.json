@@ -3,10 +3,10 @@
     {
       "id": 1,
       "title": "Ved Vidhi 2BHK",
-      "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
+      "location": "Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
       "price": "₹ 60L",
-      "type": "2BHK Flat",
+      "type": "2BHK Flats",
       "images": [
         "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
@@ -21,9 +21,9 @@
     {
       "id": 2,
       "title": "Arha Enclave",
-      "location": "Plot no. 31, Shilpa Society, Narendra Nagar, Near Shani Dham Mandir, Nagpur, 440015",
+      "location": " Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
-      "type": "3BHK Flat 1,2,3,4 Floors Available",
+      "type": "3BHK Flats ",
       "price": "₹ 90L (Negotiable)",
       "images": [
         "/images/arhaEnclave.png",
@@ -39,10 +39,10 @@
     {
       "id": 3,
       "title": "Ved Vidhi 3BHK",
-      "location": "Khasra No-162, Mouza-Pipla, P.H.No-38, Nagar Panchayat-Besa Pipla, Nagpur, 440015",
+      "location": "Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
       "price": "₹ 80L",
-      "type": "3BHK Flat",
+      "type": "3BHK Flats",
       "images": [
         "/images/ved_vidhi.PNG",
         "/images/ved_vidhi_2BHK(1).PNG",
@@ -57,10 +57,10 @@
     {
       "id": 4,
       "title": "Sai Residency",
-      "location": "Plot no. 3, Power House Road, New Beedipeth Nagar, Near Ashirwad Nagar Road, Nagpur, 440015",
+      "location": "New Beedipeth Nagar, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
       "price": "₹ 90L (Negotiable)",
-      "type": "3BHK Flat",
+      "type": "3BHK Flats",
       "images": [
         "/images/saiResidency.PNG",
         "/images/sai_residency3BHK(1).PNG",
@@ -96,7 +96,7 @@
       "location": "New Narendra Nagar, Nagpur",
       "area": "1500 sq.ft (3BHK)",
       "price": "₹ 80L",
-      "type": "Apartment",
+      "type": "Flats",
       "images": [
         "/images/meher.jpg",
         "/images/Meher2.jpg",
@@ -110,7 +110,7 @@
     {
       "id": 7,
       "title": "Modern 4BHK Villa in Hingna",
-      "location": "4BHK For sale in Vyankateshwara kalash, Hingna Nagpur",
+      "location": "Vyankateshwara kalash, Hingna Nagpur",
       "area": "1900 sq.ft (4BHK)",
       "price": "₹ 55.5L",
       "type": "Villa",
@@ -126,16 +126,16 @@
     },
     {
       "id": 8,
-      "title": "Commercial Space in Manewada, Nagpur",
-      "location": "Manewada, Gandhi Square, Nagpur",
-      "area": "4115 sqft",
-      "price": "₹ 4.52Cr",
-      "type": "Commercial",
+      "title": "Crown City, Nagpur",
+      "location": "Near Dudhala, Nagpur",
+      "area": "950-5000 sqft",
+      "price": "₹ 600/sq.ft",
+      "type": "Plots",
       "images": [
-        "/images/Manewada.jpeg",
-        "/images/Manewada2.jpeg",
-        "/images/Manewada3.jpeg",
-        "/images/Manewada4.jpeg"
+        "/images/CrownCity.PNG",
+        "/images/CrownCity2.PNG",
+        "/images/CrownCity3.PNG",
+        "/images/CrownCity4.PNG"
       ],
       "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
@@ -147,7 +147,7 @@
       "location": "Godhani, Nagpur",
       "area": "1000.00 - 3000.00 sq.ft",
       "price": "₹ 2.2 K/sq.ft",
-      "type": "Plot",
+      "type": "Plots",
       "images": [
         "/images/privara.avif",
         "/images/privara2.avif",
@@ -164,7 +164,7 @@
       "area": "1500 sqft",
       "price": "₹ 59.0L",
       "location": "Jamtha, Nagpur",
-      "type": "3 BHK Apartment",
+      "type": "3 BHK Apartments",
       "images": [
         "/images/Jamtha3BHK.jpeg",
         "/images/Jamtha3-3BHK.jpeg",
@@ -180,7 +180,7 @@
       "area": "1650 sqft",
       "price": "₹ 67.3L",
       "location": "Chinch Bhawan, Nagpur, Maharashtra",
-      "type": "3 BHK Apartment",
+      "type": "3 BHK Apartments",
       "images": [
         "/images/ChinchBhawan.jpeg",
         "/images/ChinchBhawan2.jpeg",

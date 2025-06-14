@@ -11,17 +11,7 @@ import { Properties } from '../data/properties.json';
 
 const Home = () => {
 
-  const handleClick = async () => {
-    let data = {
-      name: "Shailesh",
-      address: "Warora"
-    }
-    let a = await fetch("/api/add", {method:"POST",  headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  })
-    let res = await a.json();
-    console.log(res);
-  }
+
 
   return (
     <div className="min-h-screen bg-gray-50 ">
@@ -45,11 +35,10 @@ const Home = () => {
 
         <div className="container mx-auto py-0 px-4 relative z-10"> {/* z-10 brings content above overlay */}
           <h1 className="text-5xl  mb-4 text-white">Find Your Dream Property in Nagpur</h1>
-          <p className="text-2xl text-white">Discover the best residential and commercial properties in Nagpur</p>
-          <SearchFilters />
+         <strong> <p className="text-2xl text-white">Discover the best residential and commercial properties in Nagpur</p></strong>
+          {/* <SearchFilters /> */}
         </div>
       </div>
-      {/* <button onClick={handleClick}>click</button>    for testing only */}
 
       {/* Featured Properties */}
       <div className="container mx-auto px-4 py-12">

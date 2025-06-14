@@ -30,7 +30,7 @@ const Property = () => {
         <div className="container mx-auto px-4 relative z-10"> {/* z-10 brings content above overlay */}
           <h1 className="text-5xl  mb-4 text-white">Find Your Dream Property in Nagpur</h1>
           <p className="text-2xl text-white">Discover the best residential and commercial properties in Nagpur</p>
-          <SearchFilters />
+          {/* <SearchFilters /> */}
         </div>
       </div>
 
