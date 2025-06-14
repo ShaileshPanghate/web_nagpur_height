@@ -2,14 +2,15 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsApp from "@/components/WhatsApp";
-import { useState } from "react";
 import { use } from "react";
 import { Properties } from '../../../data/properties.json';
+import ImageGallery from "@/components/ImageGallery"; // import client component
+
+
 
 export default function PropertyDetails({ params }) {
   const unwrappedParams = use(params);
   const { id } = unwrappedParams;
-  const [mainImage, setMainImage] = useState(0);
 
   const property = Properties.find(prop => prop.id === Number(id));
 
@@ -40,37 +41,7 @@ export default function PropertyDetails({ params }) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Image Gallery */}
           <div className="lg:col-span-2">
-            {/* Main Image */}
-            <div className="rounded-xl overflow-hidden shadow-lg mb-4">
-              <img
-                loading="lazy"
-                src={property.images[mainImage]}
-                alt={property.title}
-                className="w-full h-96 object-cover transition-all duration-500 ease-in-out rounded-xl"
-              />
-
-            </div>
-
-            {/* Thumbnail Gallery */}
-            <div className="grid grid-cols-4 gap-2">
-              {property.images.map((image, index) => (
-                <button
-                  key={index}
-                  onClick={() => setMainImage(index)}
-                  className={`rounded-md overflow-hidden transition-all duration-300 transform ${mainImage === index
-                      ? 'ring-2 ring-blue-500 scale-105'
-                      : 'opacity-80 hover:opacity-100 hover:scale-105'
-                    }`}
-                >
-                  <img
-                    loading="lazy"
-                    src={image}
-                    alt={`${property.title} ${index + 1}`}
-                    className="w-full h-20 object-cover"
-                  />
-                </button>
-              ))}
-            </div>
+          <ImageGallery images={property.images} title={property.title} />
 
 
             {/* Amenities Section */}
