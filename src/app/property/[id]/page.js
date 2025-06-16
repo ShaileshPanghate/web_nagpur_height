@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
   const property = Properties.find(prop => prop.id === Number(id));
 
   return {
-    title: property ? property.title + '| Property in Nagpur | NAGPUR HEIGHTS' : 'Property Not Found',
+    title: property ? property.title + ' | Property in Nagpur | NAGPUR HEIGHTS' : 'Property Not Found',
     description: property ? `Details of ${property.title} located at ${property.location}` : 'No details available',
   };
 }
