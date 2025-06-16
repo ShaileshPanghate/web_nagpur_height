@@ -8,37 +8,38 @@ import ProminentProjects from '@/components/ProminentProjects';
 import PostPropertyBanner from '@/components/PostPropertyBanner';
 import WhatsApp from '@/components/WhatsApp';
 import { Properties } from '../data/properties.json';
+import Image from 'next/image';
+import back22 from '../../public/images/back22.jpg'
 
 const Home = () => {
 
 
 
   return (
-    <div className="min-h-screen bg-gray-50 ">
+    <div className="relative mt-18 h-[140px]">
       <Header />
       <WhatsApp />
 
       {/* Hero Section */}
       {/* Hero Section with Background Image */}
-      <div
-        className="relative py-12 mt-16 " // 90% opacity blue overlay
-        style={{
-          backgroundImage: "url('./images/back22.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat"
-        }}
-      >
+      <Image
+        src={back22}
+        alt="Dream Property Background"
+        fill
+        priority
+        placeholder="blur"
+        className="object-cover object-center z-0"
+      />
 
         {/* Dark overlay to ensure text readability */}
         <div className="absolute inset-0 bg-black/50"></div>
 
-        <div className="container mx-auto py-0 px-4 relative z-10"> {/* z-10 brings content above overlay */}
+        <div className="container mx-auto py-8 px-4 relative z-10"> {/* z-10 brings content above overlay */}
           <h1 className="text-5xl  mb-4 text-white">Find Your Dream Property in Nagpur</h1>
          <strong> <p className="text-2xl text-white">Discover the best residential and commercial properties in Nagpur</p></strong>
           {/* <SearchFilters /> */}
         </div>
-      </div>
+      
 
       {/* Featured Properties */}
       <div className="container mx-auto px-4 py-12">

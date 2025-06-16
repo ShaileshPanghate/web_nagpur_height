@@ -1,16 +1,24 @@
-"use client"
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsApp from "@/components/WhatsApp";
-import { use } from "react";
 import { Properties } from '../../../data/properties.json';
 import ImageGallery from "@/components/ImageGallery"; // import client component
+import dynamic from 'next/dynamic';
+import WhatsApp_button from "@/components/WhatsApp_button";
 
+export async function generateMetadata({ params }) {
+  const { id } = params;
+  const property = Properties.find(prop => prop.id === Number(id));
 
+  return {
+    title: property ? property.title + '| Property in Nagpur | NAGPUR HEIGHTS' : 'Property Not Found',
+    description: property ? `Details of ${property.title} located at ${property.location}` : 'No details available',
+  };
+}
 
 export default function PropertyDetails({ params }) {
-  const unwrappedParams = use(params);
-  const { id } = unwrappedParams;
+  // const unwrappedParams = use(params);
+  const { id } = params;
 
   const property = Properties.find(prop => prop.id === Number(id));
 
@@ -85,12 +93,7 @@ export default function PropertyDetails({ params }) {
                 </div>
 
                 {/* Contact Button */}
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 mt-4"
-                  onClick={() => {
-                    window.open(`https://wa.me/${property.whatsapp}`, "_blank");
-                  }}>
-                  Contact Agent
-                </button>
+                <WhatsApp_button number={property.whatsapp} /> 
               </div>
             </div>
 

@@ -36,7 +36,7 @@ const About = () => {
       <WhatsApp />
       <main className="pt-14 pb-12 bg-white">
         {/* Hero Section */}
-        <section className="relative h-96  text-white">
+        <section className="relative h-64  text-white">
           <Image
             src="/images/back22.jpg"
             alt="Nagpur skyline"

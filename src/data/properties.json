@@ -2,6 +2,25 @@
   "Properties": [
     {
       "id": 1,
+      "title": "Arha Enclave",
+      "location": " Narendra Nagar, Nagpur, 440015",
+      "area": "1080 sq.ft (3BHK)",
+      "type": "3BHK Flats ",
+      "price": "₹ 90L (Negotiable)",
+      "images": [
+        "/images/arhaEnclave.png",
+        "/images/arhaEnclave_3BHK(1).PNG",
+        "/images/arhaEnclave_3BHK(2).PNG",
+        "/images/arhaEnclave_3BHK(3).PNG",
+        "/images/arhaEnclave_3BHK(4).PNG"
+      ],
+      "amenities": "Gym, CCTV Security, Alloted Parking, Visitors Parking, Children play area, Rain water Harvesting, Solar System for common usage.",
+      "info": "Modular Kitchen, PoP, Main Door 8ft height, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
+      "whatsapp": "9096076177"
+      
+    },
+    {
+      "id": 2,
       "title": "Ved Vidhi 2BHK",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
@@ -19,40 +38,22 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 2,
-      "title": "Arha Enclave",
-      "location": " Narendra Nagar, Nagpur, 440015",
-      "area": "1080 sq.ft (3BHK)",
-      "type": "3BHK Flats ",
-      "price": "₹ 90L (Negotiable)",
-      "images": [
-        "/images/arhaEnclave.png",
-        "/images/arhaEnclave_3BHK(1).PNG",
-        "/images/arhaEnclave_3BHK(2).PNG",
-        "/images/arhaEnclave_3BHK(3).PNG",
-        "/images/arhaEnclave_3BHK(4).PNG"
-      ],
-      "amenities": "Gym, CCTV Security, Alloted Parking, Visitors Parking, Children play area, Rain water Harvesting, Solar System for common usage.",
-      "info": "Modular Kitchen, PoP, Main Door 8ft height, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
-      "whatsapp": "9096076177"
-    },
-    {
       "id": 3,
-      "title": "Ved Vidhi 3BHK",
-      "location": "Besa Pipla, Nagpur, 440015",
-      "area": "1811 sq.ft (3BHK)",
-      "price": "₹ 80L",
-      "type": "3BHK Flats",
+      "title": "Crown City, Nagpur",
+      "location": "Near Dudhala, Nagpur",
+      "area": "950-5000 sqft",
+      "price": "₹ 600/sq.ft",
+      "type": "Plots",
       "images": [
-        "/images/ved_vidhi.PNG",
-        "/images/ved_vidhi_2BHK(1).PNG",
-        "/images/ved_vidhi_2BHK(2).PNG",
-        "/images/ved_vidhi_3BHK(3).PNG",
-        "/images/ved_vidhi_3BHK(4).PNG"
+        "/images/CrownCity.PNG",
+        "/images/CrownCity2.PNG",
+        "/images/CrownCity3.PNG",
+        "/images/CrownCity4.PNG"
       ],
-      "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
-      "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
+      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
+      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "whatsapp": "9096076177"
+      
     },
     {
       "id": 4,
@@ -126,19 +127,20 @@
     },
     {
       "id": 8,
-      "title": "Crown City, Nagpur",
-      "location": "Near Dudhala, Nagpur",
-      "area": "950-5000 sqft",
-      "price": "₹ 600/sq.ft",
-      "type": "Plots",
+      "title": "Ved Vidhi 3BHK",
+      "location": "Besa Pipla, Nagpur, 440015",
+      "area": "1811 sq.ft (3BHK)",
+      "price": "₹ 80L",
+      "type": "3BHK Flats",
       "images": [
-        "/images/CrownCity.PNG",
-        "/images/CrownCity2.PNG",
-        "/images/CrownCity3.PNG",
-        "/images/CrownCity4.PNG"
+        "/images/ved_vidhi.PNG",
+        "/images/ved_vidhi_2BHK(1).PNG",
+        "/images/ved_vidhi_2BHK(2).PNG",
+        "/images/ved_vidhi_3BHK(3).PNG",
+        "/images/ved_vidhi_3BHK(4).PNG"
       ],
-      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
-      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
+      "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
+      "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "whatsapp": "9096076177"
     },
     {

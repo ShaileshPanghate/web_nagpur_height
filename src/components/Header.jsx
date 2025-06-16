@@ -35,30 +35,14 @@ const Header = () => {
             >
               Buy
             </Link>
-            {/* <Link 
-              href="/rent" 
-              className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Rent
-            </Link>
-            <Link 
-              href="/commercial" 
-              className={`${isActive('/commercial') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Commercial
-            </Link> */}
+           
             <Link 
               href="/property" 
               className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
             >
               Properties
             </Link>
-            {/* <Link 
-              href="/agents" 
-              className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Agents
-            </Link> */}
+           
             <Link 
               href="/about" 
               className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
@@ -73,20 +57,11 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* Auth Buttons */}
-          {/* <div className="hidden md:flex space-x-4">
-            <button className="px-4 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50">
-              Login
-            </button>
-            <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-              Register
-            </button>
-          </div> */}
-
+          
           {/* Mobile menu button */}
           <button
             className="md:hidden text-gray-600 focus:outline-none"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => setIsMenuOpen(!isMenuOpen)} title="menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -105,20 +80,7 @@ const Header = () => {
               >
                 Buy
               </Link>
-              {/* <Link 
-                href="/rent" 
-                className={`${isActive('/rent') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Rent
-              </Link>
-              <Link 
-                href="/commercial" 
-                className={`${isActive('/commercial') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Commercial
-              </Link> */}
+             
               <Link 
                 href="/property" 
                 className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
@@ -126,13 +88,7 @@ const Header = () => {
               >
                 Properties
               </Link>
-              {/* <Link 
-                href="/agents" 
-                className={`${isActive('/agents') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Agents
-              </Link> */}
+             
               <Link 
                 href="/about" 
                 className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
@@ -148,14 +104,7 @@ const Header = () => {
                 Contact
               </Link>
             </div>
-            {/* <div className="mt-4 pt-4 border-t border-gray-200 flex space-x-4">
-              <button className="px-4 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50">
-                Login
-              </button>
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                Register
-              </button>
-            </div> */}
+            
           </div>
         )}
       </div>

@@ -17,14 +17,7 @@ const Contact = () => {
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
-    // {
-    //   id: 2,
-    //   name: 'West Nagpur Branch',
-    //   address: '45 Pratap Nagar, Nagpur - 440022',
-    //   phone: '+91 712 2654322',
-    //   email: 'west@nagpurheights.com',
-    //   hours: 'Mon-Sat: 10:00 AM - 6:00 PM'
-    // }
+   
   ];
 
   return (
@@ -33,7 +26,7 @@ const Contact = () => {
       <WhatsApp />
       <main className="pt-14 pb-12 bg-white">
         {/* Hero Section */}
-        <section className="relative h-96  text-white">
+        <section className="relative h-64  text-white">
           <Image
             src="/images/back22.jpg"
             alt="Nagpur skyline"
