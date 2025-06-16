@@ -21,6 +21,17 @@ export async function generateMetadata() {
       'sell flat Nagpur',
       'Nagpur Heights',
     ],
+    robots: {
+      index: true,
+      follow: true,
+    },
+    openGraph: {
+      title: ` Real Estate Services `,
+      description: `Buy, Sell, or Rent Real Estate Browse details, prices, and photos.`,
+      siteName: 'Nagpur Heights',
+      type: 'website',
+    }
+    
   };
 }
 const Property = () => {

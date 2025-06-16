@@ -26,6 +26,16 @@ export const metadata = {
     'sell flat Nagpur',
     'Nagpur Heights',
   ],
+  robots: {
+  index: true,
+  follow: true,
+},
+openGraph: {
+  title: ` Real Estate Services `,
+  description: `Buy, Sell, or Rent Real Estate Browse details, prices, and photos.`,
+  siteName: 'Nagpur Heights',
+  type: 'website',
+},
   icons: {
     icon: "/favicon.ico", // ✅ relative to /public
   },

@@ -24,6 +24,18 @@ export async function generateMetadata({ params }) {
       property.location,
       'Nagpur Heights',
     ],
+    openGraph: {
+      title: `${property.title} |  Real Estate Services`,
+      description: `Buy, sell, or rent real estate at ${property.location}. Browse details, prices, and photos.`,
+      url: url,
+      siteName: 'Nagpur Heights',
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    type: 'website',
+    
   };
 }
 
