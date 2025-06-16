@@ -11,8 +11,19 @@ export async function generateMetadata({ params }) {
   const property = Properties.find(prop => prop.id === Number(id));
 
   return {
-    title: property ? property.title + ' | Property in Nagpur | NAGPUR HEIGHTS' : 'Property Not Found',
+    title: property ? property.title + ' | Buy, Sell & Rent Real estate properties in Nagpur  | NAGPUR HEIGHTS' : 'Property Not Found',
     description: property ? `Details of ${property.title} located at ${property.location}` : 'No details available',
+    keywords: [
+      property.title,
+      'Nagpur real estate',
+      'property for sale in Nagpur',
+      'buy plots Nagpur',
+      'sell plots Nagpur',
+      'buy flat Nagpur',
+      'sell flat Nagpur',
+      property.location,
+      'Nagpur Heights',
+    ],
   };
 }
 
