@@ -6,11 +6,13 @@ import ImageGallery from "@/components/ImageGallery"; // import client component
 import dynamic from 'next/dynamic';
 import WhatsApp_button from "@/components/WhatsApp_button";
 
-export async function generateMetadata({ params }) {
-  const { id } = params;
-  const property = Properties.find(prop => prop.id === Number(id));
 
-  const url = `https://yourdomain.com/property/${id}`;
+export async function generateMetadata({ params }) {
+  const id = Number(params.slug.split('-')[0]);
+  const property = Properties.find(prop => prop.id === id);
+
+
+  const url = `https://yourdomain.com/property/${params.slug}`;
 
   return {
     title: property ? property.title + ' | Buy, Sell & Rent Real estate properties in Nagpur  | NAGPUR HEIGHTS' : 'Property Not Found',
@@ -42,10 +44,10 @@ export async function generateMetadata({ params }) {
 }
 
 export default function PropertyDetails({ params }) {
-  // const unwrappedParams = use(params);
-  const { id } = params;
-
-  const property = Properties.find(prop => prop.id === Number(id));
+  
+  const id = Number(params.slug.split('-')[0]);
+  const property = Properties.find(p => p.id === id);
+  
 
   if (!property) {
     return (
@@ -63,7 +65,7 @@ export default function PropertyDetails({ params }) {
     <>
       <Header />
       <WhatsApp />
-      <main className="max-w-7xl mx-auto  pt-34 px-4 pb-12 bg-white">
+      <main className="max-w-7xl mx-auto pt-32 px-4 pb-12 bg-white">
         {/* Property Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800">{property.title}</h1>
