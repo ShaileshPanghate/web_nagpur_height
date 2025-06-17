@@ -2,6 +2,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import React from 'react';
 import { FaChartLine, FaMoneyBillWave, FaBuilding, FaHome } from 'react-icons/fa';
+import Link from 'next/link';
 
 const InvestmentHotspotNagpur = () => {
     // Top investment localities data
@@ -119,9 +120,11 @@ const InvestmentHotspotNagpur = () => {
                                     <p className="mt-4 text-gray-600">{area.description}</p>
 
                                     <div className="mt-6">
+                                        <Link href={`/property/`} passHref>
                                         <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
                                             View Properties
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
