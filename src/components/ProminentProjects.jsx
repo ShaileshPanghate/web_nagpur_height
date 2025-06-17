@@ -1,58 +1,23 @@
 "use client"
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Properties } from '../data/properties.json';
+import Link from 'next/link';
 
 const ProminentProjects = () => {
-  const projects = [
-    {
-      id: 1,
-      name: "Aarambh",
-      area: "1500 sqft",
-      price: "₹59.0 Lac",
-      location: "Jamtha, Nagpur",
-      bhk: "3 BHK Apartment",
-      image: "/images/Jamtha3BHK.jpeg"
-    },
-    {
-      id: 2,
-      name: "Golden Vista",
-      area: "1650 sqft",
-      price: "₹67.3 Lac",
-      location: "Chinch Bhawan, Nagpur, Maharashtra",
-      bhk: "3 BHK Apartment",
-      image: "/images/ChinchBhawan.jpeg"
-    },
-    {
-      id: 3,
-      name: "Jaitala, Nagpur",
-      area: "1381 sqft",
-      price: "₹51.1 Lac",
-      location: "Jaitala, Nagpur",
-      bhk: "3 BHK Apartments",
-      image: "/images/Jaitala.jpeg"
-    },
-    {
-      id: 4,
-      name: "Royal Gardens",
-      area: "1633 sqft",
-      price: "₹73.5 Lac",
-      location: "Bell Tarodi, Nagpur",
-      bhk: "3 BHK Luxury Apartments",
-      image: "/images/BellTarodi.jpeg"
-    }
-  ];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === projects.length - 1 ? 0 : prevIndex + 1
+      prevIndex === Properties.slice(0, 4).length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+      prevIndex === 0 ? Properties.slice(0, 4).length - 1 : prevIndex - 1
     );
   };
 
@@ -73,26 +38,26 @@ const ProminentProjects = () => {
               animate={{ x: `-${currentIndex * 100}%` }}
               transition={{ duration: 0.5 }}
             >
-              {projects.map((project) => (
-                <div key={project.id} className="w-full flex-shrink-0 px-4">
+              {Properties.slice(0, 4).map((property) => (
+                <div key={property.id} className="w-full flex-shrink-0 px-4">
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-blue-100">
                     <div className="md:flex">
                       <div className="md:w-1/2 h-64 md:h-auto">
                         <img
                           loading="lazy"
-                          src={project.image}
-                          alt={project.name}
+                          src={property.images[0]}
+                          alt={property.name}
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <div className="md:w-1/2 p-6">
                         <div className="flex justify-between items-start">
                           <div>
-                            <h3 className="text-2xl font-bold text-blue-800">{project.name}</h3>
-                            <p className="text-blue-600 mb-2"> {project.area}</p>
+                            <h3 className="text-2xl font-bold text-blue-800">{property.title}</h3>
+                            <p className="text-blue-600 mb-2"> {property.area}</p>
                           </div>
                           <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                            {project.bhk}
+                            {property.type}
                           </span>
                         </div>
 
@@ -102,18 +67,28 @@ const ProminentProjects = () => {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
-                            <p className="text-gray-600">{project.location}</p>
+                            <p className="text-gray-600">{property.location}</p>
                           </div>
 
                           <div className="bg-blue-50 p-3 rounded-lg">
                             <p className="text-sm text-blue-600 font-medium mb-1">Price</p>
-                            <p className="text-xl font-bold text-blue-800">{project.price}</p>
+                            <p className="text-xl font-bold text-blue-800">{property.price}</p>
                           </div>
                         </div>
+                        {property.description && (
+                          <div className="bg-white rounded-xl shadow-md p-6 my-4 w-full md:w-[40px] lg:w-[380px]">
+                            <h2 className="text-2xl font-semibold text-gray-800 mb-2">About {property.title}</h2>
+                            <p className="text-gray-700">
+                              {property.description.split(" ").slice(0, 10).join(" ")}...
+                            </p>
+                          </div>
+                        )}
 
-                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
-                          View Project Details
-                        </button>
+                        <Link href={`/property/${property.id}`} passHref>
+                          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
+                            View Project Details
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -144,7 +119,7 @@ const ProminentProjects = () => {
 
           {/* Indicators */}
           <div className="flex justify-center mt-8 space-x-3">
-            {projects.map((_, index) => (
+            {Properties.slice(0, 4).map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}

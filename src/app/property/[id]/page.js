@@ -10,6 +10,8 @@ export async function generateMetadata({ params }) {
   const { id } = params;
   const property = Properties.find(prop => prop.id === Number(id));
 
+  const url = `https://yourdomain.com/property/${id}`;
+
   return {
     title: property ? property.title + ' | Buy, Sell & Rent Real estate properties in Nagpur  | NAGPUR HEIGHTS' : 'Property Not Found',
     description: property ? `Details of ${property.title} located at ${property.location}` : 'No details available',
@@ -27,15 +29,15 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${property.title} |  Real Estate Services`,
       description: `Buy, sell, or rent real estate at ${property.location}. Browse details, prices, and photos.`,
-      url: url,
       siteName: 'Nagpur Heights',
+      url: url
     },
     robots: {
       index: true,
       follow: true,
     },
     type: 'website',
-    
+
   };
 }
 
@@ -61,7 +63,7 @@ export default function PropertyDetails({ params }) {
     <>
       <Header />
       <WhatsApp />
-      <main className="max-w-6xl mx-auto  pt-34 px-4 pb-12 bg-white">
+      <main className="max-w-7xl mx-auto  pt-34 px-4 pb-12 bg-white">
         {/* Property Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800">{property.title}</h1>
@@ -69,16 +71,16 @@ export default function PropertyDetails({ params }) {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           {/* Left Column - Image Gallery */}
-          <div className="lg:col-span-2">
-          <ImageGallery images={property.images} title={property.title} />
+          <div className="lg:col-span-3">
+            <ImageGallery images={property.images} title={property.title} />
 
 
             {/* Amenities Section */}
             {property.amenities && (
               <div className="mt-8 bg-white rounded-xl shadow-md p-6">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4">Amenities</h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4">Amenities in {property.title}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {property.amenities.split(', ').map((amenity, index) => (
                     <div key={index} className="flex items-start">
@@ -94,7 +96,7 @@ export default function PropertyDetails({ params }) {
           </div>
 
           {/* Right Column - Details */}
-          <div className="space-y-6">
+          <div className="lg:col-span-2 space-y-6">
             {/* Key Details Card */}
             <div className="bg-white rounded-xl shadow-md p-6">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Property Details</h2>
@@ -116,13 +118,20 @@ export default function PropertyDetails({ params }) {
                 </div>
 
                 {/* Contact Button */}
-                <WhatsApp_button number={property.whatsapp} /> 
+                <WhatsApp_button number={property.whatsapp} />
               </div>
             </div>
 
+            {/* Property Description */}
+            {property.description && (
+             <div className="bg-white rounded-xl shadow-md p-6">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-2">About {property.title}</h2>
+                <p className="text-gray-700">{property.description}</p>
+              </div>
+            )}
             {/* Additional Information */}
             {property.info && (
-              <div className="bg-white rounded-xl shadow-md p-6 w-full md:w-[400px] lg:w-[500px]">
+              <div className="bg-white rounded-xl shadow-md p-6">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Additional Information</h2>
                 <ul className="space-y-2 text-gray-700">
                   {property.info.split(', ').map((item, index) => (
