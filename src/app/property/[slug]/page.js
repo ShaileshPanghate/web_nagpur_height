@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import WhatsApp from "@/components/WhatsApp";
 import { Properties } from '../../../data/properties.json';
 import ImageGallery from "@/components/ImageGallery"; // import client component
-import dynamic from 'next/dynamic';
 import WhatsApp_button from "@/components/WhatsApp_button";
 
 
@@ -12,7 +11,7 @@ export async function generateMetadata({ params }) {
   const property = Properties.find(prop => prop.id === id);
 
 
-  const url = `https://yourdomain.com/property/${params.slug}`;
+  const url = `http://nagpurheights.com/property/${params.slug}`;
 
   return {
     title: property ? property.title + ' | Buy, Sell & Rent Real estate properties in Nagpur  | NAGPUR HEIGHTS' : 'Property Not Found',
