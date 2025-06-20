@@ -6,6 +6,7 @@ import AdviceToolsSection from '../components/AdviceToolsSection';
 import ProminentProjects from '@/components/ProminentProjects';
 import WhatsApp from '@/components/WhatsApp';
 import { Properties } from '../data/properties.json';
+import WhyChooseUs from '@/components/WhyChooseUs';
 
 const Home = () => {
 
@@ -91,6 +92,7 @@ const Home = () => {
       {/* Tools section */}
       <div>
         <AdviceToolsSection />
+        <WhyChooseUs />
       </div>
 
       <Footer />

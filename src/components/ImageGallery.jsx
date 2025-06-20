@@ -15,6 +15,7 @@ export default function ImageGallery({ images, title }) {
           alt={title}
           className="w-full h-96 object-cover transition-all duration-500 ease-in-out rounded-xl"
         />
+        {/* make css - object-contain to make img looks good */}
       </div>
 
       {/* Thumbnails */}

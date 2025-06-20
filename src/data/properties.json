@@ -14,6 +14,8 @@
         "/images/arhaEnclave_3BHK(3).PNG",
         "/images/arhaEnclave_3BHK(4).PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "CCTV Security, Alloted Parking, Visitors Parking, Rain water Harvesting, Solar System for common usage, EV Charging Socket, ",
       "info": "Lift, Semi Modular Kitchen, PoP, Main Door 8ft height, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Arha Enclave offers luxurious 3BHK flats located in the prime area of Narendra Nagar, Nagpur. With spacious interiors, top-notch amenities, and easy accessibility to schools, hospitals, and markets, it is an ideal choice for modern families.",
@@ -31,6 +33,8 @@
         "/images/MadhuraHomes2.jpeg",
         "/images/MadhuraHomes3.jpeg"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Open Gym, CCTV Security, Alloted Parking, Visitors Parking, Children play area, Jogging Track, Rain water Harvesting,",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings, Airport in 10mins, Highway in 5min, Shopping malls & mart in 5mins ",
       "description": "",
@@ -50,6 +54,8 @@
         "/images/Infinia4.PNG",
         "/images/Infinia5.PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": " Club Infinia Lobby, Swimming Pool / Kids Pool, Soothing Spa, Steam & Sauna, Kids Play Area, Jogging Track, Hi-Tech Gymnasium , Indoor Sports Arena, Badminton Court, Dance & Aerobic Room, Pool Side Cafe, Crèche, Banquet Hall,  Green Party Lawn, Multipurpose Court, Barbeque Area, Mini-Theatre, Turf (Net Cricket & Football), Court (Badminton & Tennis & Basketball ), Open Air Gym, Kids Play Area, Pergola & Seating, Yoga Area, Walking & Cycling Track, Skating Zone, Mound Sculpture ",
       "info": "60000 sq.ft Infinia Forest Garden, 44000 sq.ft Infinia Sports Center, 65000 sq.ft Club Infinia,  Mohgaon Bus stand - 300 mtr, Proposed Metro station - 500 mtr, NH7 Nagpur -Hydrabad Highway - 500 mtr, Buttibori Railway Staion - 6.5 km, Samruddhi Highway - 7 km, NH6 -Nagpur -Kolkatta highway - 8 km, Airport - 16 km ",
       "description": "Infinia City, located in Mohgaon, Nagpur, offers premium villa plots ranging from 1000 to 5000 sq.ft. This well-connected township near Wardha Road features 40+ world-class amenities including Club Infinia, swimming pool, gym, banquet, and more. Surrounded by nature and close to NH7, metro, airport, and bus stand, it’s perfect for modern living and investment. Enjoy a peaceful lifestyle with urban convenience just minutes away.",
@@ -68,6 +74,8 @@
         "/images/CrownCity3.PNG",
         "/images/CrownCity4.PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Crown City offers premium residential plots ranging from 950 to 5000 sq.ft near Dudhala, Nagpur. Designed with modern urban living in mind, the township features a clubhouse, indoor games, commercial shops, and more. Whether you're looking to build your dream home or make a smart investment, Crown City provides an ideal blend of space, amenities, and future potential in a well-connected locality.",
@@ -87,6 +95,8 @@
         "/images/sai_residency3BHK(3).PNG",
         "/images/sai_residency3BHK(4).PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, EV Charging Point, Car Wash Area, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Earthquake resistant RCC Frame structure, 8ft height Main Door, Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar/Cera Premium Fittings, Poly Cab wirings",
       "description": "Sai Residency presents luxurious 3BHK flats in the serene neighborhood of New Beedipeth Nagar, Nagpur. With 1208 sq.ft of thoughtfully designed living space and premium features like 8ft main doors, branded fittings, and Poly Cab wiring, these homes redefine modern comfort. The project is packed with lifestyle amenities including a swimming pool, gym, EV charging station, and children's play area—perfect for families seeking quality and convenience.",
@@ -94,43 +104,6 @@
     },
     {
       "id": 6,
-      "title": "Meher Ganga",
-      "location": "New Narendra Nagar, Nagpur",
-      "area": "1500 sq.ft (3BHK)",
-      "price": "₹ 80L",
-      "type": "Flats",
-      "images": [
-        "/images/meher.jpg",
-        "/images/Meher2.jpg",
-        "/images/Meher3.jpg"
-      ],
-      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
-      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
-      "description": "Experience elevated living at Meher Ganga, a premium residential development offering 1500 sq.ft 3BHK flats in the well-connected locality of New Narendra Nagar, Nagpur. Priced at just ₹80 Lakhs, these elegant homes combine luxury, comfort, and convenience with an impressive list of amenities.",
-      "whatsapp": "9096076177"
-    },
-   
-    {
-      "id": 7,
-      "title": "Suraburdi Backyard",
-      "location": "Suraburdi Backyard, Drugdhamna, Nagpur, 440023",
-      "area": "1100-5500 sq.ft",
-      "price": "₹",
-      "type": "Plots",
-      "images": [
-        "/images/InvestNagpur.PNG",
-        "/images/InvestNagpur1.PNG",
-        "/images/InvestNagpur2.PNG",
-        "/images/InvestNagpur3.PNG",
-        "/images/InvestNagpur4.PNG"       
-      ],
-      "amenities": "Concrete Roads, Street Lights, Kids Play Area, Amphitheater, Open Gym, Yoga Place, Multipurpose Play Area, Shaded Sit Out, Sand Play Area, Walking & Jogging Track, Multi Activity Lawn, Gazebos, Ecological Plantation",
-      "info": "Outer Ring road Connectivity, Freedom to Build, Electricity & Water Supply, Permissible FSI, Green Spaces, STP, Boom Barriers, 10 min Drive from Ravi Nagar, 2.5 km from Amravati Highway, 2.5 km from Ordnance Factory, 7 km from MIDC, 16 km from Railway Station, 15 km from Zero Mile",
-      "description": "Discover a serene lifestyle at Suraburdi Backyard, located in Drugdhamna, Nagpur. These spacious NA plots range from 1100 to 5500 sq.ft, offering the freedom to build your dream home amid green surroundings. Strategically connected to the Outer Ring Road, this project offers seamless access to key destinations like Ravi Nagar (10 mins), Amravati Highway (2.5 km), and Nagpur Railway Station (16 km).",
-      "whatsapp": "9096076177"      
-    },
-    {
-      "id": 8,
       "title": "Ved Vidhi 3BHK",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
@@ -143,10 +116,54 @@
         "/images/ved_vidhi_3BHK(3).PNG",
         "/images/ved_vidhi_3BHK(4).PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
       "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "description": "Live modern at Ved Vidhi, located in the rapidly developing neighborhood of Besa Pipla, Nagpur. These expansive 3BHK flats span 1811 sq.ft and are priced at ₹80 Lakhs, offering you a perfect blend of luxury, security, and green living with unmatched amenities.",
       "whatsapp": "9096076177"
+      
+    },
+   
+    {
+      "id": 7,
+      "title": "Meher Ganga",
+      "location": "New Narendra Nagar, Nagpur",
+      "area": "1500 sq.ft (3BHK)",
+      "price": "₹ 80L",
+      "type": "Flats",
+      "images": [
+        "/images/meher.jpg",
+        "/images/Meher2.jpg",
+        "/images/Meher3.jpg"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
+      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
+      "description": "Experience elevated living at Meher Ganga, a premium residential development offering 1500 sq.ft 3BHK flats in the well-connected locality of New Narendra Nagar, Nagpur. Priced at just ₹80 Lakhs, these elegant homes combine luxury, comfort, and convenience with an impressive list of amenities.",
+      "whatsapp": "9096076177"  
+    },
+    {
+      "id": 8,
+      "title": "Suraburdi Backyard",
+      "location": "Suraburdi Backyard, Drugdhamna, Nagpur, 440023",
+      "area": "1100-5500 sq.ft",
+      "price": "₹",
+      "type": "Plots",
+      "images": [
+        "/images/InvestNagpur.PNG",
+        "/images/InvestNagpur1.PNG",
+        "/images/InvestNagpur2.PNG",
+        "/images/InvestNagpur3.PNG",
+        "/images/InvestNagpur4.PNG"       
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "amenities": "Concrete Roads, Street Lights, Kids Play Area, Amphitheater, Open Gym, Yoga Place, Multipurpose Play Area, Shaded Sit Out, Sand Play Area, Walking & Jogging Track, Multi Activity Lawn, Gazebos, Ecological Plantation",
+      "info": "Outer Ring road Connectivity, Freedom to Build, Electricity & Water Supply, Permissible FSI, Green Spaces, STP, Boom Barriers, 10 min Drive from Ravi Nagar, 2.5 km from Amravati Highway, 2.5 km from Ordnance Factory, 7 km from MIDC, 16 km from Railway Station, 15 km from Zero Mile",
+      "description": "Discover a serene lifestyle at Suraburdi Backyard, located in Drugdhamna, Nagpur. These spacious NA plots range from 1100 to 5500 sq.ft, offering the freedom to build your dream home amid green surroundings. Strategically connected to the Outer Ring Road, this project offers seamless access to key destinations like Ravi Nagar (10 mins), Amravati Highway (2.5 km), and Nagpur Railway Station (16 km).",
+      "whatsapp": "9096076177"  
     },
     {
       "id": 9,
@@ -161,6 +178,8 @@
         "/images/Vyankateshwara3.jpeg",
         "/images/Vyankateshwara4.jpeg"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Step into a beautifully crafted 4BHK villa in Vyankateshwara Kalash, Hingna, Nagpur. Spread across 1900 sq.ft, this spacious home is thoughtfully designed with luxury features, ideal for families seeking peaceful yet connected living. Priced at just ₹55.5 Lakhs, this villa blends modern design with top-tier amenities.",
@@ -180,6 +199,8 @@
         "/images/ved_vidhi_2BHK(3).PNG",
         "/images/ved_vidhi_2BHK(4).PNG"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
       "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "description": "Ved Vidhi offers premium 2BHK flats in the rapidly developing locality of Besa Pipla, Nagpur. Spanning 1316 sq.ft, these spacious homes are designed for comfort and functionality. The project features a wide range of modern amenities including a swimming pool, gym, EV charging, and a creche, making it ideal for families seeking a well-connected yet peaceful living experience.",
@@ -198,6 +219,8 @@
         "/images/ChinchBhawan3.jpeg",
         "/images/ChinchBhawan4.jpeg"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Experience refined living at Golden Vista, a premium 3BHK apartment project located in the well-connected locality of Chinch Bhawan, Nagpur. Spread across 1650 sq.ft and priced at ₹67.3 Lakhs, this residence combines elegance, amenities, and modern comfort for today’s urban family.",
@@ -216,6 +239,8 @@
         "/images/Jaitala3.jpeg",
         "/images/Jaitala4.jpeg"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Own a beautiful 3BHK apartment in Jaitala, one of Nagpur’s fastest-growing residential zones. These well-designed flats offer 1381 sq.ft of space at a budget-friendly price of ₹51.1 Lakhs, making them an ideal choice for first-time homeowners or investors.",
@@ -234,6 +259,8 @@
         "/images/BellTarodi3.jpeg",
         "/images/BellTarodi4.jpeg"
       ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "10000 sqft podium Garden, Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
       "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
       "description": "Step into a lifestyle of elegance at Royal Gardens, offering exquisitely designed 3BHK luxury apartments in the serene and green surroundings of Bell Tarodi, Nagpur. Spanning 1633 sq.ft and priced at ₹73.5 Lakhs, this property is a blend of architectural sophistication and everyday comfort.",
