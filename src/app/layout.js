@@ -40,14 +40,14 @@ openGraph: {
   icons: {
     icon: "/favicon.ico", // ✅ relative to /public
   },
+  verification: {
+    google: "ecL8bEp9i-oph2bx8q_qNyFMMy5DrwI6uF0zJS0qT2o", // ✅ This is the proper place
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="google-site-verification" content="ecL8bEp9i-oph2bx8q_qNyFMMy5DrwI6uF0zJS0qT2o" />
-      </Head>
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
