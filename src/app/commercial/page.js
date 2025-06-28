@@ -7,8 +7,17 @@ import React from 'react';
 const Commercial = () => {
   return (
     <>
-    <Header />
-    <div
+      <Header />
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
+      <div
         className="relative py-16 mt-16 " // 90% opacity blue overlay
         style={{
           backgroundImage: "url('./images/back22.jpg')",
@@ -27,13 +36,13 @@ const Commercial = () => {
         </div>
       </div>
 
-        <div>
-          <AdviceToolsSection />
-        </div>
+      <div>
+        <AdviceToolsSection />
+      </div>
 
-    <Footer />
+      <Footer />
     </>
-    );
+  );
 }
 
 export default Commercial;

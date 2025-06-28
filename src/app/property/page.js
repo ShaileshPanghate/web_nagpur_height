@@ -37,6 +37,15 @@ export async function generateMetadata() {
 const Property = () => {
   return (
     <div className="min-h-screen bg-gray-100">
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
       <Header />
       <WhatsApp />
 

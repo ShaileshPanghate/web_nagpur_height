@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 // import RealEstateLoader from '@/components/RouteLoader';
 import SearchFilters from '@/components/SearchFilters';
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
 const Rent = () => {
   const rentalProperties = [
@@ -77,10 +77,19 @@ const Rent = () => {
   ];
 
 
- 
+
 
   return (
     <>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
       <Header />
       <div
         className="relative py-16 mt-16 " // 90% opacity blue overlay

@@ -37,7 +37,7 @@ const RatesTrendsNagpur = () => {
     // Simulate API fetch
     const fetchData = async () => {
       setLoading(true);
-      
+
       // Mock data for different time periods
       const mockData = {
         residential: {
@@ -143,7 +143,7 @@ const RatesTrendsNagpur = () => {
           }
         }
       };
-      
+
       setTimeout(() => {
         setMarketData(mockData);
         setLoading(false);
@@ -262,12 +262,21 @@ const RatesTrendsNagpur = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
       <Header />
-      
+
       <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10">
         <div className="bg-white rounded-xl shadow-md p-6">
           <h2 className="text-2xl font-bold mb-6">Nagpur Real Estate Rates & Trends</h2>
-          
+
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
             <div className="flex space-x-2 mb-4 md:mb-0">
               <button
@@ -289,7 +298,7 @@ const RatesTrendsNagpur = () => {
                 Rental
               </button>
             </div>
-            
+
             <div className="flex space-x-2">
               <button
                 onClick={() => setTimePeriod('3m')}
@@ -317,17 +326,17 @@ const RatesTrendsNagpur = () => {
               </button>
             </div>
           </div>
-          
+
           {renderStats()}
-          
+
           <div className="h-96">
             {renderChart()}
           </div>
-          
+
           {renderHotspots()}
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );

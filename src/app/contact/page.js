@@ -17,11 +17,20 @@ const Contact = () => {
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
-   
+
   ];
 
   return (
     <div>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
       <Header />
       <WhatsApp />
       <main className="pt-14 pb-12 bg-white">

@@ -48,7 +48,7 @@ export async function generateMetadata({ params }) {
 export default function PropertyDetails({ params }) {
   const id = Number(params.slug.split('-')[0]);
   const property = Properties.find(p => p.id === id);
-  
+
   const breadcrumbs = [
     { label: 'Home', href: '/' },
     { label: 'Properties in Nagpur', href: '/property' },
@@ -69,10 +69,19 @@ export default function PropertyDetails({ params }) {
 
   return (
     <>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMRPX5VY37');
+      </script>
       <Header />
       <WhatsApp />
       <main className="max-w-7xl mx-auto pt-32 px-4 pb-12 bg-white">
-        <Breadcrumbs  items={breadcrumbs} />
+        <Breadcrumbs items={breadcrumbs} />
         {/* Property Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800">{property.title}</h1>
@@ -104,7 +113,7 @@ export default function PropertyDetails({ params }) {
                         <strong>{phase} Phase</strong> is New Launch
                       </p>
                       <p className="text-sm text-gray-500">
-                         {property.Completion_Date_of_phases[index]}
+                        {property.Completion_Date_of_phases[index]}
                       </p>
                     </div>
                   </div>

@@ -77,6 +77,15 @@ const InvestmentHotspotNagpur = () => {
 
     return (
         <>
+            {/* <!-- Google tag (gtag.js) --> */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date());
+
+                gtag('config', 'G-QMRPX5VY37');
+            </script>
             <Header />
             <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 pt-24 pb-12 mt-10">
                 <div className="max-w-7xl mx-auto ">
@@ -121,9 +130,9 @@ const InvestmentHotspotNagpur = () => {
 
                                     <div className="mt-6">
                                         <Link href={`/property/`} passHref>
-                                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
-                                            View Properties
-                                        </button>
+                                            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                                                View Properties
+                                            </button>
                                         </Link>
                                     </div>
                                 </div>
