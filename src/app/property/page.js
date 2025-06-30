@@ -6,6 +6,7 @@ import Link from 'next/link';
 import AdviceToolsSection from '@/components/AdviceToolsSection';
 import WhatsApp from '@/components/WhatsApp';
 import { Properties } from '../../data/properties.json';
+import Script from "next/script";
 
 export async function generateMetadata() {
   return {
@@ -39,13 +40,14 @@ const Property = () => {
     <div className="min-h-screen bg-gray-100">
       {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QMRPX5VY37');
-      </script>
+     <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QMRPX5VY37');
+          `}
+        </Script>
       <Header />
       <WhatsApp />
 

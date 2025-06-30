@@ -7,20 +7,22 @@ import ProminentProjects from '@/components/ProminentProjects';
 import WhatsApp from '@/components/WhatsApp';
 import { Properties } from '../data/properties.json';
 import WhyChooseUs from '@/components/WhyChooseUs';
+import Script from "next/script";
 
 const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 ">
       {/* <!-- Google tag (gtag.js) --> */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QMRPX5VY37');
-      </script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"  strategy="afterInteractive"></script>
+     <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QMRPX5VY37');
+          `}
+        </Script>
       <Header />
       <WhatsApp />
 

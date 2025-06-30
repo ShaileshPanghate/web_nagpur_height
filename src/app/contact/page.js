@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from '@/components/ContactForm';
 import WhatsApp from '@/components/WhatsApp';
+import Script from "next/script";
 
 const Contact = () => {
 
@@ -24,13 +25,14 @@ const Contact = () => {
     <div>
       {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QMRPX5VY37');
-      </script>
+      <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QMRPX5VY37');
+          `}
+        </Script>
       <Header />
       <WhatsApp />
       <main className="pt-14 pb-12 bg-white">

@@ -14,6 +14,7 @@ import {
 } from 'chart.js';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Script from "next/script";
 
 // Register ChartJS components
 ChartJS.register(
@@ -264,13 +265,14 @@ const RatesTrendsNagpur = () => {
     <div className="min-h-screen flex flex-col">
       {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QMRPX5VY37');
-      </script>
+     <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QMRPX5VY37');
+          `}
+        </Script>
       <Header />
 
       <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10">

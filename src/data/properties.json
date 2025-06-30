@@ -206,8 +206,28 @@
       "description": "Ved Vidhi offers premium 2BHK flats in the rapidly developing locality of Besa Pipla, Nagpur. Spanning 1316 sq.ft, these spacious homes are designed for comfort and functionality. The project features a wide range of modern amenities including a swimming pool, gym, EV charging, and a creche, making it ideal for families seeking a well-connected yet peaceful living experience.",
       "whatsapp": "9096076177"
     },
-    {
+     {
       "id": 11,
+      "title": "Mahalaxmi Nagar 41",
+      "location": "Mahalaxmi Nagar 41, Hingna, Nagpur, 441108",
+      "area": "1091-11625 sq.ft",
+      "price": "₹",
+      "type": "Plots",
+      "images": [
+        "/images/Mahalaxmi_Banner.png",
+        "/images/mahalaxmi3.png",
+        "/images/mahalaxmi4.png",
+        "/images/mahalaxmi5.png"     
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "amenities": "Reception, Admin office, Creche, Kids play area (indoor & outdoor), Air conditioned cafeterias , Open café, Amphitheater, Game zone (outdoor), Pickle ball, Basket ball, Double height indoor badminton court, Swimming pool, Baby pool, Water zumba, Water features (fountains), Landscaped areas, Multiple lawns, Game zone (indoor), Gymnasium, Yoga deck, Open terrace restaurant, Library, Card room  ",
+      "info": "Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, the upcoming Nagpur Mumbai Expressway,  schools and colleges like IIM NLU IIIT DPS, logistics parks, transport links like Nagpur Airport & Metro Station, big companies such as TCS, Infosys, Tech Mahindra, L&T, and Patanjali Food Park.",
+      "description": "Mahalaxmi Nagar 41 in Hingna, Nagpur is a premium plotted development project offering spacious plots ranging from 1091 to 11625 sq.ft. Located at Mahalaxmi Nagar 41, Hingna, Nagpur – 441108, this township is designed for comfort, convenience, and community living. Strategically located, Mahalaxmi Nagar 41 enjoys excellent connectivity via major roads such as Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, and the upcoming Nagpur Mumbai Expressway. It is surrounded by top schools and colleges like IIM NLU IIIT DPS and engineering institutions, as well as reputed hospitals like AIIMS and National Cancer Institute.",
+      "whatsapp": "9096076177"  
+    },
+    {
+      "id": 12,
       "title": "Golden Vista",
       "area": "1650 sqft",
       "price": "₹ 67.3L",
@@ -227,7 +247,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Jaitala, Nagpur",
       "area": "1381 sqft",
       "price": "₹ 51.1L",
@@ -247,7 +267,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "Royal Gardens",
       "area": "1633 sqft",
       "price": "₹ 73.5L",

@@ -6,10 +6,16 @@ import ImageGallery from "@/components/ImageGallery"; // import client component
 import WhatsApp_button from "@/components/WhatsApp_button";
 import { FaBuilding } from 'react-icons/fa';
 import Breadcrumbs from '@/components/Breadcrumbs';
-
+import Script from "next/script";
 
 
 export async function generateMetadata({ params }) {
+  if (!params?.slug) {
+    return {
+      title: 'Property Not Found',
+      description: 'No details available',
+    };
+  }
   const id = Number(params.slug.split('-')[0]);
   const property = Properties.find(prop => prop.id === id);
 
@@ -71,13 +77,14 @@ export default function PropertyDetails({ params }) {
     <>
       {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QMRPX5VY37');
-      </script>
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QMRPX5VY37');
+          `}
+      </Script>
       <Header />
       <WhatsApp />
       <main className="max-w-7xl mx-auto pt-32 px-4 pb-12 bg-white">

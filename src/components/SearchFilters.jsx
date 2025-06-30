@@ -21,7 +21,7 @@ const SearchFilters = () => {
 
         {/* Location Dropdown */}
         <div className="group relative">
-          <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
+          <label className=" text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
             {location}
             <svg className="w-4 h-4 ml-2 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -41,7 +41,7 @@ const SearchFilters = () => {
 
         {/* Property Type Dropdown */}
         <div className="group relative">
-          <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
+          <label className=" text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
             {propertyType}
             <svg className="w-4 h-4 ml-2 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -61,7 +61,7 @@ const SearchFilters = () => {
 
         {/* Budget Dropdown */}
         <div className="group relative">
-          <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
+          <label className=" text-sm font-medium text-gray-700 mb-1 flex items-center justify-between cursor-pointer">
             {budget}
             <svg className="w-4 h-4 ml-2 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
