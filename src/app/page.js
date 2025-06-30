@@ -42,7 +42,7 @@ const Home = () => {
             Find Your Dream Property in Nagpur
           </h1>
           <p className="text-xl md:text-2xl text-white">
-            Discover the best residential and commercial properties in Nagpur
+            Discover the Best Residential and Commercial Properties in Nagpur
           </p>
         </div>
 
