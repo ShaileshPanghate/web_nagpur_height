@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import React from 'react';
 import { FaChartLine, FaMoneyBillWave, FaBuilding, FaHome } from 'react-icons/fa';
 import Link from 'next/link';
+import Script from 'next/script';
 
 const InvestmentHotspotNagpur = () => {
     // Top investment localities data
@@ -79,13 +80,15 @@ const InvestmentHotspotNagpur = () => {
         <>
             {/* <!-- Google tag (gtag.js) --> */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-            <script>
+            <Script>
+                {`               
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)}
                 gtag('js', new Date());
 
                 gtag('config', 'G-QMRPX5VY37');
-            </script>
+                 `}
+            </Script>
             <Header />
             <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 pt-24 pb-12 mt-10">
                 <div className="max-w-7xl mx-auto ">
