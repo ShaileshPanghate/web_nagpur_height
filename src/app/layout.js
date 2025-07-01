@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Buy & Sell Real Estate in Nagpur | Nagpur Heights | 2BHK, 3BHK Flats",
+  title: "Properties in Nagpur | Nagpur Heights | 2BHK, 3BHK Flats",
   description: "Buy or sell flats, plots & commercial property in Nagpur. Explore verified listings in MIHAN, Wardha Road & more. Trusted builders, RERA projects & latest property trends. Start today!",
   keywords: [
     "Nagpur real estate",
