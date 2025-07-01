@@ -38,7 +38,8 @@ const Footer = () => {
                Near Bellari Restaurant,<br /> Nagpur - 440016<br />
               <br />
               Phone: +91 9096076177<br />
-              Email: nagpurheightsofficial@gmail.com
+              Email: nagpurheightsofficial@gmail.com<br/>
+              Instagram :<Link href='https://www.instagram.com/nagpurheights/' target='_blank'> nagpurheights</Link>
             </address>
           </div>
         </div>

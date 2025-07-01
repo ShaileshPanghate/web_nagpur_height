@@ -23,7 +23,7 @@ const ProminentProjects = () => {
     <section className="py-16 bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-2">Prominent Projects to Explore</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">Prominent Projects in Nagpur to Explore</h2>
           <p className="text-lg text-gray-600 mb-4">Best projects to look out for in Nagpur</p>
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
