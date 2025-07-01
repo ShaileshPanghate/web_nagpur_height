@@ -128,7 +128,7 @@ const Property = () => {
                   <p className="text-gray-600">{property.area}</p>
                   <p className="text-lg font-semibold text-blue-700 my-3">{property.price}</p>
 
-                  <Link href={`/property/${slug}`} passHref>
+                  <Link href={`/property/${property.id}-${slug}`} passHref>
                     <button className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors duration-300">
                       View Details
                     </button>
