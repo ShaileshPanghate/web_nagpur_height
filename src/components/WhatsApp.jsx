@@ -12,7 +12,7 @@ const WhatsApp = () => {
         <img
           src="/logos/WhatsApp.svg" // Put a WhatsApp logo in public folder
           alt="Chat on WhatsApp"
-          className="w-14 h-14  shadow-xl hover:scale-110 transition-transform duration-300"
+          className="w-14 h-14   hover:scale-110 transition-transform duration-300"
         />
         <span className="absolute -top-1 -right-1 bg-green-500 text-white text-xs px-1.5 py-0.5 rounded-full animate-bounce hidden group-hover:block">
           Hi 👋

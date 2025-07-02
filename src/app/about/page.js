@@ -139,17 +139,17 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-8 rounded-xl">
                 <p className="text-gray-600 italic mb-4">
-                  "Nagpur Heights helped me find my dream home in Dharampeth. Their attention to detail and market knowledge is unmatched."
+                  "Nagpur Heights helped me find my dream home in Omkar Nagar. Their attention to detail and market knowledge is unmatched."
                 </p>
                 <p className="font-bold text-black">- Anjali Mehta</p>
                 <p className="text-sm text-gray-500">Homeowner since 2024</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl">
                 <p className="text-gray-600 italic mb-4">
-                  "As an NRI, I needed trustworthy partners to manage my property investment. The team exceeded all expectations."
+                  "I needed trustworthy partners to manage my property investment. The team exceeded all expectations."
                 </p>
-                <p className="font-bold">- Rajiv Nair</p>
-                <p className="text-sm text-gray-500">Investor from Dubai</p>
+                <p className="font-bold">- Kaushal Banginwar</p>
+                <p className="text-sm text-gray-500">Investor from Yavtmal</p>
               </div>
             </div>
           </div>
