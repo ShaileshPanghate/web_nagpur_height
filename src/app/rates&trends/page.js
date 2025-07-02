@@ -262,7 +262,7 @@ const RatesTrendsNagpur = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white ">
       {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
      <Script id="gtag-init" strategy="afterInteractive">
@@ -275,7 +275,7 @@ const RatesTrendsNagpur = () => {
         </Script>
       <Header />
 
-      <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10">
+      <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10 font-black">
         <div className="bg-white rounded-xl shadow-md p-6">
           <h2 className="text-2xl font-bold mb-6">Nagpur Real Estate Rates & Trends</h2>
 

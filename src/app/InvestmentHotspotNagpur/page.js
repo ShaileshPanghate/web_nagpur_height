@@ -91,7 +91,7 @@ const InvestmentHotspotNagpur = () => {
             </Script>
             <Header />
             <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 pt-24 pb-12 mt-10">
-                <div className="max-w-7xl mx-auto ">
+                <div className="max-w-7xl mx-auto font-black">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                             Investment Hotspots in Nagpur

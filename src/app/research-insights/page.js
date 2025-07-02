@@ -83,7 +83,7 @@ const ResearchInsights = () => {
       <Header />
 
       <main className="pt-24 pb-12 mt-20 bg-gray-50 min-h-screen">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 font-black">
           {/* Page Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">Research Insights</h1>

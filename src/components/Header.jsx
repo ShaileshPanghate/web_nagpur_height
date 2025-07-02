@@ -42,7 +42,12 @@ const Header = () => {
             >
               Properties
             </Link>
-           
+           <Link 
+              href="/blogs" 
+              className={`${isActive('/blogs') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
+            >
+              Blogs
+            </Link>
             <Link 
               href="/about" 
               className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
@@ -55,12 +60,7 @@ const Header = () => {
             >
               Contact
             </Link>
-            <Link 
-              href="/blogs" 
-              className={`${isActive('/blogs') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Blogs
-            </Link>
+            
           </nav>
 
           
@@ -94,7 +94,12 @@ const Header = () => {
               >
                 Properties
               </Link>
-             
+              <Link 
+              href="/blogs" 
+              className={`${isActive('/blogs') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
+            >
+              Blogs
+            </Link>
               <Link 
                 href="/about" 
                 className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
