@@ -265,23 +265,7 @@ const ResearchInsights = () => {
             )}
           </div>
 
-          {/* Newsletter Subscription */}
-          <div className="mt-12 bg-blue-600 text-white rounded-xl shadow-md p-8">
-            <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-2xl font-bold mb-2">Stay Updated with Our Research</h2>
-              <p className="mb-6">Subscribe to receive monthly market insights and reports</p>
-              <div className="flex flex-col sm:flex-row gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className="flex-grow px-4 py-3 rounded-md text-gray-800 focus:outline-none"
-                />
-                <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </main>
 
