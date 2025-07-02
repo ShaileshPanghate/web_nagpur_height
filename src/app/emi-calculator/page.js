@@ -80,7 +80,7 @@ const EMICalculator = () => {
             </Script>
             <Header />
 
-            <main className="pt-24 pb-12 mt-20 bg-gray-50 min-h-screen">
+            <main className="pt-24 pb-12 mt-20 bg-white min-h-screen">
                 <div className="container mx-auto px-4 font-black">
                     {/* Page Header */}
                     <div className="text-center mb-12">
@@ -243,8 +243,8 @@ const EMICalculator = () => {
                     )}
 
                     {/* Information Section */}
-                    <div className="mt-12 bg-white rounded-xl shadow-md p-8">
-                        <h2 className="text-2xl font-bold mb-4">About Home Loan EMI</h2>
+                    <div className="mt-12 bg-white rounded-xl shadow-md p-8 text-black">
+                        <h2 className="text-2xl font-bold mb-4 text-black">About Home Loan EMI</h2>
                         <div className="prose max-w-none">
                             <p>
                                 An <strong>Equated Monthly Installment (EMI)</strong> is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month, so that over a specified number of years, the loan is paid off in full.
