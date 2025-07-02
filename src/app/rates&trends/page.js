@@ -275,7 +275,7 @@ const RatesTrendsNagpur = () => {
         </Script>
       <Header />
 
-      <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10 font-black">
+      <main className="flex-grow container mx-auto px-4 py-8 pt-14 pb-12 mt-10 text-black">
         <div className="bg-white rounded-xl shadow-md p-6">
           <h2 className="text-2xl font-bold mb-6">Nagpur Real Estate Rates & Trends</h2>
 
