@@ -362,8 +362,34 @@
       "description": "Discover your dream home at Narmada Residency, an exclusive residential project located in the well-connected and rapidly growing locality of Wanadongari, Nagpur. Offering thoughtfully designed 2BHK flats, this project is ideal for modern families seeking comfort, connectivity, and quality living.",
       "whatsapp": "9096076177"
     },
-    {
+     {
       "id": 14,
+      "title": "Balaji Heights, Nagpur",
+      "location": "Wanadongari, Nagpur, 440015",
+      "area": "816 Sq.Ft.  To 1327 Sq.Ft",
+      "price": "₹",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/Balaji1.png",
+        "/images/Balaji2.png",
+        "/images/Balaji3.png",
+        "/images/Balaji4.png",
+        "/images/Balaji5.png",
+        "/images/Balaji6.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Gym  Gazebo,  Club House, Yoga Centre, Indoor Games, Temple, Video Door Phone, CCTV Surveillance, 24/7 Security, EV Charging Station, Tree Plantation around premises, Guard Room, Branded Elevators, 24/7 Water Supply, Common Areas, Each tower features 2 Branded Lifts with backup",
+      "info": "RCC Framed Structure, Wallls - External:150mm,Laminated Door of 30mm panel with safety locking system, Vitrified tiles in 2X2 in all the rooms, Washbasin, Branded fittings and Standard sanitary ware, Glazed Ceramic Tiles dado abouve platform, 2 Elevetor, Rain water Harvesting",
+      "description": "Welcome to Balaji Heights, a modern residential township situated in the heart of Wanadongari, Nagpur (440015). Designed for comfort, convenience, and community living, this elegant project offers spacious 2BHK and 3BHK flats ranging from 816 Sq.Ft. to 1327 Sq.Ft., perfect for families who seek both serenity and urban connectivity.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 15,
       "title": "Mahalaxmi Nagar 41, Nagpur",
       "location": " Hingna, Nagpur, 441108",
       "area": "1091-11625 sq.ft",
@@ -391,7 +417,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Golden Vista, Nagpur",
       "area": "1650 sqft",
       "price": "₹ 67.3L",
@@ -419,7 +445,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "Jaitala, Nagpur",
       "area": "1381 sqft",
       "price": "₹ 51.1L",
@@ -447,7 +473,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Royal Gardens, Nagpur",
       "area": "1633 sqft",
       "price": "₹ 73.5L",
