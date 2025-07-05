@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import { blogs } from '../../data/properties.json';
 import BlogCard from "@/components/BlogCard";
 import Script from "next/script";
+import WhatsApp from "@/components/WhatsApp";
+import Instagram from "@/components/Instagram";
+import Quora from "@/components/Quora";
 
 
 export async function generateMetadata() {
@@ -81,6 +84,15 @@ export default function BlogList() {
                 <h1 className="text-3xl font-bold text-center mb-10 text-gray-800">
                     Real Estate Blogs
                 </h1>
+                <div className="animate-fadeInUp delay-300">
+                    <WhatsApp />
+                </div>
+                <div className="animate-fadeInUp delay-500">
+                    <Instagram />
+                </div>
+                <div className="animate-fadeInUp delay-700">
+                    <Quora />
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {blogs.map((blog) => (
                         <BlogCard key={blog.slug} blog={blog} />

@@ -284,10 +284,63 @@
       "description": "Ved Vidhi offers premium 2BHK flats in the rapidly developing locality of Besa Pipla, Nagpur. Spanning 1316 sq.ft, these spacious homes are designed for comfort and functionality. The project features a wide range of modern amenities including a swimming pool, gym, EV charging, and a creche, making it ideal for families seeking a well-connected yet peaceful living experience.",
       "whatsapp": "9096076177"
     },
-    {
+     {
       "id": 11,
+      "title": "Shree Gajanan Vihar",
+      "location": "Pipla, Nagpur, 440015",
+      "area": "(2BHK & 3BHK)",
+      "price": "₹",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/ShreeGajanan1.png",
+        "/images/ShreeGajanan2.png",
+        "/images/ShreeGajanan3.png",
+        "/images/ShreeGajanan4.png",
+        "/images/ShreeGajanan5.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Lavish Entrance Gate , CCTV Surveillance, Vastu Complaint, Solar Power, Power Backup, Guard Room, Temple, Fire Safty, Senior Citizen's sit-outs, Automatic Elevators,  Car & 2 wheeler parking available, Lift with ARD",
+      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height, Hot and cold water connetion, Vitrified tiles flooring in all rooms, Cable TV wire connection in hall, POP in Hall, Internal branded concealed fittings & fixtures, Semi modular kitchen with Black granite top with dedo upto 4 & SS sink, putty finished Surface with tractor Emulsion , Hospital-School/College-Petrol pump are at 1km ",
+      "description": "Welcome to Shree Gajanan Vihar, a premium residential project located in the rapidly developing area of Pipla, Nagpur. Offering thoughtfully designed 2BHK and 3BHK flats, this project is ideal for families seeking a blend of comfort, quality, and convenience.",
+      "whatsapp": "9096076177"
+    },
+     {
+      "id": 12,
+      "title": "Narmada Residency",
+      "location": "Wanadongari, Nagpur, 440015",
+      "area": "(2BHK )",
+      "price": "₹",
+      "type": "2BHK Flats",
+      "images": [
+        "/images/narmada1.png",
+        "/images/narmada2.png",
+        "/images/narmada3.png",
+        "/images/narmada4.png",
+        "/images/narmada5.png",
+        "/images/narmada6.png",
+        "/images/narmada7.png",
+        "/images/narmada8.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Play Area for Kids, Beautifully Landscape Garden, Multipurpose Hall, Well Equipped Gym, The roof-top sit-out",
+      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height,  Cable TV wire connection in hall, Internal branded concealed fittings & fixtures, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, Hospital-College are at 500m , D-Mart 1km, Proposed MetroStation at 700m, Hingna MIDC at 1km ",
+      "description": "Discover your dream home at Narmada Residency, an exclusive residential project located in the well-connected and rapidly growing locality of Wanadongari, Nagpur. Offering thoughtfully designed 2BHK flats, this project is ideal for modern families seeking comfort, connectivity, and quality living.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 13,
       "title": "Mahalaxmi Nagar 41",
-      "location": "Mahalaxmi Nagar 41, Hingna, Nagpur, 441108",
+      "location": " Hingna, Nagpur, 441108",
       "area": "1091-11625 sq.ft",
       "price": "₹",
       "type": "Plots",
@@ -313,7 +366,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Golden Vista",
       "area": "1650 sqft",
       "price": "₹ 67.3L",
@@ -341,7 +394,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 13,
+      "id": 15,
       "title": "Jaitala, Nagpur",
       "area": "1381 sqft",
       "price": "₹ 51.1L",
@@ -369,7 +422,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 14,
+      "id": 16,
       "title": "Royal Gardens",
       "area": "1633 sqft",
       "price": "₹ 73.5L",
@@ -397,6 +450,8 @@
       "whatsapp": "9096076177"
     }
   ],
+
+
   "blogs": [
     {
       "slug": "nagpur-heights-overview",
@@ -406,7 +461,7 @@
     },
     {
       "slug": "2bhk-3bhk-flats-nagpur",
-      "title": "Why Our 2 & 3 BHK Flats Are Perfect for You",
+      "title": "Why Our 2BHK & 3BHK Flats Are Perfect for You",
       "excerpt": "Discover affordable and well-connected flats in MIHAN, Jamtha, and more. Comfort meets convenience!",
       "image": "/images/2&3BHK_blogImg.png"
     },
@@ -423,7 +478,7 @@
       "image": "/logos/NAGPUR_HEIGHTS_LOGO.png"
     },
     {
-      "slug": "Lets Connect",
+      "slug": "Connect to nagpur heights",
       "title": "📞 Contact Us – Let’s Build Your Dream Together!",
       "excerpt": "We’d love to hear from you! Whether you have questions, want to know more details, or wish to book a site visit — the team at Nagpur Heights is always ready to assist you.",
       "image": "/images/whyChooseNH_blogImg.png"

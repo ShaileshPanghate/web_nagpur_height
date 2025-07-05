@@ -168,7 +168,7 @@ const blogs = [
         `,
     },
     {
-        slug: "Lets Connect",
+        slug: "Connect to Nagpur Heights",
         title: "📞 Contact Us – Let’s Build Your Dream Together!",
         image: "/images/whyChooseNH_blogImg.png",
         content: `
@@ -197,12 +197,18 @@ const blogs = [
     },
 ];
 
-export async function generateMetadata() {
+export async function generateMetadata({ params }) {
+    const blog = blogs.find((b) => b.slug === params.slug);
     return {
-        title: '2BHK & 3BHK | Properties in Nagpur | Buy, Sell & Rent Real estate properties in Nagpur | NAGPUR HEIGHTS',
-        description:
-            "Looking to invest in real estate in Nagpur? Explore a wide range of verified property listings including residential flats, commercial spaces, and plots for sale in Nagpur. Browse properties in prime Nagpur localities such as Wardha Road, Civil Lines, MIHAN, Manish Nagar, and Dharampeth. Whether you're looking to buy a flat in Nagpur, rent a shop, or sell your property, our platform connects you with trusted builders and RERA-approved projects for a secure transaction. We offer affordable flats, luxury apartments, NA plots, independent houses, and commercial properties including offices, showrooms, and retail spaces. With advanced search filters, latest Nagpur real estate market trends, and expert support, finding the right property in Nagpur is simple and hassle-free. Stay updated with property prices in Nagpur, new launches, and upcoming real estate projects. Whether you're a first-time home buyer or a real estate investor, our portal is your one-stop solution for all Nagpur property needs. Start your property search today on Nagpur’s most trusted real estate website – where finding a home in Nagpur meets professionalism, transparency, and peace of mind",
+        title: `${blog.title} | Nagpur Heights`,
+        description: blog.content.slice(0, 150).replace(/\n/g, " ").trim(),
+        excerpt: "Explore legally approved residential plots in prime Nagpur locations like MIHAN, Hingna, and Wardha Road. Perfect for families and investors.",
         keywords: [
+            blog.title,
+            "Nagpur real estate",
+            "Nagpur Heights",
+            "property in Nagpur",
+            "real estate blogs Nagpur",
             "2BHK",
             "3BHK",
             "2BHK & 3BHK Flats",
@@ -244,10 +250,10 @@ export async function generateMetadata() {
             follow: true,
         },
         openGraph: {
-            title: ` Real Estate Services, Nagpur `,
-            description: `Buy, Sell, or Rent Real Estate Browse details, prices, and photos.`,
-            siteName: 'Buy, Sell, or Rent Real Estate in Nagpur | Nagpur Heights',
-            type: 'website',
+            title: blog.title,
+            description: blog.content.slice(0, 200).replace(/\n/g, " ").trim(),
+            siteName: 'Nagpur Heights Blog',
+            type: 'article',
         },
     };
 }
@@ -265,16 +271,16 @@ export default function BlogDetail({ params }) {
 
     return (
         <>
-         {/* <!-- Google tag (gtag.js) --> */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
-      <Script id="gtag-init" strategy="afterInteractive">
-        {`
+            {/* <!-- Google tag (gtag.js) --> */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMRPX5VY37"></script>
+            <Script id="gtag-init" strategy="afterInteractive">
+                {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-QMRPX5VY37');
           `}
-      </Script>
+            </Script>
             <Header />
             <main className="pt-14 pb-12 bg-white">
                 <section className="relative h-64  text-white">
@@ -332,7 +338,7 @@ export default function BlogDetail({ params }) {
             </main>
 
             <section className="max-w-6xl mx-auto px-4 mt-16 mb-6 ">
-                 <hr className="mb-8 border-gray-300" />
+                <hr className="mb-8 border-gray-300" />
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">You might also like</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
