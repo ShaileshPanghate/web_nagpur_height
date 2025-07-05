@@ -2,7 +2,7 @@
   "Properties": [
     {
       "id": 1,
-      "title": "Arha Enclave",
+      "title": "Arha Enclave, Nagpur",
       "location": " Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flats ",
@@ -31,7 +31,7 @@
     },
     {
       "id": 2,
-      "title": "Madhura Homes",
+      "title": "Madhura Homes, Nagpur ",
       "area": "1750 sqft",
       "price": "₹ 69.0L",
       "location": "Omkar Nagar, Near Kalode College, Nagpur",
@@ -115,7 +115,7 @@
     },
     {
       "id": 5,
-      "title": "Sai Residency",
+      "title": "Sai Residency, Nagpur",
       "location": "New Beedipeth Nagar, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
       "price": "₹ 90L (Negotiable)",
@@ -144,7 +144,7 @@
     },
     {
       "id": 6,
-      "title": "Ved Vidhi 3BHK",
+      "title": "Ved Vidhi 3BHK, Nagpur",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
       "price": "₹ 80L",
@@ -173,7 +173,7 @@
     },
     {
       "id": 7,
-      "title": "Meher Ganga",
+      "title": "Meher Ganga, Nagpur",
       "location": "New Narendra Nagar, Nagpur",
       "area": "1500 sq.ft (3BHK)",
       "price": "₹ 80L",
@@ -200,7 +200,7 @@
     },
     {
       "id": 8,
-      "title": "Suraburdi Backyard",
+      "title": "Suraburdi Backyard, Nagpur",
       "location": "Suraburdi Backyard, Drugdhamna, Nagpur, 440023",
       "area": "1100-5500 sq.ft",
       "price": "₹",
@@ -257,7 +257,7 @@
     },
     {
       "id": 10,
-      "title": "Ved Vidhi 2BHK",
+      "title": "Ved Vidhi 2BHK, Nagpur",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
       "price": "₹ 60L",
@@ -286,7 +286,7 @@
     },
      {
       "id": 11,
-      "title": "Shree Gajanan Vihar",
+      "title": "Shree Gajanan Vihar, Nagpur",
       "location": "Pipla, Nagpur, 440015",
       "area": "(2BHK & 3BHK)",
       "price": "₹",
@@ -311,7 +311,32 @@
     },
      {
       "id": 12,
-      "title": "Narmada Residency",
+      "title": "Orange City Park, Nagpur  ",
+      "location": "Wanadongri, Nagpur, 440015",
+      "area": "569 - 905 sq.ft.",
+      "price": "₹ 15,00,000/- To 24,43,500/-",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/orangeCityPark1.png",
+        "/images/orangeCityPark2.png",
+        "/images/orangeCityPark3.png",
+        "/images/orangeCityPark4.png",
+        "/images/orangeCityPark5.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "24×7 Security, CCTV in Entrance and Parking, Intercom System, Garden with fountains, Badminton court, Box Cricket, Basketball Practice Court, Yoga Deck, Green Gym,  Jogging Track & Sitting area , Children Play area,  Table Tennis, carrom board & chess.",
+      "info": "RCC Framed Structure, Wallls - External:150mm, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, In Close Viscinity of Metro  Station, Near Yeshwantrao Chavan College of Engineering and D-Mart",
+      "description": "Welcome to Orange City Park, a thoughtfully planned residential project nestled in the serene neighborhood of Wanadongri, Nagpur (440015). Spread across multiple phases, this development offers spacious 2BHK and 3BHK flats ranging from 569 to 905 sq.ft., ideal for families seeking comfort, connectivity, and value. With pricing starting from just ₹15,00,000/- up to ₹24,43,500/-, Orange City Park offers one of the most affordable options for quality housing in the region — without compromising on amenities or construction quality.",
+      "whatsapp": "9096076177"
+    },
+     {
+      "id": 13,
+      "title": "Narmada Residency, Nagpur",
       "location": "Wanadongari, Nagpur, 440015",
       "area": "(2BHK )",
       "price": "₹",
@@ -338,8 +363,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 13,
-      "title": "Mahalaxmi Nagar 41",
+      "id": 14,
+      "title": "Mahalaxmi Nagar 41, Nagpur",
       "location": " Hingna, Nagpur, 441108",
       "area": "1091-11625 sq.ft",
       "price": "₹",
@@ -366,8 +391,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 14,
-      "title": "Golden Vista",
+      "id": 15,
+      "title": "Golden Vista, Nagpur",
       "area": "1650 sqft",
       "price": "₹ 67.3L",
       "location": "Chinch Bhawan, Nagpur, Maharashtra",
@@ -394,7 +419,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Jaitala, Nagpur",
       "area": "1381 sqft",
       "price": "₹ 51.1L",
@@ -422,8 +447,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 16,
-      "title": "Royal Gardens",
+      "id": 17,
+      "title": "Royal Gardens, Nagpur",
       "area": "1633 sqft",
       "price": "₹ 73.5L",
       "location": "Bell Tarodi, Nagpur",
@@ -434,11 +459,7 @@
         "/images/BellTarodi3.jpeg",
         "/images/BellTarodi4.jpeg"
       ],
-      "Phases": [
-        1,
-        2,
-        3
-      ],
+      "Phases": [1,2,3],
       "Completion_Date_of_phases": [
         "Completed in Sep, 2024",
         "Completed in Jun, 2025",
