@@ -2,7 +2,7 @@
   "Properties": [
     {
       "id": 1,
-      "title": "Arha Enclave, Nagpur",
+      "title": "Arha Enclave 2BHK & 3BHK, Nagpur",
       "location": " Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flats ",
@@ -31,7 +31,7 @@
     },
     {
       "id": 2,
-      "title": "Madhura Homes, Nagpur ",
+      "title": "Madhura Homes 2BHK & 3BHK, Nagpur ",
       "area": "1750 sqft",
       "price": "₹ 69.0L",
       "location": "Omkar Nagar, Near Kalode College, Nagpur",
@@ -115,7 +115,7 @@
     },
     {
       "id": 5,
-      "title": "Sai Residency, Nagpur",
+      "title": "Sai Residency 2BHK & 3BHK, Nagpur",
       "location": "New Beedipeth Nagar, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
       "price": "₹ 90L (Negotiable)",
@@ -173,7 +173,7 @@
     },
     {
       "id": 7,
-      "title": "Meher Ganga, Nagpur",
+      "title": "Meher Ganga 2BHK & 3BHK, Nagpur",
       "location": "New Narendra Nagar, Nagpur",
       "area": "1500 sq.ft (3BHK)",
       "price": "₹ 80L",
@@ -286,7 +286,7 @@
     },
      {
       "id": 11,
-      "title": "Shree Gajanan Vihar, Nagpur",
+      "title": "Shree Gajanan Vihar 2BHK & 3BHK, Nagpur",
       "location": "Pipla, Nagpur, 440015",
       "area": "(2BHK & 3BHK)",
       "price": "₹",
@@ -311,7 +311,7 @@
     },
      {
       "id": 12,
-      "title": "Orange City Park, Nagpur  ",
+      "title": "Orange City Park 2BHK & 3BHK, Nagpur  ",
       "location": "Wanadongri, Nagpur, 440015",
       "area": "569 - 905 sq.ft.",
       "price": "₹ 15,00,000/- To 24,43,500/-",
@@ -336,7 +336,7 @@
     },
      {
       "id": 13,
-      "title": "Narmada Residency, Nagpur",
+      "title": "Narmada Residency 2BHK , Nagpur",
       "location": "Wanadongari, Nagpur, 440015",
       "area": "(2BHK )",
       "price": "₹",
@@ -364,7 +364,7 @@
     },
      {
       "id": 14,
-      "title": "Balaji Heights, Nagpur",
+      "title": "Balaji Heights 2BHK & 3BHK, Nagpur",
       "location": "Wanadongari, Nagpur, 440015",
       "area": "816 Sq.Ft.  To 1327 Sq.Ft",
       "price": "₹",
@@ -390,6 +390,32 @@
     },
     {
       "id": 15,
+      "title": "Ambika Greens, Nagpur",
+      "location": " Mouza, Nagpur, 441108",
+      "area": "904-2754 sq.ft",
+      "price": "₹",
+      "type": "Plots",
+      "images": [
+        "/images/Ambika1.png",
+        "/images/Ambika2.jpg",
+        "/images/Ambika3.jpg",
+        "/images/Ambika4.png",
+        "/images/Ambika5.png",
+        "/images/Ambika6.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Grand Entrance Gate, Jogging park, Children play area, Senior citizen's sit-out, water connection, Drainage, Internal Concreate roads, Street Lights, Road side Tree plantation, Provision for Electricity, Rain water harvesting",
+      "info": "Nagpur will see a new way of life where happiness, luxury and peace will come together. Give your family the lifestyle they deserve while staying connected with prominent residential in Nagpur most promising location - Umred Road. Re-magne everything you know about life and connect to a blissful and progressive way of life.",
+      "description": "Ambika Greens, Nagpur – Premium Residential Plots at Umred Road Discover a new way of living at Ambika Greens, located in the serene surroundings of Mouza, Nagpur (441108). Spread across a sprawling area of 904 to 2754 sq.ft, this thoughtfully planned residential plotting project offers a lifestyle where happiness, luxury, and peace blend seamlessly. Strategically positioned at Nagpur’s most promising location – Umred Road, Ambika Greens keeps you connected while offering a tranquil escape from the city buzz.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 16,
       "title": "Mahalaxmi Nagar 41, Nagpur",
       "location": " Hingna, Nagpur, 441108",
       "area": "1091-11625 sq.ft",
@@ -401,11 +427,7 @@
         "/images/mahalaxmi4.png",
         "/images/mahalaxmi5.png"
       ],
-      "Phases": [
-        1,
-        2,
-        3
-      ],
+      "Phases": [1,2,3],
       "Completion_Date_of_phases": [
         "Completed in Sep, 2024",
         "Completed in Jun, 2025",
@@ -417,8 +439,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 16,
-      "title": "Golden Vista, Nagpur",
+      "id": 17,
+      "title": "Golden Vista 2BHK & 3BHK, Nagpur",
       "area": "1650 sqft",
       "price": "₹ 67.3L",
       "location": "Chinch Bhawan, Nagpur, Maharashtra",
@@ -445,8 +467,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 17,
-      "title": "Jaitala, Nagpur",
+      "id": 18,
+      "title": "Jaitala 2BHK & 3BHK, Nagpur",
       "area": "1381 sqft",
       "price": "₹ 51.1L",
       "location": "Jaitala, Nagpur",
@@ -473,8 +495,8 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 18,
-      "title": "Royal Gardens, Nagpur",
+      "id": 19,
+      "title": "Royal Gardens 2BHK & 3BHK, Nagpur",
       "area": "1633 sqft",
       "price": "₹ 73.5L",
       "location": "Bell Tarodi, Nagpur",
