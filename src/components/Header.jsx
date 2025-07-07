@@ -104,7 +104,7 @@ const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={toggleFullscreen}
-            className="flex md:hidden items-center justify-center"
+            className="flex md:hidden items-center justify-center text-black"
             aria-label="Toggle fullscreen"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
