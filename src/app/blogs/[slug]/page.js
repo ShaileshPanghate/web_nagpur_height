@@ -168,7 +168,7 @@ const blogs = [
         `,
     },
     {
-        slug: "Connect to Nagpur Heights",
+        slug: "Connect-to-Nagpur-Heights",
         title: "📞 Contact Us – Let’s Build Your Dream Together!",
         image: "/images/whyChooseNH_blogImg.png",
         content: `
