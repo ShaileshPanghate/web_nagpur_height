@@ -4,6 +4,36 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import logo from '../../public/logos/NAGPUR_HEIGHTS_LOGO.png';
 
+const HomeIcon = (props) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7m-9 0v6m4 0h6m-6 0a2 2 0 002 2h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6z" />
+  </svg>
+);
+
+const BuildingIcon = (props) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4a1 1 0 011-1h4a1 1 0 011 1v4m6-4v4m-3-4v4m6-4v4M12 3v18" />
+  </svg>
+);
+
+const BlogIcon = (props) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21H5a2 2 0 01-2-2V7a2 2 0 012-2h4l2-2h2l2 2h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+  </svg>
+);
+
+const InfoIcon = (props) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
+  </svg>
+);
+
+const PhoneIcon = (props) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h2.586a1 1 0 01.707.293l1.414 1.414a1 1 0 010 1.414L9.414 7.414A16.944 16.944 0 0016.586 14.586l1.293-1.293a1 1 0 011.414 0l1.414 1.414a1 1 0 01.293.707V19a2 2 0 01-2 2h-1C10.611 21 3 13.389 3 5v0z" />
+  </svg>
+);
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -17,6 +47,15 @@ const Header = () => {
     return pathname.startsWith(href);
   };
 
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(err => {
+        console.error(`Error attempting to enable fullscreen: ${err.message}`);
+      });
+    } else {
+      document.exitFullscreen?.();
+    }
+  };
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 ">
@@ -29,95 +68,71 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-10 mr-40">
-            <Link 
-              href="/" 
-              className={`${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-800 mr-20`}
+            {[
+              { href: '/', label: 'Buy' },
+              { href: '/property', label: 'Properties' },
+              { href: '/blogs', label: 'Blogs' },
+              { href: '/about', label: 'About' },
+              { href: '/contact', label: 'Contact' }
+            ].map(({ href, label }) => (
+              <Link href={href} key={href} className="relative group mr-20">
+                <span
+                  className={`
+          ${isActive(href) ? 'text-blue-600 font-medium' : 'text-gray-600'}
+          transition-colors duration-300 group-hover:text-blue-800
+        `}
+                >
+                  {label}
+                </span>
+                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+            ))}
+            <button
+              onClick={toggleFullscreen}
+              className="flex items-center justify-center"
+              aria-label="Toggle fullscreen"
             >
-              Buy
-            </Link>
-           
-            <Link 
-              href="/property" 
-              className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Properties
-            </Link>
-           <Link 
-              href="/blogs" 
-              className={`${isActive('/blogs') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Blogs
-            </Link>
-            <Link 
-              href="/about" 
-              className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              About
-            </Link>
-            <Link 
-              href="/contact" 
-              className={`${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Contact
-            </Link>
-            
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+              </svg>
+            </button>
           </nav>
 
-          
+
+
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-gray-600 focus:outline-none"
-            onClick={() => setIsMenuOpen(!isMenuOpen)} title="menu"
+            onClick={toggleFullscreen}
+            className="flex md:hidden items-center justify-center"
+            aria-label="Toggle fullscreen"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
             </svg>
           </button>
         </div>
 
         {/* Mobile menu */}
-        {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4">
-            <div className="flex flex-col space-y-3">
-              <Link 
-                href="/" 
-                className={`${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Buy
+        {/* Mobile Bottom Navbar */}
+        <nav className="md:hidden fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow z-50">
+          <div className="flex justify-around items-center py-2">
+            {[
+              { href: '/', label: 'Buy', icon: HomeIcon },
+              { href: '/property', label: 'Properties', icon: BuildingIcon },
+              { href: '/blogs', label: 'Blogs', icon: BlogIcon },
+              { href: '/about', label: 'About', icon: InfoIcon },
+              { href: '/contact', label: 'Contact', icon: PhoneIcon }
+            ].map(({ href, label, icon: Icon }) => (
+              <Link href={href} key={href} className="flex flex-col items-center text-xs text-gray-600 hover:text-blue-600">
+                <Icon className={`h-5 w-5 mb-0.5 ${isActive(href) ? 'text-blue-600' : ''}`} />
+                <span className={isActive(href) ? 'text-blue-600 font-medium' : ''}>{label}</span>
               </Link>
-             
-              <Link 
-                href="/property" 
-                className={`${isActive('/property') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Properties
-              </Link>
-              <Link 
-              href="/blogs" 
-              className={`${isActive('/blogs') ? 'text-blue-600 font-medium' : 'text-gray-600'} hover:text-blue-600 mr-20`}
-            >
-              Blogs
-            </Link>
-              <Link 
-                href="/about" 
-                className={`${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Link 
-                href="/contact" 
-                className={`${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-600'}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
-              </Link>
-            </div>
-            
+            ))}
           </div>
-        )}
+        </nav>
+
       </div>
     </header>
   );

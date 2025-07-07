@@ -5,7 +5,7 @@ const Quora = () => {
     <div>
       <a
         href="https://www.quora.com/profile/Nagpur-Heights"
-        className="fixed bottom-29 right-2.5 z-50 group"
+        className="fixed bottom-35 right-2.5 z-50 group"
         target="_blank"
         rel="noopener noreferrer"
       >
