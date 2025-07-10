@@ -169,7 +169,7 @@ const blogs = [
     },
     {
         slug: "Connect-to-nagpur-heights",
-        title: "📞 Contact Us – Let’s Build Your Dream Together!",
+        title: "Contact Us – Let’s Build Your Dream Together!",
         image: "/images/whyChooseNH_blogImg.png",
         content: `
                     We’d love to hear from you! Whether you have questions, want to know more details, or wish to book a site visit — the team at Nagpur Heights is always ready to assist you.
