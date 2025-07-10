@@ -66,11 +66,21 @@ export async function generateMetadata({ params }) {
       "property near Samruddhi Expressway"
     ],
     openGraph: {
-      title: `${property.title} |  Real Estate Services`,
-      description: `Buy, sell, or rent real estate at ${property.location}. Browse details, prices, and photos.`,
+      title: `${property.title} – 2BHK & 3BHK Apartments in ${property.location} | Nagpur Heights`,
+      description: `Explore premium flats at ${property.title}, Omkar Nagar – from ₹69 Lacs.`,
+      url: `https://www.nagpurheights.com/property/${params.slug}`,
+      images: [
+        {
+          url: property.images?.[0] || 'https://www.nagpurheights.com/default.jpg',
+          width: 1200,
+          height: 630,
+          alt: `${property.title} in ${property.location}`,
+        },
+      ],
       siteName: 'Nagpur Heights',
-      url: url
-    },
+      type: 'website',
+    }
+    ,
     robots: {
       index: true,
       follow: true,
