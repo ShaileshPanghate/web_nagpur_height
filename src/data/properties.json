@@ -2,6 +2,184 @@
   "Properties": [
     {
       "id": 1,
+      "title": "Balaji Heights 2BHK & 3BHK, Nagpur",
+      "location": "Wanadongari, Nagpur, 440015",
+      "area": "816 Sq.Ft. To 1327 Sq.Ft",
+      "price": "₹ 34 L",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/Balaji1.png",
+        "/images/Balaji2.png",
+        "/images/Balaji3.png",
+        "/images/Balaji4.png",
+        "/images/Balaji5.png",
+        "/images/Balaji6.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Gym  Gazebo,  Club House, Yoga Centre, Indoor Games, Temple, Video Door Phone, CCTV Surveillance, 24/7 Security, EV Charging Station, Tree Plantation around premises, Guard Room, Branded Elevators, 24/7 Water Supply, Common Areas, Each tower features 2 Branded Lifts with backup",
+      "info": "RCC Framed Structure, Wallls - External:150mm,Laminated Door of 30mm panel with safety locking system, Vitrified tiles in 2X2 in all the rooms, Washbasin, Branded fittings and Standard sanitary ware, Glazed Ceramic Tiles dado abouve platform, 2 Elevetor, Rain water Harvesting",
+      "description": "Welcome to Balaji Heights, a modern residential township situated in the heart of Wanadongari, Nagpur (440015). Designed for comfort, convenience, and community living, this elegant project offers spacious 2BHK and 3BHK flats ranging from 816 Sq.Ft. to 1327 Sq.Ft., perfect for families who seek both serenity and urban connectivity.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 2,
+      "title": "Shree Gajanan Vihar 2BHK & 3BHK, Nagpur",
+      "location": "Pipla, Nagpur, 440015",
+      "area": "(2BHK & 3BHK)",
+      "price": "₹ 35 L",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/ShreeGajanan1.png",
+        "/images/ShreeGajanan2.png",
+        "/images/ShreeGajanan3.png",
+        "/images/ShreeGajanan4.png",
+        "/images/ShreeGajanan5.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Lavish Entrance Gate , CCTV Surveillance, Vastu Complaint, Solar Power, Power Backup, Guard Room, Temple, Fire Safty, Senior Citizen's sit-outs, Automatic Elevators,  Car & 2 wheeler parking available, Lift with ARD",
+      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height, Hot and cold water connetion, Vitrified tiles flooring in all rooms, Cable TV wire connection in hall, POP in Hall, Internal branded concealed fittings & fixtures, Semi modular kitchen with Black granite top with dedo upto 4 & SS sink, putty finished Surface with tractor Emulsion , Hospital-School/College-Petrol pump are at 1km ",
+      "description": "Welcome to Shree Gajanan Vihar, a premium residential project located in the rapidly developing area of Pipla, Nagpur. Offering thoughtfully designed 2BHK and 3BHK flats, this project is ideal for families seeking a blend of comfort, quality, and convenience.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 3,
+      "title": "Orange City Park 1BHK, 2BHK & 3BHK, Nagpur  ",
+      "location": "Wanadongri, Nagpur, 440015",
+      "area": "569 - 905 sq.ft.",
+      "price": "₹ 15 To 24 L ",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/orangeCityPark1.png",
+        "/images/orangeCityPark2.png",
+        "/images/orangeCityPark3.png",
+        "/images/orangeCityPark4.png",
+        "/images/orangeCityPark5.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "24×7 Security, CCTV in Entrance and Parking, Intercom System, Garden with fountains, Badminton court, Box Cricket, Basketball Practice Court, Yoga Deck, Green Gym,  Jogging Track & Sitting area , Children Play area,  Table Tennis, carrom board & chess.",
+      "info": "RCC Framed Structure, Wallls - External:150mm, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, In Close Viscinity of Metro  Station, Near Yeshwantrao Chavan College of Engineering and D-Mart",
+      "description": "Welcome to Orange City Park, a thoughtfully planned residential project nestled in the serene neighborhood of Wanadongri, Nagpur (440015). Spread across multiple phases, this development offers spacious 2BHK and 3BHK flats ranging from 569 to 905 sq.ft., ideal for families seeking comfort, connectivity, and value. With pricing starting from just ₹15,00,000/- up to ₹24,43,500/-, Orange City Park offers one of the most affordable options for quality housing in the region — without compromising on amenities or construction quality.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 4,
+      "title": "Narmada Residency 2BHK , Nagpur",
+      "location": "Wanadongari, Nagpur, 440015",
+      "area": "(2BHK )",
+      "price": "₹",
+      "type": "2BHK Flats",
+      "images": [
+        "/images/narmada1.png",
+        "/images/narmada2.png",
+        "/images/narmada3.png",
+        "/images/narmada4.png",
+        "/images/narmada5.png",
+        "/images/narmada6.png",
+        "/images/narmada7.png",
+        "/images/narmada8.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Play Area for Kids, Beautifully Landscape Garden, Multipurpose Hall, Well Equipped Gym, The roof-top sit-out",
+      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height,  Cable TV wire connection in hall, Internal branded concealed fittings & fixtures, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, Hospital-College are at 500m , D-Mart 1km, Proposed MetroStation at 700m, Hingna MIDC at 1km ",
+      "description": "Discover your dream home at Narmada Residency, an exclusive residential project located in the well-connected and rapidly growing locality of Wanadongari, Nagpur. Offering thoughtfully designed 2BHK flats, this project is ideal for modern families seeking comfort, connectivity, and quality living.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 5,
+      "title": "Ambika Greens, Nagpur",
+      "location": " Mouza, Nagpur, 441108",
+      "area": "904-2754 sq.ft",
+      "price": "₹",
+      "type": "Plots",
+      "images": [
+        "/images/Ambika1.png",
+        "/images/Ambika2.jpg",
+        "/images/Ambika3.jpg",
+        "/images/Ambika4.png",
+        "/images/Ambika5.png",
+        "/images/Ambika6.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Grand Entrance Gate, Jogging park, Children play area, Senior citizen's sit-out, water connection, Drainage, Internal Concreate roads, Street Lights, Road side Tree plantation, Provision for Electricity, Rain water harvesting",
+      "info": "Nagpur will see a new way of life where happiness, luxury and peace will come together. Give your family the lifestyle they deserve while staying connected with prominent residential in Nagpur most promising location - Umred Road. Re-magne everything you know about life and connect to a blissful and progressive way of life.",
+      "description": "Ambika Greens, Nagpur – Premium Residential Plots at Umred Road Discover a new way of living at Ambika Greens, located in the serene surroundings of Mouza, Nagpur (441108). Spread across a sprawling area of 904 to 2754 sq.ft, this thoughtfully planned residential plotting project offers a lifestyle where happiness, luxury, and peace blend seamlessly. Strategically positioned at Nagpur’s most promising location – Umred Road, Ambika Greens keeps you connected while offering a tranquil escape from the city buzz.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 6,
+      "title": "Mahalaxmi Nagar 41, Nagpur",
+      "location": " Hingna, Nagpur, 441108",
+      "area": "1091-11625 sq.ft",
+      "price": "₹",
+      "type": "Plots",
+      "images": [
+        "/images/Mahalaxmi_Banner.png",
+        "/images/mahalaxmi3.png",
+        "/images/mahalaxmi4.png",
+        "/images/mahalaxmi5.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Reception, Admin office, Creche, Kids play area (indoor & outdoor), Air conditioned cafeterias , Open café, Amphitheater, Game zone (outdoor), Pickle ball, Basket ball, Double height indoor badminton court, Swimming pool, Baby pool, Water zumba, Water features (fountains), Landscaped areas, Multiple lawns, Game zone (indoor), Gymnasium, Yoga deck, Open terrace restaurant, Library, Card room  ",
+      "info": "Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, the upcoming Nagpur Mumbai Expressway,  schools and colleges like IIM NLU IIIT DPS, logistics parks, transport links like Nagpur Airport & Metro Station, big companies such as TCS, Infosys, Tech Mahindra, L&T, and Patanjali Food Park.",
+      "description": "Mahalaxmi Nagar 41 in Hingna, Nagpur is a premium plotted development project offering spacious plots ranging from 1091 to 11625 sq.ft. Located at Mahalaxmi Nagar 41, Hingna, Nagpur – 441108, this township is designed for comfort, convenience, and community living. Strategically located, Mahalaxmi Nagar 41 enjoys excellent connectivity via major roads such as Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, and the upcoming Nagpur Mumbai Expressway. It is surrounded by top schools and colleges like IIM NLU IIIT DPS and engineering institutions, as well as reputed hospitals like AIIMS and National Cancer Institute.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 7,
       "title": "Arha Enclave 2BHK & 3BHK, Nagpur",
       "location": " Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
@@ -30,34 +208,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 2,
-      "title": "Madhura Homes 2BHK & 3BHK, Nagpur ",
-      "area": "1750 sqft",
-      "price": "₹ 69.0L",
-      "location": "Omkar Nagar, Near Kalode College, Nagpur",
-      "type": "3 BHK Apartments",
-      "images": [
-        "/images/MadhuraHomes1.jpeg",
-        "/images/MadhuraHomes2.jpeg",
-        "/images/MadhuraHomes3.jpeg"
-      ],
-      "Phases": [
-        1,
-        2,
-        3
-      ],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "Open Gym, CCTV Security, Alloted Parking, Visitors Parking, Children play area, Jogging Track, Rain water Harvesting,",
-      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings, Airport in 10mins, Highway in 5min, Shopping malls & mart in 5mins ",
-      "description": "",
-      "whatsapp": "9096076177"
-    },
-    {
-      "id": 3,
+      "id": 8,
       "title": "Infinia City, Nagpur",
       "location": "Infinia City, Mohgaon, Nagpur",
       "area": "1000 - 5000 sq.ft",
@@ -86,17 +237,16 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 4,
-      "title": "Crown City, Nagpur",
-      "location": "Near Dudhala, Nagpur",
-      "area": "950-5000 sqft",
-      "price": "₹ 600/sq.ft",
-      "type": "Plots",
+      "id": 9,
+      "title": "Madhura Homes 2BHK & 3BHK, Nagpur ",
+      "area": "1750 sqft",
+      "price": "₹ 69.0L",
+      "location": "Omkar Nagar, Near Kalode College, Nagpur",
+      "type": "3 BHK Apartments",
       "images": [
-        "/images/CrownCity.PNG",
-        "/images/CrownCity2.PNG",
-        "/images/CrownCity3.PNG",
-        "/images/CrownCity4.PNG"
+        "/images/MadhuraHomes1.jpeg",
+        "/images/MadhuraHomes2.jpeg",
+        "/images/MadhuraHomes3.jpeg"
       ],
       "Phases": [
         1,
@@ -108,135 +258,9 @@
         "Completed in Jun, 2025",
         "Completion in Dec, 2025"
       ],
-      "amenities": "Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
-      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
-      "description": "Crown City offers premium residential plots ranging from 950 to 5000 sq.ft near Dudhala, Nagpur. Designed with modern urban living in mind, the township features a clubhouse, indoor games, commercial shops, and more. Whether you're looking to build your dream home or make a smart investment, Crown City provides an ideal blend of space, amenities, and future potential in a well-connected locality.",
-      "whatsapp": "9096076177"
-    },
-    {
-      "id": 5,
-       "title": "Orange City Park 1BHK, 2BHK & 3BHK, Nagpur  ",
-      "location": "Wanadongri, Nagpur, 440015",
-      "area": "569 - 905 sq.ft.",
-      "price": "₹ 15,00,000/- To 24,43,500/-",
-      "type": "2BHK & 3BHK Flats",
-      "images": [
-        "/images/orangeCityPark1.png",
-        "/images/orangeCityPark2.png",
-        "/images/orangeCityPark3.png",
-        "/images/orangeCityPark4.png",
-        "/images/orangeCityPark5.png"
-      ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "24×7 Security, CCTV in Entrance and Parking, Intercom System, Garden with fountains, Badminton court, Box Cricket, Basketball Practice Court, Yoga Deck, Green Gym,  Jogging Track & Sitting area , Children Play area,  Table Tennis, carrom board & chess.",
-      "info": "RCC Framed Structure, Wallls - External:150mm, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, In Close Viscinity of Metro  Station, Near Yeshwantrao Chavan College of Engineering and D-Mart",
-      "description": "Welcome to Orange City Park, a thoughtfully planned residential project nestled in the serene neighborhood of Wanadongri, Nagpur (440015). Spread across multiple phases, this development offers spacious 2BHK and 3BHK flats ranging from 569 to 905 sq.ft., ideal for families seeking comfort, connectivity, and value. With pricing starting from just ₹15,00,000/- up to ₹24,43,500/-, Orange City Park offers one of the most affordable options for quality housing in the region — without compromising on amenities or construction quality.",
-      "whatsapp": "9096076177"
-    },
-      {
-      "id": 6,
-         "title": "Shree Gajanan Vihar 2BHK & 3BHK, Nagpur",
-      "location": "Pipla, Nagpur, 440015",
-      "area": "(2BHK & 3BHK)",
-      "price": "₹",
-      "type": "2BHK & 3BHK Flats",
-      "images": [
-        "/images/ShreeGajanan1.png",
-        "/images/ShreeGajanan2.png",
-        "/images/ShreeGajanan3.png",
-        "/images/ShreeGajanan4.png",
-        "/images/ShreeGajanan5.png"
-      ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "Lavish Entrance Gate , CCTV Surveillance, Vastu Complaint, Solar Power, Power Backup, Guard Room, Temple, Fire Safty, Senior Citizen's sit-outs, Automatic Elevators,  Car & 2 wheeler parking available, Lift with ARD",
-      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height, Hot and cold water connetion, Vitrified tiles flooring in all rooms, Cable TV wire connection in hall, POP in Hall, Internal branded concealed fittings & fixtures, Semi modular kitchen with Black granite top with dedo upto 4 & SS sink, putty finished Surface with tractor Emulsion , Hospital-School/College-Petrol pump are at 1km ",
-      "description": "Welcome to Shree Gajanan Vihar, a premium residential project located in the rapidly developing area of Pipla, Nagpur. Offering thoughtfully designed 2BHK and 3BHK flats, this project is ideal for families seeking a blend of comfort, quality, and convenience.",
-      "whatsapp": "9096076177"
-    },
-     {
-      "id": 7,
-      "title": "Balaji Heights 2BHK & 3BHK, Nagpur",
-      "location": "Wanadongari, Nagpur, 440015",
-      "area": "816 Sq.Ft.  To 1327 Sq.Ft",
-      "price": "₹",
-      "type": "2BHK & 3BHK Flats",
-      "images": [
-        "/images/Balaji1.png",
-        "/images/Balaji2.png",
-        "/images/Balaji3.png",
-        "/images/Balaji4.png",
-        "/images/Balaji5.png",
-        "/images/Balaji6.png"
-      ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "Gym  Gazebo,  Club House, Yoga Centre, Indoor Games, Temple, Video Door Phone, CCTV Surveillance, 24/7 Security, EV Charging Station, Tree Plantation around premises, Guard Room, Branded Elevators, 24/7 Water Supply, Common Areas, Each tower features 2 Branded Lifts with backup",
-      "info": "RCC Framed Structure, Wallls - External:150mm,Laminated Door of 30mm panel with safety locking system, Vitrified tiles in 2X2 in all the rooms, Washbasin, Branded fittings and Standard sanitary ware, Glazed Ceramic Tiles dado abouve platform, 2 Elevetor, Rain water Harvesting",
-      "description": "Welcome to Balaji Heights, a modern residential township situated in the heart of Wanadongari, Nagpur (440015). Designed for comfort, convenience, and community living, this elegant project offers spacious 2BHK and 3BHK flats ranging from 816 Sq.Ft. to 1327 Sq.Ft., perfect for families who seek both serenity and urban connectivity.",
-      "whatsapp": "9096076177"
-    },
-    {
-      "id": 8,
-      "title": "Ambika Greens, Nagpur",
-      "location": " Mouza, Nagpur, 441108",
-      "area": "904-2754 sq.ft",
-      "price": "₹",
-      "type": "Plots",
-      "images": [
-        "/images/Ambika1.png",
-        "/images/Ambika2.jpg",
-        "/images/Ambika3.jpg",
-        "/images/Ambika4.png",
-        "/images/Ambika5.png",
-        "/images/Ambika6.png"
-      ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "Grand Entrance Gate, Jogging park, Children play area, Senior citizen's sit-out, water connection, Drainage, Internal Concreate roads, Street Lights, Road side Tree plantation, Provision for Electricity, Rain water harvesting",
-      "info": "Nagpur will see a new way of life where happiness, luxury and peace will come together. Give your family the lifestyle they deserve while staying connected with prominent residential in Nagpur most promising location - Umred Road. Re-magne everything you know about life and connect to a blissful and progressive way of life.",
-      "description": "Ambika Greens, Nagpur – Premium Residential Plots at Umred Road Discover a new way of living at Ambika Greens, located in the serene surroundings of Mouza, Nagpur (441108). Spread across a sprawling area of 904 to 2754 sq.ft, this thoughtfully planned residential plotting project offers a lifestyle where happiness, luxury, and peace blend seamlessly. Strategically positioned at Nagpur’s most promising location – Umred Road, Ambika Greens keeps you connected while offering a tranquil escape from the city buzz.",
-      "whatsapp": "9096076177"
-    },
-    {
-      "id": 9,
-      "title": "Mahalaxmi Nagar 41, Nagpur",
-      "location": " Hingna, Nagpur, 441108",
-      "area": "1091-11625 sq.ft",
-      "price": "₹",
-      "type": "Plots",
-      "images": [
-        "/images/Mahalaxmi_Banner.png",
-        "/images/mahalaxmi3.png",
-        "/images/mahalaxmi4.png",
-        "/images/mahalaxmi5.png"
-      ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
-      "amenities": "Reception, Admin office, Creche, Kids play area (indoor & outdoor), Air conditioned cafeterias , Open café, Amphitheater, Game zone (outdoor), Pickle ball, Basket ball, Double height indoor badminton court, Swimming pool, Baby pool, Water zumba, Water features (fountains), Landscaped areas, Multiple lawns, Game zone (indoor), Gymnasium, Yoga deck, Open terrace restaurant, Library, Card room  ",
-      "info": "Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, the upcoming Nagpur Mumbai Expressway,  schools and colleges like IIM NLU IIIT DPS, logistics parks, transport links like Nagpur Airport & Metro Station, big companies such as TCS, Infosys, Tech Mahindra, L&T, and Patanjali Food Park.",
-      "description": "Mahalaxmi Nagar 41 in Hingna, Nagpur is a premium plotted development project offering spacious plots ranging from 1091 to 11625 sq.ft. Located at Mahalaxmi Nagar 41, Hingna, Nagpur – 441108, this township is designed for comfort, convenience, and community living. Strategically located, Mahalaxmi Nagar 41 enjoys excellent connectivity via major roads such as Samruddhi Expressway, Outer Ring Road, Wardha Road, Amravati Road, Hingna Road, and the upcoming Nagpur Mumbai Expressway. It is surrounded by top schools and colleges like IIM NLU IIIT DPS and engineering institutions, as well as reputed hospitals like AIIMS and National Cancer Institute.",
+      "amenities": "Open Gym, CCTV Security, Alloted Parking, Visitors Parking, Children play area, Jogging Track, Rain water Harvesting,",
+      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings, Airport in 10mins, Highway in 5min, Shopping malls & mart in 5mins ",
+      "description": "",
       "whatsapp": "9096076177"
     },
     {
@@ -297,37 +321,37 @@
       "description": "Ved Vidhi offers premium 2BHK flats in the rapidly developing locality of Besa Pipla, Nagpur. Spanning 1316 sq.ft, these spacious homes are designed for comfort and functionality. The project features a wide range of modern amenities including a swimming pool, gym, EV charging, and a creche, making it ideal for families seeking a well-connected yet peaceful living experience.",
       "whatsapp": "9096076177"
     },
-     {
+    {
       "id": 12,
-     "title": "Narmada Residency 2BHK , Nagpur",
-      "location": "Wanadongari, Nagpur, 440015",
-      "area": "(2BHK )",
-      "price": "₹",
-      "type": "2BHK Flats",
+      "title": "Crown City, Nagpur",
+      "location": "Near Dudhala, Nagpur",
+      "area": "950-5000 sqft",
+      "price": "₹ 600/sq.ft",
+      "type": "Plots",
       "images": [
-        "/images/narmada1.png",
-        "/images/narmada2.png",
-        "/images/narmada3.png",
-        "/images/narmada4.png",
-        "/images/narmada5.png",
-        "/images/narmada6.png",
-        "/images/narmada7.png",
-        "/images/narmada8.png"
+        "/images/CrownCity.PNG",
+        "/images/CrownCity2.PNG",
+        "/images/CrownCity3.PNG",
+        "/images/CrownCity4.PNG"
       ],
-      "Phases": [1,2,3],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
       "Completion_Date_of_phases": [
         "Completed in Sep, 2024",
         "Completed in Jun, 2025",
         "Completion in Dec, 2025"
       ],
-      "amenities": "Play Area for Kids, Beautifully Landscape Garden, Multipurpose Hall, Well Equipped Gym, The roof-top sit-out",
-      "info": "RCC Framed Structure, Wallls - External:150mm, Bajaj Security Doors, Antiskid tiles flooring, Washbasin, Branded fittings and Standard sanitary ware, Designer dado upto full height,  Cable TV wire connection in hall, Internal branded concealed fittings & fixtures, kitchen with Black granite top with dedo above platform upto lintel level height & SS sink, Hospital-College are at 500m , D-Mart 1km, Proposed MetroStation at 700m, Hingna MIDC at 1km ",
-      "description": "Discover your dream home at Narmada Residency, an exclusive residential project located in the well-connected and rapidly growing locality of Wanadongari, Nagpur. Offering thoughtfully designed 2BHK flats, this project is ideal for modern families seeking comfort, connectivity, and quality living.",
+      "amenities": "Swimming pool, Meditation center, Gym, CCTV Security, Alloted Parking, Visitors Parking, Indoor Games, Children play area, Jogging Track, Club House, Commercial Shops, Rain water Harvesting, Solar System for common usage.",
+      "info": "Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar Premium Fittings",
+      "description": "Crown City offers premium residential plots ranging from 950 to 5000 sq.ft near Dudhala, Nagpur. Designed with modern urban living in mind, the township features a clubhouse, indoor games, commercial shops, and more. Whether you're looking to build your dream home or make a smart investment, Crown City provides an ideal blend of space, amenities, and future potential in a well-connected locality.",
       "whatsapp": "9096076177"
     },
-     {
+    {
       "id": 13,
-       "title": "Sai Residency 2BHK & 3BHK, Nagpur",
+      "title": "Sai Residency 2BHK & 3BHK, Nagpur",
       "location": "New Beedipeth Nagar, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
       "price": "₹ 90L (Negotiable)",
@@ -353,9 +377,8 @@
       "info": "Earthquake resistant RCC Frame structure, 8ft height Main Door, Modular Kitchen, PoP, Video Door Phones, Intercom, 2*4 Verified Tiles, Jaguar/Cera Premium Fittings, Poly Cab wirings",
       "description": "Sai Residency presents luxurious 3BHK flats in the serene neighborhood of New Beedipeth Nagar, Nagpur. With 1208 sq.ft of thoughtfully designed living space and premium features like 8ft main doors, branded fittings, and Poly Cab wiring, these homes redefine modern comfort. The project is packed with lifestyle amenities including a swimming pool, gym, EV charging station, and children's play area—perfect for families seeking quality and convenience.",
       "whatsapp": "9096076177"
-     
     },
-     {
+    {
       "id": 14,
       "title": "Meher Ganga 2BHK & 3BHK, Nagpur",
       "location": "New Narendra Nagar, Nagpur",
@@ -411,7 +434,7 @@
       "description": "Discover a serene lifestyle at Suraburdi Backyard, located in Drugdhamna, Nagpur. These spacious NA plots range from 1100 to 5500 sq.ft, offering the freedom to build your dream home amid green surroundings. Strategically connected to the Outer Ring Road, this project offers seamless access to key destinations like Ravi Nagar (10 mins), Amravati Highway (2.5 km), and Nagpur Railway Station (16 km).",
       "whatsapp": "9096076177"
     },
-     {
+    {
       "id": 16,
       "title": "Pyramid amara Nagpur 2BHK & 3BHK, Nagpur",
       "location": "Besa, Nagpur",
@@ -470,11 +493,7 @@
       "description": "Step into a beautifully crafted 4BHK villa in Vyankateshwara Kalash, Hingna, Nagpur. Spread across 1900 sq.ft, this spacious home is thoughtfully designed with luxury features, ideal for families seeking peaceful yet connected living. Priced at just ₹55.5 Lakhs, this villa blends modern design with top-tier amenities.",
       "whatsapp": "9096076177"
     }
-   
-   
   ],
-
-
   "blogs": [
     {
       "slug": "nagpur-heights-overview",
