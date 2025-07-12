@@ -411,8 +411,39 @@
       "description": "Discover a serene lifestyle at Suraburdi Backyard, located in Drugdhamna, Nagpur. These spacious NA plots range from 1100 to 5500 sq.ft, offering the freedom to build your dream home amid green surroundings. Strategically connected to the Outer Ring Road, this project offers seamless access to key destinations like Ravi Nagar (10 mins), Amravati Highway (2.5 km), and Nagpur Railway Station (16 km).",
       "whatsapp": "9096076177"
     },
-    {
+     {
       "id": 16,
+      "title": "Pyramid amara Nagpur 2BHK & 3BHK, Nagpur",
+      "location": "Besa, Nagpur",
+      "area": "1200-1674 sq.ft (2BHK & 3BHK)",
+      "price": "₹ 65-88 L",
+      "type": "Flats",
+      "images": [
+        "/images/pyramid_amara1.png",
+        "/images/pyramid_amara2.png",
+        "/images/pyramid_amara3.png",
+        "/images/pyramid_amara4.png",
+        "/images/pyramid_amara5.png",
+        "/images/pyramid_amara6.png",
+        "/images/pyramid_amara7.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
+      "amenities": "Community Hall Entrance Lobby, Club house, Multipurpose hall, Party Lawn, Swimming pool, Kid’s pool, Pool Deck, Changing Rooms, Yoga Activity Area, Meditation Area, Reflexology Path, Miyawaki forest, Multi-purpose play court, Senior citizen court, Seating area, Kid’s play area, Acupressure walkway, Outdoor exercise station, Lawn, Pathway, Planter",
+      "info": "600mm x 1200 mm vitrified flooring for living, dining kitchen and bedrooms, 600mm x 600 mm Anti-skid tiles for toilet, bathroom flooring, GVT tiles for toilet dado up to lintel level, High-quality CP & sanitary fittings with wall hung commode in all toilets (Jaquar / equivalent), Inside wall – Acrylic emulsion paint with putty, External wall – whether shield paint, Main door veneer finish, Internal laminated doors bedrooms & bathrooms, Anodised / aluminium system doors windows, SS frame with glass railing in balcony, High-quality switches and wiring with adequate number of light points, TV / Telephone / AC Points in all rooms, D.G. backup for all electrical points in flats except power points, DTH provision in flats & VDP for each flat, Exhaust fans for all toilets, Granite platform with one stainless steel sink, Designer tile dado up to 3 ft height above platform, Provision for Aquaguard point in kitchen, Earthquake resistant RCC structure, High speed elevators for each building, Access controlled lobbies, CCTV cameras in common areas, Internal walls with lightweight AAC blocks, Cease fire provision in each floor",
+      "description": "Discover modern living at Pyramid Amara, located in the prime area of Besa, Nagpur. Offering spacious 2 BHK and 3 BHK flats ranging from 1200 to 1674 sq.ft, this residential project is designed to provide comfort, style, and convenience at a competitive price of ₹65–88 Lakhs.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 17,
       "title": "Modern 4BHK Villa in Hingna",
       "location": "Vyankateshwara kalash, Hingna Nagpur",
       "area": "1900 sq.ft (4BHK)",
