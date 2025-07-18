@@ -104,7 +104,7 @@ export default function PropertyDetails({ params }) {
     return (
       <>
         <Header />
-        <div className="max-w-4xl mx-auto mt-40 p-6 text-center">
+        <div className="max-w-4xl mx-auto mt-40 p-6 text-center bg-white">
           <h1 className="text-2xl font-bold text-red-500">Property not found</h1>
         </div>
         <Footer />
@@ -135,7 +135,7 @@ export default function PropertyDetails({ params }) {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 bg-white">
           {/* Left Column - Image Gallery */}
           <div className="lg:col-span-3">
             <ImageGallery images={property.images} title={property.title} />
