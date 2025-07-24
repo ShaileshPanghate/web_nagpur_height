@@ -450,19 +450,39 @@
         "/images/pyramid_amara6.png",
         "/images/pyramid_amara7.png"
       ],
-      "Phases": [
-        1,
-        2,
-        3
-      ],
-      "Completion_Date_of_phases": [
-        "Completed in Sep, 2024",
-        "Completed in Jun, 2025",
-        "Completion in Dec, 2025"
-      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
       "amenities": "Community Hall Entrance Lobby, Club house, Multipurpose hall, Party Lawn, Swimming pool, Kid’s pool, Pool Deck, Changing Rooms, Yoga Activity Area, Meditation Area, Reflexology Path, Miyawaki forest, Multi-purpose play court, Senior citizen court, Seating area, Kid’s play area, Acupressure walkway, Outdoor exercise station, Lawn, Pathway, Planter",
       "info": "600mm x 1200 mm vitrified flooring for living, dining kitchen and bedrooms, 600mm x 600 mm Anti-skid tiles for toilet, bathroom flooring, GVT tiles for toilet dado up to lintel level, High-quality CP & sanitary fittings with wall hung commode in all toilets (Jaquar / equivalent), Inside wall – Acrylic emulsion paint with putty, External wall – whether shield paint, Main door veneer finish, Internal laminated doors bedrooms & bathrooms, Anodised / aluminium system doors windows, SS frame with glass railing in balcony, High-quality switches and wiring with adequate number of light points, TV / Telephone / AC Points in all rooms, D.G. backup for all electrical points in flats except power points, DTH provision in flats & VDP for each flat, Exhaust fans for all toilets, Granite platform with one stainless steel sink, Designer tile dado up to 3 ft height above platform, Provision for Aquaguard point in kitchen, Earthquake resistant RCC structure, High speed elevators for each building, Access controlled lobbies, CCTV cameras in common areas, Internal walls with lightweight AAC blocks, Cease fire provision in each floor",
       "description": "Discover modern living at Pyramid Amara, located in the prime area of Besa, Nagpur. Offering spacious 2 BHK and 3 BHK flats ranging from 1200 to 1674 sq.ft, this residential project is designed to provide comfort, style, and convenience at a competitive price of ₹65–88 Lakhs.",
+      "whatsapp": "9096076177"
+    },
+     {
+      "id": 17,
+      "title": "Golden Signature 2BHK & 3BHK, Nagpur",
+      "location": "Nagpur",
+      "area": "1150-1603 sq.ft (2BHK & 3BHK)",
+      "price": "₹ 52-73 L",
+      "type": "Flats",
+      "images": [
+        "/images/Golden Signature1.jpg",
+        "/images/Golden Signature2.jpg",
+        "/images/Golden Signature3.jpg",
+        "/images/Golden Signature4.jpg",
+        "/images/Golden Signature5.jpg",
+        "/images/Golden Signature6.jpg",
+        "/images/Golden Signature7.jpg",
+        "/images/Golden Signature8.jpg",
+        "/images/Golden Signature9.jpg",
+        "/images/Golden Signature10.jpg",
+        "/images/Golden Signature11.jpg",
+        "/images/Golden Signature12.jpg"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "amenities": "Community Hall Entrance Lobby, Party Lawn, Swimming pool, Yoga Activity Area, Meditation Area, Seating area, Kid’s play area, Outdoor exercise station, Lawn",
+      "info": "Dining kitchen and bedrooms, 600mm x 600 mm Anti-skid tiles for toilet, bathroom flooring, High-quality CP & sanitary fittings with wall hung commode in all toilets, Inside wall – Acrylic emulsion paint with putty, External wall – whether shield paint, Internal laminated doors bedrooms & bathrooms,  High-quality switches and wiring with adequate number of light points, TV / Telephone / AC Points in all rooms, DTH provision in flats & VDP for each flat, Granite platform with one stainless steel sink, Provision for Aquaguard point in kitchen, Earthquake resistant RCC structure, High speed elevators for each building, Access controlled lobbies, CCTV cameras in common areas, Internal walls with lightweight AAC blocks, Cease fire provision in each floor",
+      "description": "Golden Signatrue - Discover premium 2 & 3 BHK flats with spacious layouts and top-notch finishes. Enjoy amenities like a swimming pool, party lawn, yoga and meditation zones, kids’ play area, and outdoor fitness station. Each flat features modern interiors, high-speed elevators, CCTV, VDP, modular kitchen setup, earthquake-resistant RCC structure, and access-controlled lobbies, ensuring comfort, convenience, and security.",
       "whatsapp": "9096076177"
     },
     {
@@ -494,6 +514,9 @@
       "whatsapp": "9096076177"
     }
   ],
+
+
+
   "blogs": [
     {
       "slug": "nagpur-heights-overview",
