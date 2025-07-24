@@ -65,6 +65,9 @@ export async function generateMetadata({ params }) {
       "premium projects in Nagpur",
       "property near Samruddhi Expressway"
     ],
+     alternates: {
+      canonical: `https://nagpurheights.com/property/${slug}`,
+    },
     openGraph: {
       title: `${property.title} – 2BHK & 3BHK Apartments in ${property.location} | Nagpur Heights`,
       description: `Explore premium flats at ${property.title}, Omkar Nagar – from ₹69 Lacs.`,
