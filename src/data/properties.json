@@ -460,7 +460,7 @@
      {
       "id": 17,
       "title": "Golden Signature 2BHK & 3BHK, Nagpur",
-      "location": "Nagpur",
+      "location": "Besa, Nagpur",
       "area": "1150-1603 sq.ft (2BHK & 3BHK)",
       "price": "₹ 52-73 L",
       "type": "Flats",
@@ -485,8 +485,27 @@
       "description": "Golden Signatrue - Discover premium 2 & 3 BHK flats with spacious layouts and top-notch finishes. Enjoy amenities like a swimming pool, party lawn, yoga and meditation zones, kids’ play area, and outdoor fitness station. Each flat features modern interiors, high-speed elevators, CCTV, VDP, modular kitchen setup, earthquake-resistant RCC structure, and access-controlled lobbies, ensuring comfort, convenience, and security.",
       "whatsapp": "9096076177"
     },
+     {
+      "id": 18,
+      "title": "Linux Heights 3BHK, Nagpur",
+      "location": "Near IT Park Nagpur",
+      "area": "1550 sq.ft (2BHK & 3BHK)",
+      "price": "₹ 89L ",
+      "type": "Flats",
+      "images": [
+        "/images/Linux1.png",
+        "/images/Linux2.png",
+        "/images/Linux3.png"
+      ],
+      "Phases": [1,2,3],
+      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "amenities": "KONE Automatic Elevator With Rescue Device, CCTV Surveillance, Allotted EV Charging Point, Solar Panel for Common Lighting, Car Wash Area, Hydraulic Car Parking, Video Door Phone",
+      "info": "Earthquake resistant RCC structure with anti-termite treatment, 150mm external and 115mm internal walls, vitrified tiles for flooring including antiskid tiles in wet areas, granite in staircase, designer vitrified flooring in bathrooms, UPVC/Aluminum sliding windows, modular electrical switches with TV/AC/DTH/LAN provisions, Jaquar (or equivalent) CP fittings and sanitary ware, separate boring and corporation water supply, staircase and balcony railings with MS/SS glass, POP finish in flats, internal wall with luster and external with weathershield paint.",
+      "description": "Linux Heights -  offers modern 2 & 3 BHK homes with premium features like vitrified flooring, granite staircases, Jaquar fittings, and modular electrics. Enjoy top amenities including EV charging, solar lighting, video door phone, car wash, and CCTV. Built with earthquake-resistant RCC, these homes ensure safety, comfort, and sustainability with elegant interiors and secure, eco-friendly infrastructure.",
+      "whatsapp": "9096076177"
+    },
     {
-      "id": 17,
+      "id": 19,
       "title": "Modern 4BHK Villa in Hingna",
       "location": "Vyankateshwara kalash, Hingna Nagpur",
       "area": "1900 sq.ft (4BHK)",
