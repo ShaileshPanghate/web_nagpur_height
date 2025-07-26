@@ -158,7 +158,9 @@
       "price": "₹ ",
       "type": "Commercial Space",
       "images": [
-        "/images/ved_vidhi.PNG"
+        "/images/WTC1.png",
+        "/images/WTC2.png",
+        "/images/WTC3.png"
       ],
       "Phases": [1,2,3],
       "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
