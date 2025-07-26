@@ -162,8 +162,16 @@
         "/images/WTC2.png",
         "/images/WTC3.png"
       ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
       "amenities": "",
       "info": "",
       "description": "",
@@ -295,8 +303,16 @@
         "/images/ved_vidhi_3BHK(3).PNG",
         "/images/ved_vidhi_3BHK(4).PNG"
       ],
-      "Phases": [1,2,3],
-      "Completion_Date_of_phases": ["Completed in Sep, 2024","Completed in Jun, 2025","Completion in Dec, 2025"],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Dec, 2025"
+      ],
       "amenities": "Swimming pool, Multiurpose Hall, Gym, 24 X 7 Security, CCTV Surveillance, WIFI in Lobby, EV Charging Point, Car Wash Area, Lifts with Emergency Backup, Fire-fights Equipment, Dormitory, Water Supply from Corporation, RO Filter in Lobby, Alloted Parking, Guest Waiting Area, Study Room, Outdoor Green GYM, Creche, Rain water Harvesting.",
       "info": "Earthquake resistant RCC Frame structure, Modular Kitchen, PoP, Secured Entry Doors, Intercom, 2*4 Verified Tiles",
       "description": "Live modern at Ved Vidhi, located in the rapidly developing neighborhood of Besa Pipla, Nagpur. These expansive 3BHK flats span 1811 sq.ft and are priced at ₹80 Lakhs, offering you a perfect blend of luxury, security, and green living with unmatched amenities.",
