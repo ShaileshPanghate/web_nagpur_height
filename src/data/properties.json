@@ -123,7 +123,7 @@
     {
       "id": 5,
       "title": "Ambika Greens, Nagpur",
-      "location": " Mouza, Nagpur, 441108",
+      "location": "Mouza, Nagpur, 441108",
       "area": "904-2754 sq.ft",
       "price": "₹",
       "type": "Plots",
@@ -158,6 +158,9 @@
       "price": "₹ ",
       "type": "Commercial Space",
       "images": [
+        "/images/WorldTradeCenter1.jpg",
+        "/images/WorldTradeCenter2.jpeg",
+        "/images/WorldTradeCenter3.jpeg",
         "/images/WTC1.png",
         "/images/WTC2.png",
         "/images/WTC3.png"
@@ -208,7 +211,7 @@
     {
       "id": 8,
       "title": "Arha Enclave 2BHK & 3BHK, Nagpur",
-      "location": " Narendra Nagar, Nagpur, 440015",
+      "location": "Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
       "type": "3BHK Flats ",
       "price": "₹ 90L (Negotiable)",
