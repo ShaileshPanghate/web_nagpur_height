@@ -7,6 +7,7 @@ import WhatsApp_button from "@/components/WhatsApp_button";
 import { FaBuilding } from 'react-icons/fa';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Script from "next/script";
+import FAQ from "@/components/FAQ";
 
 
 export async function generateMetadata({ params }) {
@@ -237,6 +238,7 @@ export default function PropertyDetails({ params }) {
           </div>
         </div>
       </main>
+      <FAQ />
       <Footer />
     </>
   );

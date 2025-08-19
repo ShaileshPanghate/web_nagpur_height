@@ -9,6 +9,7 @@ import { Properties, blogs } from '../data/properties.json';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Script from "next/script";
 import BlogCard from '@/components/BlogCard';
+import FAQ from '@/components/FAQ';
 
 const Home = () => {
 
@@ -116,7 +117,7 @@ const Home = () => {
           ))}
         </div>
       </div >
-
+      <FAQ />
       <Footer />
     </div>
   );

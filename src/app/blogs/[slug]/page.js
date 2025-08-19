@@ -1,3 +1,4 @@
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
@@ -507,7 +508,7 @@ export default function BlogDetail({ params }) {
                     </div>
                 </div>
             </main>
-
+            <FAQ />
             <section className="max-w-6xl mx-auto px-4 mt-16 mb-6 ">
                 <hr className="mb-8 border-gray-300" />
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">You might also like</h2>

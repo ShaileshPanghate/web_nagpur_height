@@ -8,6 +8,7 @@ import Script from "next/script";
 import WhatsApp from "@/components/WhatsApp";
 import Instagram from "@/components/Instagram";
 import Quora from "@/components/Quora";
+import FAQ from "@/components/FAQ";
 
 
 export async function generateMetadata() {
@@ -99,6 +100,7 @@ export default function BlogList() {
                     ))}
                 </div>
             </div >
+            <FAQ />
             <Footer />
         </>
     );

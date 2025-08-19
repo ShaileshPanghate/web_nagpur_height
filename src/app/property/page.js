@@ -11,6 +11,7 @@ import { Properties, blogs } from '../../data/properties.json';
 import Script from 'next/script';
 import BlogCard from '@/components/BlogCard';
 import SearchFilters from '@/components/SearchFilters';
+import FAQ from '@/components/FAQ';
 
 const Property = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -159,6 +160,7 @@ const Property = () => {
           ))}
         </div>
       </div>
+      <FAQ /> 
       <Footer />
     </div>
   );

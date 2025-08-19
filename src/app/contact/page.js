@@ -6,6 +6,7 @@ import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from '@/components/ContactForm';
 import WhatsApp from '@/components/WhatsApp';
 import Script from "next/script";
+import FAQ from '@/components/FAQ';
 
 const Contact = () => {
 
@@ -177,7 +178,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-
+      <FAQ />
       <Footer />
     </div>
   );

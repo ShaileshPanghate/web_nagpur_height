@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import React from 'react';
 import Image from 'next/image';
 import WhatsApp from '@/components/WhatsApp';
+import FAQ from '@/components/FAQ';
 
 
 const About = () => {
@@ -155,7 +156,7 @@ const About = () => {
           </div>
         </section>
       </main>
-
+      <FAQ />
       <Footer />
     </div>
   );
