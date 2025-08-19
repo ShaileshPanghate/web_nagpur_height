@@ -216,7 +216,7 @@
       "type": "3BHK Flats ",
       "price": "₹ 90L (Negotiable)",
       "images": [
-        "/images/arhaEnclave.png",
+        "/images/arhaEnclave.webp",
         "/images/arhaEnclave_3BHK(1).PNG",
         "/images/arhaEnclave_3BHK(2).PNG",
         "/images/arhaEnclave_3BHK(3).PNG",
@@ -245,7 +245,7 @@
       "price": "₹ 1800-2000 /sq.ft",
       "type": "Plots",
       "images": [
-        "/images/Infinia1.png",
+        "/images/Infinia1.webp",
         "/images/Infinia2.PNG",
         "/images/Infinia3.PNG",
         "/images/Infinia4.PNG",
@@ -512,8 +512,8 @@
         "/images/Golden Signature8.jpg",
         "/images/Golden Signature9.jpg",
         "/images/Golden Signature10.jpg",
-        "/images/Golden Signature11.jpg",
-        "/images/Golden Signature12.jpg"
+        "/images/Golden Signature11.webp",
+        "/images/Golden Signature12.webp"
       ],
       "Phases": [
         1,
