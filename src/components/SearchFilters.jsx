@@ -52,7 +52,7 @@ const SearchFilters = ({
           <option>3BHK Flats</option>
           <option>Commercial Space</option>
           <option>Villa</option>
-          <option>Plot</option>
+          <option>Plots</option>
         </select>
 
         {/* Budget */}
