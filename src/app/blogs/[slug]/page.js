@@ -76,7 +76,7 @@ const blogs = [
     {
         slug: "residential-plots-nagpur",
         title: "Residential Plots in Nagpur By Nagpur Heights",
-        image: "/images/residentialPlots_blogImg.png",
+        image: "/images/mihanImg.jpg",
         content: `Your Land. Your Dream. Your Way.
         
         If building your own home is your dream, Nagpur Heights offers residential plots in the city’s most promising areas like MIHAN, Jamtha, Hingna, Wardha Road, and more.
@@ -104,6 +104,177 @@ const blogs = [
 
         Own your piece of land with Nagpur Heights and start building the future you’ve always dreamed of.
         `,
+    },
+    {
+        slug: "Property-Tax-in-Nagpur-Maharashtra",
+        title: "Property Tax in Nagpur, Maharashtra: A Complete Guide for Homeowners & Investors",
+        image: "/images/taxProperty.avif",
+        content: `Property Tax in Nagpur, Maharashtra: A Complete Guide for Homeowners & Investors
+
+                When you own property in Nagpur—whether it’s a home, plot, or commercial building—property tax is a mandatory annual payment to the Nagpur Municipal Corporation (NMC). It funds essential civic services such as road maintenance, sewage systems, garbage collection, street lighting, and other infrastructure developments.
+
+                If you’re a property owner, understanding how property tax is calculated, paid, and its implications can save you money, avoid penalties, and help you plan better.
+
+                📌 What is Property Tax?
+
+                Property tax is a municipal tax levied by the NMC on all immovable properties in Nagpur—residential, commercial, industrial, and vacant plots.
+
+                The amount depends on several factors, including:
+
+                Location of the property
+
+                Type (residential, commercial, industrial, or vacant land)
+
+                Built-up area (square feet/square meters)
+
+                Property usage (self-occupied or rented)
+
+                Age of the building & construction type
+
+                How is Property Tax Calculated in Nagpur?
+
+                NMC follows the Unit Area Value (UAV) method for calculating property tax.
+
+                Formula:
+                Property Tax = Carpet Area × Unit Area Rate × Type of Use × Age Factor × Built-up Factor
+
+                Example:
+
+                Suppose you own a 1,000 sq. ft. flat in a mid-range locality.
+
+                Unit Area Rate: ₹10 per sq. ft. per month
+
+                Property Usage Factor: 1 (residential, self-occupied)
+
+                Age Factor: 0.9 (for older construction)
+
+                Built-up Factor: 1
+
+                Tax = 1000 × 10 × 1 × 0.9 × 1 = ₹9,000/year (approx.)
+
+                💻 How to Pay Property Tax in Nagpur
+
+                Property owners can pay tax both online and offline.
+
+                🔹 Online Payment (via NMC Portal)
+
+                Visit the Nagpur Municipal Corporation Property Tax Portal
+                .
+
+                Enter your Property ID / House Number.
+
+                Verify the details and tax amount.
+
+                Choose payment mode: Debit Card / Credit Card / Net Banking / UPI.
+
+                Download the receipt for your records.
+
+
+                Offline Payment
+
+                Visit your nearest NMC Zonal Office.
+
+                Provide your property details.
+
+                Pay by cash, cheque, or demand draft.
+
+
+                📆 Due Dates & Rebates
+
+                Property tax is usually payable once a year (financial year basis).
+
+                NMC provides rebates of up to 10% for early payment (generally before June 30 each year).
+
+                Senior citizens and physically handicapped owners may also get concessions.
+
+                ⚠️ Late Payments: Delay in payment attracts a penalty of 2% per month on the outstanding amount.
+
+
+                📊 Importance of Paying Property Tax
+
+                Legal Ownership Proof: The tax receipt is a legal record that helps in property disputes, loan approvals, or resale.
+
+                Avoid Penalties: Timely payment saves you from accumulating fines.
+
+                Supports Development: Your contribution directly funds Nagpur’s roads, drainage, parks, waste management, and civic amenities.
+
+
+                🌆 Future of Property Taxation in Nagpur
+
+                Nagpur, being developed under the Smart City Mission, is upgrading its property tax system with:
+
+                GIS-based mapping of all properties to reduce evasion.
+
+                Digital payment adoption for better transparency.
+
+                Increased accountability to ensure collected taxes improve infrastructure.
+
+
+                Paying property tax in Nagpur is not just a legal responsibility but also a contribution towards a cleaner, more developed city. With online payment facilities, rebates, and transparency initiatives, managing your property tax obligations has never been easier.
+
+                If you’re a homebuyer or investor in Nagpur, always check property tax records before purchasing. It ensures there are no pending dues and protects you from future liabilities.
+                `,
+    },
+    {
+        slug: "Investment-Hotspots-MIHAN-Wardha-Road",
+        title: "Investment Hotspots: MIHAN & Wardha Road + Infrastructure Landscape in Nagpur By Nagpur Heights",
+        image: "/images/residentialPlots_blogImg.png",
+        content: `Investment Hotspots: MIHAN & Wardha Road + Infrastructure Landscape
+                1. MIHAN — Catalyst of Growth
+
+                What it is
+                MIHAN (Multi-modal International Cargo Hub and Airport at Nagpur) is a landmark development spanning over 4,000 hectares. It integrates a modern international airport, an SEZ, IT parks, healthcare zones like AIIMS, and residential quarters—creating a holistic ecosystem for live, work, and play.
+                Why it matters for investors
+                With major IT firms like TCS, Infosys, HCL, and more setting roots here, the area is witnessing swelling demand for residential and commercial properties.
+                But—watch the infrastructure gap
+                Despite modern planning, parts of MIHAN are grappling with poor civic upkeep. Streets remain poorly lit; footpaths are damaged, increasing risks for pedestrians—even after numerous complaints. Still, authorities promise repairs and a tender is in the works.
+                Improvements underway
+                To address longstanding commuter hardships, internal roads are being recarpeted—boosting usability and confidence.
+
+
+                2. Wardha Road — The Investment Power Lane
+
+                Infrastructure-led boom
+                Wardha Road's connectivity via NH-53, close proximity to the airport, railway, and MIHAN has turned it into one of Nagpur’s top real estate hotspots. Metro access adds significant advantage.
+                High demand & robust returns
+                Developers focus on luxury, residential, and mixed-use projects catering to professionals and families. Apartments average ₹4,725/sq ft (4–5 % annual growth), while villas cross ₹13,000/sq ft in premium locales. Commercial spaces near MIHAN offer leasing returns of 8–10 %.
+                Supporting infrastructure & ecosystem
+                Highlights include:
+
+                Metro lines shortening commutes.
+
+                NH-53 for seamless intercity access.
+
+                AIIMS driving demand for staff housing, healthcare services, and rentals.
+
+                Smart City upgrades and proximity to Butibori make it attractive.
+
+
+                3. Complementary Infrastructure Shaping Nagpur
+
+                Outer Ring Road
+                A massive 119 km ring road—connecting major highways—is under construction. Aims to ease traffic and boost access across Nagpur by 2026.
+                Metro Phase 2 Expansion
+                Metro Phase 2 routes include Kanhan, Transport Nagar, Butibori MIDC-ESR, and Hingna. With larger trains and depot strategy, this expansion promises substantial connectivity gains.
+                Urban Renewal, Mobility Replannings & Environment
+
+                New satellite bus terminals and a Rs 80 crore mobility framework are being finalized to reduce congestion and integrate buses with metro service.
+                A Rs 415 crore Nag River cleanup featuring new sewage treatment plants signals a push for healthier urban ecosystems.
+                A modernized bus policy now includes satellite depots to keep city roads congested-free.
+                Urban Planning Overhaul
+                Nagpur is drafting a new Development Plan after 25 years—aimed at correcting historic planning constraints and unlocking land for growth, including in expansion zones.
+
+
+                MIHAN offers strong fundamentals with urgent infrastructure gaps—improving soon.
+
+                Wardha Road is a mature, fast-appreciating corridor favored by both buyers and renters.
+
+                Complementary areas like Butibori offer lower cost entry with potentially higher gains with time.
+
+
+                Investing in Wardha Road right now yields higher stability, liquidity, and quicker appreciation. Meanwhile, MIHAN carries promise as a long-term institutional zone—if you're willing to navigate and time its growing pains smartly. With constant infrastructure boosts like ring roads, metro extensions, and urban clean-up drives, Nagpur is in the fast lane to becoming a Tier-2 power city—making early and strategic investments look even smarter.
+
+`
     },
     {
         slug: "why-choose-nagpur-heights",
