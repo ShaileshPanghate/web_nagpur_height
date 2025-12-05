@@ -42,6 +42,7 @@ const SearchFilters = ({
           <option>Omkar Nagar</option>
           <option>Beedipeth</option>
           <option>Suraburdi Backyard</option>
+          <option>Near AIIMS</option>
         </select>
 
         {/* Property Type */}

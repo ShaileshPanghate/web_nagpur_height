@@ -32,6 +32,35 @@
     },
     {
       "id": 2,
+      "title": "Shiv Kailasa 2BHK & 3BHK, Nagpur",
+      "location": "Near AIIMS, Nagpur, 440015",
+      "area": " Sq.Ft",
+      "price": "₹ ",
+      "type": "2BHK & 3BHK Flats",
+      "images": [
+        "/images/shiv_kailasa1.png",
+        "/images/shiv_kailasa2.png",
+        "/images/shiv_kailasa3.png",
+        "/images/shiv_kailasa4.png",
+        "/images/shiv_kailasa5.png"
+      ],
+      "Phases": [
+        1,
+        2,
+        3
+      ],
+      "Completion_Date_of_phases": [
+        "Completed in Sep, 2024",
+        "Completed in Jun, 2025",
+        "Completion in Mar, 2026"
+      ],
+      "amenities": "Well-designed landscaped gardens at various clusters, Central huge open space with Club House and Garden, Large Water Bodies, Garden Walkways, Senior Citizens Interactive Area, Water Walls and Fountains, Party Lawns, Jogging Track, Yoga / Meditation Space, Ultra-modern state-of-the-art Gymnasium, Separate Swimming Pools for Gents and Ladies, Swimming Pool for Kids, Table Tennis, Snooker / Pool Table, Chess, Carrom, Cricket Practice Pitch, Air Hockey, American Soccer Table, Single Compound Wall Around the Campus, Round-the-Clock Security and Surveillance with Walkie-Talkie, Security Cabin, Security Gate with Boom Barrier Mechanism, Intercom Facility, Audio-Video Intercom for Main Entrance Door of Each Flat, Fire-Fighting System, Cafeteria, Play Area for Kids, Daily Need Super Market, Utility Shops, Restaurants, Party Hall, Residential Hotel, Indoor Kids Play Area, Bank, ATM, Salon, Spa (Gents and Ladies), OPDs and Pathology Laboratory, Drug Store / Pharmaceutical, 24×7 Ambulance Service, Easy Bus Approach from Campus, Library, Banquet Hall, Kitty Party Hall, Space for Aerobics, Zumba, Exercise and Karaoke, Power Backup for Lifts and Common Area, High-Speed Elevators (13 and 8 Passenger), Rain-Water Harvesting System, Sewage Treatment Plant (STP), Garbage Chute, Solar Water Heating System (Common Bathroom of Each Flat), Two Solar Powered Lights and One Solar Powered Fan in Each Flat, POP to Each Flat on Top Floor Only, Internal Concrete Roads, Paved Pathway, Attractive Grand Entry, School Bus Pick-up.",
+      "info": "RCC framed structure to withstand wind and seismic loads, Internal and external walls as per structural requirement, Fly ash brick masonry for internal and external wall, Internal single coat cement plaster with putty finish, External double coat sand-faced cement plaster, Weather-proof paint of premium quality for external walls, Premium-quality emulsion for internal walls, Ceiling paint (Asian / Dulux / Nerolac / Berger), Main entrance steel door, Bedroom flush doors with premium hardware fittings, Toilet doors (PVC / Glass / Fibre), Two-track powder-coated aluminium sliding windows / UPVC windows with safety grills, Stainless steel railings / glass railings for balconies and terraces, Modular granite top kitchen with stainless steel sink, Glazed ceramic tiles dado above platform up to lintel height, Provision for municipal and borewell water, Provision for kitchen chimney / exhaust fan, Flooring with Simpolo / Somany / RAK / Alfanso or imported tiles, 800×800 mm vitrified tiles for living room, 600×600 mm vitrified tiles for bedrooms and kitchen, Anti-skid ceramic tiles for toilets, balconies and staircase, Granite stone treads and risers for staircase, Branded CP fittings and sanitary fixtures (Jaguar / Cera / Hindware / Plumber / imported), Concealed plumbing, Centralised solar water-heating system, Modular switches (Havells / Schneider / Wipro / Legrand), Concealed copper wiring (Havells / Polycab / RR Cable / Finolex / Panasonic), MCB/DB (Havells / Schneider / Legrand / Haiger / L&T), Geyser point in all toilets, AC point in living room and bedrooms, TV point in living room and master bedroom, Telephone point in living room and all bedrooms, Light points and power sockets in kitchen at required locations, 4–5 electrical points per room and earth leakage circuit breaker, Professional waterproofing for bathrooms, utility areas and terraces, Fire-fighting system, CCTV in common areas, Intercom facility for the building, Biometric access control for basement and ground-floor lobby, 13-passenger high-speed lift with power backup, 8-passenger high-speed lift with power backup, Rain-water harvesting system, Sewage treatment plant with treated water reuse for flushing and gardening.",
+      "description": "Introducing Shiv Kailasa, an elite residential township offering finely designed 2BHK & 3BHK luxury apartments, located in the prime and rapidly developing area Near AIIMS, Nagpur (440015). Designed with comfort, convenience, and lifestyle in mind, this modern gated community prioritizes architecture, security, sustainability, and world-class living standards.",
+      "whatsapp": "9096076177"
+    },
+    {
+      "id": 3,
       "title": "Shree Gajanan Vihar 2BHK & 3BHK, Nagpur",
       "location": "Pipla, Nagpur, 440015",
       "area": "(2BHK & 3BHK)",
@@ -60,7 +89,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Orange City Park 1BHK, 2BHK & 3BHK, Nagpur  ",
       "location": "Wanadongri, Nagpur, 440015",
       "area": "569 - 905 sq.ft.",
@@ -89,7 +118,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Narmada Residency 2BHK , Nagpur",
       "location": "Wanadongari, Nagpur, 440015",
       "area": "(2BHK )",
@@ -121,7 +150,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Ambika Greens, Nagpur",
       "location": "Mouza, Nagpur, 441108",
       "area": "904-2754 sq.ft",
@@ -151,7 +180,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "WORLD TRADE CENTER, Nagpur",
       "location": "Sitabuldi Nagpur, 440015",
       "area": " sq.ft ",
@@ -181,7 +210,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Mahalaxmi Nagar 41, Nagpur",
       "location": " Hingna, Nagpur, 441108",
       "area": "1091-11625 sq.ft",
@@ -209,7 +238,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Arha Enclave 2BHK & 3BHK, Nagpur",
       "location": "Narendra Nagar, Nagpur, 440015",
       "area": "1080 sq.ft (3BHK)",
@@ -238,7 +267,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Infinia City, Nagpur",
       "location": "Infinia City, Mohgaon, Nagpur",
       "area": "1000 - 5000 sq.ft",
@@ -267,7 +296,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Madhura Homes 2BHK & 3BHK, Nagpur ",
       "area": "1750 sqft",
       "price": "₹ 69.0L",
@@ -293,7 +322,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Ved Vidhi 3BHK, Nagpur",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1811 sq.ft (3BHK)",
@@ -322,7 +351,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Ved Vidhi 2BHK, Nagpur",
       "location": "Besa Pipla, Nagpur, 440015",
       "area": "1316 sq.ft (2BHK)",
@@ -351,7 +380,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "Crown City, Nagpur",
       "location": "Near Dudhala, Nagpur",
       "area": "950-5000 sqft",
@@ -379,7 +408,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "Sai Residency 2BHK & 3BHK, Nagpur",
       "location": "New Beedipeth Nagar, Nagpur, 440015",
       "area": "1208 sq.ft (3BHK)",
@@ -408,7 +437,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Meher Ganga 2BHK & 3BHK, Nagpur",
       "location": "New Narendra Nagar, Nagpur",
       "area": "1500 sq.ft (3BHK)",
@@ -435,7 +464,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "Suraburdi Backyard, Nagpur",
       "location": "Suraburdi Backyard, Drugdhamna, Nagpur, 440023",
       "area": "1100-5500 sq.ft",
@@ -464,7 +493,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Pyramid amara Nagpur 2BHK & 3BHK, Nagpur",
       "location": "Besa, Nagpur",
       "area": "1200-1674 sq.ft (2BHK & 3BHK)",
@@ -496,7 +525,7 @@
     },
    
     {
-      "id": 18,
+      "id": 19,
       "title": "Linux Heights 3BHK, Nagpur",
       "location": "Near IT Park Nagpur",
       "area": "1550 sq.ft (2BHK & 3BHK)",
@@ -523,7 +552,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "Modern 4BHK Villa in Hingna",
       "location": "Vyankateshwara kalash, Hingna Nagpur",
       "area": "1900 sq.ft (4BHK)",
@@ -551,7 +580,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 20,
+      "id": 21,
       "title": "Shyamsundar Realty 2BHK, 3BHK, 4BHK, Nagpur",
       "location": "Manewada, Besa, Omkar, Pratap & Manish Nagar,  Nagpur",
       "area": "1150 - 6200 sq.ft (2BHK, 3BHK, 4BHK)",
@@ -577,7 +606,7 @@
       "whatsapp": "9096076177"
     },
      {
-      "id": 21,
+      "id": 22,
       "title": "Phoenix, Nagpur",
      "location": "Besa, Nagpur, ",
       "area": "1330 sq.ft",
@@ -608,7 +637,7 @@
       "description": "This premium township in Besa offers world-class amenities including a striking gateway, landscaped avenues, drip irrigation, rainwater harvesting, underground drainage, CCTV surveillance, and 24×7 security. Residents enjoy modern lifestyle features like a clubhouse, banquet hall, gym, yoga area, pools, lawns, gardens, and recreational decks. With sustainable infrastructure such as LED streetlights, DG backup, and an organic waste composter, the project ensures eco-friendly living. Conveniently located near AIIMS, schools, malls, and Samruddhi Mahamarg, it provides unmatched connectivity and comfort.",
       "whatsapp": "9096076177"
     },{
-      "id": 22,
+      "id": 23,
       "title": "Harihar's Gokul Park 2 & 3 BHK, Nagpur",
       "location": "Manish Nagar,  Nagpur",
       "area": "(2BHK, 3BHK)",
@@ -638,7 +667,7 @@
       "whatsapp": "9096076177"
     },
     {
-      "id": 23,
+      "id": 24,
       "title": "Harihar Nagar Zari 1BHK, 2BHK & 3BHK,  Nagpur",
       "location": "Zari Wardha Road,  Nagpur",
       "area": "950 - 1800 sq.ft (1BHK ,2BHK, 3BHK)",
