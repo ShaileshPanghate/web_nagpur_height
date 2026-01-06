@@ -16,10 +16,76 @@ const About = () => {
       image: "/images/founder1.jpeg"
     },
     {
+      name: "Rameshwar Thakur",
+      role: "CO-Founder and CMO",
+      bio: "Strategic marketing professional driving brand growth, customer engagement, and digital outreach across Nagpur’s real estate market.",
+      image: "null"
+    },    
+    {
+      name: "Mayur FulBandhe",
+      role: "Head of Operations",
+      bio: "Operations specialist ensuring smooth execution, compliance, and efficient project delivery across all real estate initiatives.",
+      image: "null"
+    },
+    {
+      name: "Vedansh Mamilwar",
+      role: "Head of Marketing",
+      bio: "Creative marketing leader focused on lead generation, campaign strategy, and building strong online and offline brand presence.",
+      image: "null"
+    },
+    {
       name: "Aditi Shukla",
       role: "Head of Sales",
       bio: "Top performer 5 years running, specializes in luxury properties",
       image: "/images/founder2.jpeg"
+    },
+    {
+      name: "Shailesh Panghate",
+      role: "Head of IT Opeartions",
+      bio: "Technology lead managing digital infrastructure, website performance, and IT systems to support seamless business operations.",
+      image: "null"
+    },    
+    {
+      name: "Sudarshan Mahule",
+      role: "Sales Executive",
+      bio: "Results-driven sales executive dedicated to understanding client needs and delivering the right property solutions.",
+      image: "null"
+    },
+    {
+      name: "Bhavesh Chawre",
+      role: "Sales Executive",
+      bio: "Client-focused sales professional skilled in property consultations, negotiations, and closing residential deals.",
+      image: "null"
+    },
+    {
+      name: "Vrundita Jamkar",
+      role: "CRM",
+      bio: "Customer relationship specialist managing client communication, follow-ups, and long-term customer satisfaction.",
+      image: "null"
+    },
+    {
+      name: "Shobit Bawaghar",
+      role: "Web Developer",
+      bio: "Web developer responsible for building, maintaining, and optimizing the company’s digital platforms and user experience.",
+      image: "null"
+    },
+    {
+      name: "Harsh Tandulwar",
+      role: "Visual Editor",
+      bio: "Creative visual editor crafting engaging images and videos that enhance property listings and brand storytelling.",
+      image: "null"
+    },
+    {
+      name: "Pawan Kadam",
+      role: "Visual Media Specialist",
+      bio: "Visual media expert specializing in photography and video content to showcase properties with maximum impact.",
+      image: "null"
+    },
+    {
+      name: "Aditya Jadhav",
+      role: "Visual Editor",
+      bio: "Detail-oriented visual editor focused on high-quality visuals that elevate marketing campaigns and digital presence.",
+      image: "null"
     },
 
   ];
@@ -110,7 +176,7 @@ const About = () => {
               Meet Our <span className="text-indigo-600">Team</span>
             </h2>
 
-            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2  max-w-6xl mx-auto">
+            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  max-w-6xl mx-auto">
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
@@ -149,8 +215,8 @@ const About = () => {
                 <p className="text-gray-600 italic mb-4">
                   "I needed trustworthy partners to manage my property investment. The team exceeded all expectations."
                 </p>
-                <p className="font-bold">- Kaushal Banginwar</p>
-                <p className="text-sm text-gray-500">Investor from Yavtmal</p>
+                <p className="font-bold">- Nikhil Patel</p>
+                <p className="text-sm text-gray-500">Homeowner since 2024</p>
               </div>
             </div>
           </div>

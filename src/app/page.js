@@ -10,6 +10,8 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import Script from "next/script";
 import BlogCard from '@/components/BlogCard';
 import FAQ from '@/components/FAQ';
+import HeroCarousel from '@/components/HeroCarousel';
+import LogoSlider from '@/components/LogoSlider';
 
 const Home = () => {
 
@@ -29,7 +31,7 @@ const Home = () => {
       <WhatsApp />
 
       {/* Hero Section */}
-      <section
+      {/* <section
         className="relative py-16 mt-16"
         style={{
           backgroundImage: "url('/images/back22.jpg')",
@@ -48,7 +50,10 @@ const Home = () => {
           </p>
         </div>
 
-      </section>
+      </section> */}
+      <HeroCarousel />
+
+      <LogoSlider />
 
       {/* Featured Properties */}
       <div className="container mx-auto px-4 py-12">

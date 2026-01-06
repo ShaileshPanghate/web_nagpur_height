@@ -7,3 +7,4 @@ module.exports = {
   sitemapSize: 5000,
   exclude: ['/admin', '/api/*'], // Exclude private routes
 };
+

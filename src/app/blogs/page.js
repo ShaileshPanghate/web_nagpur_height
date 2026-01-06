@@ -91,9 +91,7 @@ export default function BlogList() {
                 <div className="animate-fadeInUp delay-500">
                     <Instagram />
                 </div>
-                <div className="animate-fadeInUp delay-700">
-                    <Quora />
-                </div>
+               
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {blogs.map((blog) => (
                         <BlogCard key={blog.slug} blog={blog} />
