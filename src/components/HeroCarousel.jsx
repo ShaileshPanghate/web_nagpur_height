@@ -29,7 +29,7 @@ export default function HeroCarousel() {
 
   return (
 
-   <section className="relative mt-18 lg:mt-10 h-[18vh] sm:h-[45vh] md:h-[85vh] lg:h-[90vh] w-full bg-black overflow-hidden">
+   <section className="relative mt-18 lg:mt-10 h-[18vh] sm:h-[45vh] md:h-[85vh] lg:h-[90vh] w-full bg-white overflow-hidden">
 
       {slides.map((img, index) => (
         <div
