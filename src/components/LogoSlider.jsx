@@ -16,7 +16,7 @@ const logos = [
 
 export default function LogoSlider() {
   return (
-    <section className="py-16 bg-white overflow-hidden">
+    <section className="py-6 bg-white overflow-hidden">
       <style jsx>{`
         @keyframes marquee {
           0% { transform: translateX(0%); }
