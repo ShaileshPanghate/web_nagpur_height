@@ -36,7 +36,7 @@ export default function LogoSlider() {
           animation: marquee-reverse 40s linear infinite;
         }
       `}</style>
-      <h2 className="px-4 text-2xl font-bold text-gray-800 mb-6"> Our Clients</h2>
+      <h2 className="px-4 text-2xl font-bold text-gray-800 mb-6"> Partnered Developers</h2>
       {/* TOP ROW (left → right) */}
       <div className="flex w-max marquee gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
         {[...logos, ...logos].map((logo, index) => (
