@@ -12,6 +12,7 @@ import BlogCard from '@/components/BlogCard';
 import FAQ from '@/components/FAQ';
 import HeroCarousel from '@/components/HeroCarousel';
 import LogoSlider from '@/components/LogoSlider';
+import ContactForm from '@/components/ContactForm';
 
 const Home = () => {
 
@@ -52,12 +53,14 @@ const Home = () => {
 
       </section> */}
       <HeroCarousel />
-
+      <div className='mx-10 p-4 sm:mx-10 lg:mx-70'>
+        <ContactForm />
+      </div>
       <LogoSlider />
 
       {/* Featured Properties */}
       <div className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6"> Best Properties in Nagpur</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-6"> Discover Trusted Properties in Nagpur</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {Properties.slice(0, 8).map(property => (
             <PropertyCard key={property.id} property={property} />
