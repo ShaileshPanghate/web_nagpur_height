@@ -4,7 +4,7 @@ const WhatsApp = () => {
   return (
     <div>
       <a
-        href="https://wa.me/919096076177" // Replace with your WhatsApp number
+        href="https://wa.me/919953216767" // Replace with your WhatsApp number
         className="fixed bottom-14 right-3.5 z-50"
         target="_blank"
         rel="noopener noreferrer"

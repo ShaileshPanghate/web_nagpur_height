@@ -32,29 +32,12 @@ const Home = () => {
       <WhatsApp />
 
       {/* Hero Section */}
-      {/* <section
-        className="relative py-16 mt-16"
-        style={{
-          backgroundImage: "url('/images/back22.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="relative z-10 container mx-auto px-4 text-left md:text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Find Your Dream Property in Nagpur
-          </h1>
-          <p className="text-xl md:text-2xl text-white">
-            Discover the Best Residential and Commercial Properties in Nagpur
-          </p>
-        </div>
+      <div className="relative bg-white">
+        <HeroCarousel />
 
-      </section> */}
-      <HeroCarousel />
-      <div className='mx-10 p-4 sm:mx-10 lg:mx-70'>
-        <ContactForm />
+        <div className="relative z-10 lg:-mt-20 lg:pb-6 mx-4 sm:mx-10 lg:mx-40">
+          <ContactForm />
+        </div>
       </div>
       <LogoSlider />
 

@@ -14,8 +14,8 @@ const Contact = () => {
     {
       id: 1,
       name: 'Main Office',
-      address: 'Hingna naka, Near Bellari Restaurant, Nagpur - 440016',
-      phone: '+91 9096076177',
+      address: '1st floor, Kosher Residency, 2, Shilpa Society, Manish Nagar, Somalwada, Nagpur, Maharashtra 440037',
+      phone: '+91 9953216767',
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
@@ -109,7 +109,7 @@ const Contact = () => {
                   <div className="flex items-center">
                     <FaPhone className="text-red-500 mr-3 text-xl" />
                     <a href="tel:+919096076177" className="text-lg font-bold text-red-600 hover:text-red-700">
-                      +91 9096076177
+                     +91 9953216767
                     </a>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                         <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                       </svg>
                     </a> */}
-                    <a href="https://www.instagram.com/nagpurheights?igsh=cjFrMmN5ZXVyczY5" className="w-10 h-10 rounded-full  text-white flex items-center justify-center hover:bg-pink-700">
+                    <a href="https://www.instagram.com/nagpur_propertiess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank' className="w-10 h-10 rounded-full  text-white flex items-center justify-center hover:bg-pink-700">
                       <span className="sr-only">Instagram</span>
                       <img
                         src="/logos/instagram.png" // Place an Instagram logo in your /public/logos folder
@@ -145,7 +145,7 @@ const Contact = () => {
                       </svg>
                     </a> */}
 
-                    <a href="https://wa.me/919096076177" target='_blank' className="w-10 h-10 rounded-full bg-none  flex items-center justify-center hover:bg-green-300">
+                    <a href="https://wa.me/919953216767" target='_blank' className="w-10 h-10 rounded-full bg-none  flex items-center justify-center hover:bg-green-300">
                       <span className="sr-only">WhatsApp</span>
                       <img
                         src="/logos/WhatsApp.svg" // Put a WhatsApp logo in public folder
@@ -166,7 +166,7 @@ const Contact = () => {
             <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">Find Our Offices</h2>
             <div className="h-96 rounded-xl overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59549.83811210652!2d78.93928334863283!3d21.117952400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4eaab3c6c93ff%3A0x80eeb13641e66b8e!2sBellari%20Bar%20And%20Restaurant!5e0!3m2!1sen!2sin!4v1746099991083!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.521544249894!2d79.0765215747161!3d21.091763485612727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf3443c0349d%3A0x3669988e23a4f7a3!2sBigtopsocial%20%7C%20Best%20Digital%20Marketing%20Agency%20%7C%20Nagpur!5e0!3m2!1sen!2sin!4v1767863801876!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -174,6 +174,7 @@ const Contact = () => {
                 loading="lazy"
                 title="Nagpur Heights Office Locations"
               ></iframe>
+             
             </div>
           </div>
         </section>

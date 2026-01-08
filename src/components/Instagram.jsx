@@ -4,7 +4,7 @@ const Instagram = () => {
   return (
     <div>
       <a
-        href="https://www.instagram.com/nagpurheights?igsh=aXQ1M3A2eHB5emp1"
+        href="https://www.instagram.com/nagpur_propertiess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
         className="fixed bottom-26 right-4 z-50 group"
         target="_blank"
         rel="noopener noreferrer"

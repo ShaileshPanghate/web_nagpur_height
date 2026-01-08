@@ -26,7 +26,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
     const whatsappMessage = `Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0ASubject: ${formData.subject}%0AMessage: ${formData.message}`;
 
-    const whatsappNumber = '919096076177';
+    const whatsappNumber = '919953216767';
 
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
 

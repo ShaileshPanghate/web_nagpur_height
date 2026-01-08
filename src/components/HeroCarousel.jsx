@@ -4,10 +4,13 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 const slides = [
-  '/images/extras/hero1.1.png',
-  '/images/extras/hero2.png',
-  '/images/extras/hero3.png',
-  '/images/extras/hero4.png',
+  '/images/extras/1.png',
+  '/images/extras/2.png',
+  '/images/extras/3.png',
+  '/images/extras/4.png',
+  '/images/extras/5.png',
+  '/images/extras/6.png',
+  '/images/extras/7.png',
 ];
 
 export default function HeroCarousel() {
@@ -29,7 +32,7 @@ export default function HeroCarousel() {
 
   return (
 
-   <section className="relative mt-18 lg:mt-10 h-[18vh] sm:h-[45vh] md:h-[85vh] lg:h-[90vh] w-full bg-white overflow-hidden">
+   <section className="relative mt-19 lg:mt-19 h-[18vh] sm:h-[45vh] md:h-[85vh] lg:h-[90vh] w-full bg-white overflow-hidden">
 
       {slides.map((img, index) => (
         <div
@@ -49,7 +52,7 @@ export default function HeroCarousel() {
     object-[50%_40%]
     sm:object-[50%_35%]
     md:object-[50%_30%]
-    lg:object-contain
+    lg:object-cover
     lg:object-center
     transition-all
     duration-700
